@@ -77,3 +77,7 @@ en respectant les normes standards de l’industrie.
 ## Thêmes
 
 ![image](images/deroulement.png) 
+
+
+
+https://www.linkedin.com/learning/learn-apache-kafka-for-beginners
