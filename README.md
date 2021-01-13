@@ -59,16 +59,16 @@ en respectant les normes standards de l’industrie.
 |# | Semaine|                                          |     Commentaires                                                   |
 |--|:------:|:-----------------------------------------|:-------------------------------------------------------------------|
 |01|11-01-21|                                          | Rentrée des classes                                                |
-|02|18-01-21| Part 1                                   | Process isolation and environment-independant computing            |
+|02|18-01-21| Part 1                                   | MySQL - Document Store (JSON)                                      |
 |03|25-01-21|                                          |                                                                    |
 |04|01-02-21|                                          |                                                                    |
 |05|08-02-21|                                          |                                                                    |
-|06|15-02-21| Part 2                                   | Packaging software for distribution                                |
+|06|15-02-21| Part 2                                   | Kafka                                                              |
 |07|22-02-21|                                          |                                                                    |
 |08|01-03-21| Semaine d'études                         | Pas de cours                                                       |
 |09|08-03-21|                                          |                                                                    |
 |10|15-03-21|                                          |                                                                    |
-|11|22-03-21| Part 3                                   | Higher-level Abstractions and Orchestration                        |
+|11|22-03-21| Part 3                                   | Spark                                                              |
 |12|29-03-21|                                          |                                                                    |
 |13|05-04-21|                                          |                                                                    |
 |14|12-04-21|                                          |                                                                    |
