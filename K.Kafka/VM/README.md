@@ -17,10 +17,9 @@ PS > choco install docker-machine
 
 Deux types d'installations son recommandées :
 
-* Localement avec [Hyper-V](Hyper-V) i.e. votre serveur du Collège en accédant au VNP
+* Localement avec [Hyper-V](Hyper-V) i.e. votre serveur Windows du Collège en accédant au VPN
 
-* publiquement avec [Azure](https://github.com/CollegeBoreal/Tutoriels/tree/master/2.Virtualisation/4.Cloud/2.Public/2.Azure)
-
+* localement avec [Generic](https://github.com/CollegeBoreal/Tutoriels/tree/master/2.Virtualisation/2.VM/1.Docker-Machine/0.Generic) i.e. votre serveur Linux du Collège en accédant au VPN
 
 :pushpin: Pointer vers une machine virtuelle
 
