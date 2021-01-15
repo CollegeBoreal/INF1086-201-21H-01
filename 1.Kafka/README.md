@@ -14,7 +14,7 @@
 
 * soumettre votre répertoire de travail vers github `(git add, commit, push)` 
 
-## :a: Dans votre Serveur Windows du laboratoire
+## :a: Dans votre Serveur Linux du laboratoire
 
 ### :one: Créer une nouvelle machine virtuelle `CB-KAFKA` et `docker-compose`
 
