@@ -1,7 +1,7 @@
 # ArangoDB
 
 
-<img src="images/Scalability-vs-Complexity.jpg" width=580 height=441></img>
+<img src="images/Scalability-vs-Complexity.png" width=580 height=441></img>
 
 
 ## :a: Démarrer la basee de données
