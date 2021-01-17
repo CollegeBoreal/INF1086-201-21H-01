@@ -1,7 +1,7 @@
 # ArangoDB
 
 
-<img src="https://www.arangodb.com/wp-content/uploads/2018/03/Scalability-vs-Complexity.jpg" width=308 height=276></img>
+<img src="https://www.arangodb.com/wp-content/uploads/2018/03/Scalability-vs-Complexity.jpg" width=580 height=441></img>
 
 
 ## :a: Démarrer la basee de données
