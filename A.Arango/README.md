@@ -24,6 +24,8 @@ Password: openSesame
 
 ## :ab: CLI
 
+https://www.arangodb.com/docs/3.7/programs.html
+
 ```
 $ docker container exec --interactive --tty some-arangodb arangosh
 Please specify a password: 
