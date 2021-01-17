@@ -17,3 +17,4 @@ User: root
 Password: openSesame
 ```
 
+![image](images/arangodb-ui.png)
