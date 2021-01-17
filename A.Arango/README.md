@@ -1,5 +1,8 @@
 # ArangoDB
 
+
+![image](https://www.arangodb.com/wp-content/uploads/2018/03/Scalability-vs-Complexity.jpg)
+
 ## :a: Démarrer la basee de données
 
 https://www.arangodb.com/download-major/docker/
