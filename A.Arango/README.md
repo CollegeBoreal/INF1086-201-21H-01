@@ -1,7 +1,7 @@
 # ArangoDB
 
 
-[Multi-Model Database](https://www.arangodb.com/resources/white-paper/multi-model-database)
+ArangoDB est un [Multi-Model Database](https://www.arangodb.com/resources/white-paper/multi-model-database)
 
 <img src="images/Scalability-vs-Complexity.png" width=580 height=441></img>
 
