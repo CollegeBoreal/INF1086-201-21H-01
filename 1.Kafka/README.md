@@ -1,5 +1,8 @@
 # Kafka
 
+
+# :tada: [Participation](.scripts/Participation.md) 
+
 ## :o: Création de votre répertoire de travail dans `git bash`
 
 ### :one: Dans le répertoire `1.Kafka` Créer un répertoire avec comme nom, votre :id:
