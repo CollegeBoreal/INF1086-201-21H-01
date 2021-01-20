@@ -34,6 +34,7 @@ Find your local number: https://collegeboreal.zoom.us/u/kdIaQKj2Ag
 
 |No| Date   | Cours              | Intitulé                            |  Pratique                                                     |
 |--|--------|:-------------------|:------------------------------------|:--------------------------------------------------------------|
+|01|01/02/21|[1.Kafka](1.Kafka)  | | | 
 
 
 ## Resultats d'Apprentissage du Cours
