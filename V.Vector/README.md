@@ -69,6 +69,11 @@ VECTORCFG
 $ sudo systemctl restart vector
 ```
 
+* Observer le résultat
+
+```
+$ sudo journalctl --unit vector --follow
+```
 
 :round_pushpin: localement
 
