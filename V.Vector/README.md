@@ -77,24 +77,6 @@ $ sudo systemctl restart vector
 $ sudo journalctl --unit vector --follow
 ```
 
-:round_pushpin: localement
+* Observer le résultat
 
-```
-$ curl --proto '=https' --tlsv1.2 -sSf https://sh.vector.dev | sh
-```
-
-modifier son `~/.profile`
-
-```
-export PATH="$HOME/.vector/bin:$PATH"
-```
-
-
-```
-$ cp kafka_journald.toml ~/.vector/config
-```
-
-
-```
-$ vector --config ~/.vector/config/kafka_journald.toml
-```
+http://10.13.237.9:8686/playground
