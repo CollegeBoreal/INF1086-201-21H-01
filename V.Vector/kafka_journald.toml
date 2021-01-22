@@ -1,6 +1,0 @@
-[sources.kafka_journald_stream]
-  type = "kafka" # required
-  bootstrap_servers = "10.13.237.9:9092" # required
-  group_id = "consumer-group-name" # required
-  key_field = "message_key" # optional, no default
-  topics = ["topic-journald"] # required
