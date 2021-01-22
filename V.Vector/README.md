@@ -31,8 +31,8 @@ $ sudo su -
 
 * installer le fichier
 
+`$ cat <<-'VECTORCFG' > /etc/vector/vector.toml`
 ```toml
-$ cat <<-'VECTORCFG' > /etc/vector/vector.toml
 # Vector's API for introspection
 [api]
 enabled = true
@@ -58,8 +58,8 @@ type = "internal_metrics"
 type = "console"
 inputs = [ "logs", "host_metrics", "internal_metrics" ]
 encoding.codec = "json"
-VECTORCFG
 ```
+`VECTORCFG`
 
 * redémarrer le service
 
