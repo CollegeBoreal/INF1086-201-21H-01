@@ -172,6 +172,8 @@ Bonjour la bas
 
 https://www.linkedin.com/learning/learn-apache-kafka-for-beginners
 
+:bulb: Sur `LinkedIn Learning`, connectez vous avec votre courriel du Collège.
+
 :m: Visionnez en particulier:
 
 - [ ] 1. Kafka Theory
