@@ -14,5 +14,10 @@ export PATH="$HOME/.vector/bin:$PATH"
 
 
 ```
-$ vector --config ~/.vector/vector.toml
+$ cp vector.yml ~/.vector/vector.yaml
+```
+
+
+```
+$ vector --config ~/.vector/vector.yaml
 ```
