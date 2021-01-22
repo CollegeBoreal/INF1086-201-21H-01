@@ -31,7 +31,7 @@ $ sudo su -
 
 * installer le fichier
 
-```
+```toml
 $ cat <<-'VECTORCFG' > /etc/vector/vector.toml
 # Vector's API for introspection
 [api]
