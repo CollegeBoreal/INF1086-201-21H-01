@@ -14,10 +14,10 @@ export PATH="$HOME/.vector/bin:$PATH"
 
 
 ```
-$ cp vector.yml ~/.vector/vector.yaml
+$ cp kafka_journald.toml ~/.vector
 ```
 
 
 ```
-$ vector --config ~/.vector/vector.yaml
+$ vector --config ~/.vector/kafka_journald.toml
 ```
