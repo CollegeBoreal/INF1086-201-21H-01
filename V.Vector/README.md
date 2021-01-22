@@ -31,36 +31,38 @@ $ sudo su -
 
 * installer le fichier
 
+https://vector.dev/docs/reference/sinks/kafka/
+
 ```toml
 
-$ cat <<-'VECTORCFG' > /etc/vector/vector.toml
-
+$ cat << EOF > /etc/vector/vector.toml
 # Vector's API for introspection
 [api]
 enabled = true
-address = "127.0.0.1:8686"
+address = "10.13.237.9:8686"
 
 # Host-level logs
 [sources.logs]
 type = "journald"
 
-# Host-level metrics (cpu, memory, disk, etc)
-[sources.host_metrics]
-type = "host_metrics"
-
-# Vector's own internal metrics
-[sources.internal_metrics]
-type = "internal_metrics"
-
 # --> Add transforms here to parse, enrich, and process data
 
 # print all events, replace this with your desired sink(s)
 # https://vector.dev/docs/reference/sinks/
-[sinks.out]
-type = "console"
-inputs = [ "logs", "host_metrics", "internal_metrics" ]
-encoding.codec = "json"
-VECTORCFG
+[sinks.kafka]
+  # General
+  type = "kafka" # required
+  inputs = [ "logs" ]
+  bootstrap_servers = "10.13.237.9:9092" # required
+  compression = "none" # optional, default
+  key_field = "" # required
+  topic = "topic-journald" # required
+
+  # Batch
+
+  # Encoding
+  encoding.codec = "json" # required
+EOF
 ```
 
 * redémarrer le service
