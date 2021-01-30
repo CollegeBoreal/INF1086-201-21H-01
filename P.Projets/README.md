@@ -1,5 +1,10 @@
-# :bookmark:Projet : Comment installer mongodb sur Docker 
-## :trollface:
+# :bookmark:Projet : installer mongodb sur Docker 
+## :trollface: je vous expose comment installer mongodb avec docker 
+1️⃣ Etape pour installer mongodb
+``
+:ps: docker pull mongo
+``
+
 
 
 https://landscape.cncf.io/
