@@ -70,6 +70,22 @@ Par Convention, Utiliser `_`dans les noms de Streams et Tables: Note: ( `-` ne m
 Par Convention, Utiliser `-`dans les noms de Topics
 
 
+## :a: Streams
+
+```
+ksql> CREATE STREAM systemd (
+    host string,
+    message string, 
+    timestamp VARCHAR
+) WITH (
+    kafka_topic = 'topic_journald',
+    value_format = 'json',
+    timestamp = 'timestamp',                        -- the column to use as a timestamp
+    timestamp_format = 'yyyy-MM-dd HH:mm:ss.SSS' -- the format to parse the timestamp
+);
+```
+
+
 ## Create Stream
 
 <img src="images/streams-vs-tables-1.png" width="500" height="333"></img>
