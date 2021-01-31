@@ -78,7 +78,7 @@ ksql> CREATE STREAM systemd (
     message string, 
     timestamp VARCHAR
 ) WITH (
-    kafka_topic = 'topic_journald',
+    kafka_topic = 'topic-journald',
     value_format = 'json',
     timestamp = 'timestamp',                        -- the column to use as a timestamp
     timestamp_format = 'yyyy-MM-dd HH:mm:ss.SSS' -- the format to parse the timestamp
