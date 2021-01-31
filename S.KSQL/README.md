@@ -23,23 +23,11 @@ ksql> SHOW TOPICS;
 ```
 
 ```
-ksql> PRINT 'my-topic' FROM BEGINNING;
+ksql> PRINT 'topic-journald' FROM BEGINNING;
 ```
 
-## Structure WITH
+* example
 
-### Transformation de données WITH (VALUE_FORMAT)
-
-- AVRO
-
-- JSON
-    * ( column TYPE, column TYPE, ... )
-    * Type: BigInt, String, ...
-    * [STRUCT](https://docs.confluent.io/current/ksql/docs/developer-guide/query-with-structured-data.html)
-
-- DELIMITED
-    * CSV
-    
 ```JSON
 {
   "PRIORITY": "3",
@@ -69,6 +57,22 @@ ksql> PRINT 'my-topic' FROM BEGINNING;
   "timestamp": "2021-01-31T02:47:04.076751Z"
 }
 ```
+
+
+## Structure WITH
+
+### Transformation de données WITH (VALUE_FORMAT)
+
+- AVRO
+
+- JSON
+    * ( column TYPE, column TYPE, ... )
+    * Type: BigInt, String, ...
+    * [STRUCT](https://docs.confluent.io/current/ksql/docs/developer-guide/query-with-structured-data.html)
+
+- DELIMITED
+    * CSV
+    
 
 ### Origine de données WITH (KAFKA_TOPIC)
 
