@@ -32,5 +32,26 @@ show dbs
 ```
 use admin 
 ```
-7️⃣
-https://landscape.cncf.io/
+7️⃣ creer un utilisateur et un mot de passe
+-------------------------------------------
+```
+db.createUser({
+  user: "admin", 
+  pwd: "secure", 
+  roles: [ { role: "root", db: "admin" } ]
+})
+```
+8️⃣  Insere des donnees 
+-----------------------
+```
+db.inventory.insertOne ( 
+   {"item": "canvas", 
+     "qty": 100, 
+     "tags": ["cotton"], 
+     "size": {"h": 28, "w": 35.5, "uom ":" cm "} 
+   } 
+)
+```
+
+:pager:pour  telecharger mongodb cliquer ce lien en dessous 
+https://www.mongodb.com/try/download/compass?tck=docs_compass
