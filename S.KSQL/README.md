@@ -127,6 +127,17 @@ ksql> CREATE STREAM systemd (
 );
 ```
 
+```
+ksql> SET 'auto.offset.reset' = 'earliest';
+```
+
+```
+ksql> SELECT * FROM SYSTEMD EMIT CHANGES;
+```
+
+```
+ksql> SET 'auto.offset.reset' = 'latest';
+```
 
 ## Create Stream
 
