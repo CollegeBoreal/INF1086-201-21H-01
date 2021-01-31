@@ -43,7 +43,7 @@ Par Convention, Utiliser `-`dans les noms de Topics
 ## Create Stream
 
 <img src="images/streams-vs-tables-1.png" width=500 height=333 ></img>
-![image](images/streams-vs-tables-1.png)
+![image](images/streams-vs-tables-1.png =500x333)
 
 
 * [CREATE STREAM stream_name](https://docs.confluent.io/current/ksql/docs/developer-guide/syntax-reference.html#create-stream)
