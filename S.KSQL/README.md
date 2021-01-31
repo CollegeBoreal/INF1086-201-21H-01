@@ -60,6 +60,17 @@ ksql> PRINT 'topic-journald' FROM BEGINNING;
 }
 ```
 
+:bulb: Date sous Unix i.e. [miliseconds](https://askubuntu.com/questions/783113/how-to-include-millisecond-in-syslogs)
+
+```
+$ date '+%Y-%m-%dT%H:%M:%S.%6N%:z'
+2021-01-31T11:32:16.339052+00:00
+```
+
+```
+$ date --rfc-3339=ns
+2021-01-31 11:33:33.663636147+00:00
+```
 
 ## Structure WITH
 
