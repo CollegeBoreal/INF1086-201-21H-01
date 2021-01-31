@@ -120,7 +120,6 @@ https://aseigneurin.github.io/2018/08/22/kafka-tutorial-10-ksql.html
 ```
 ksql> CREATE STREAM systemd (
     host string,
-    message string, 
     timestamp VARCHAR
 ) WITH (
     kafka_topic = 'topic-journald',
