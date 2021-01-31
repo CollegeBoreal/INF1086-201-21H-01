@@ -134,7 +134,9 @@ ksql> SET 'auto.offset.reset' = 'earliest';
 ```
 
 ```
-ksql> SELECT * FROM SYSTEMD EMIT CHANGES;
+ksql> SELECT * FROM SYSTEMD 
+      EMIT CHANGES
+      LIMIT 10;
 ```
 
 ```
