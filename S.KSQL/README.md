@@ -117,14 +117,6 @@ https://aseigneurin.github.io/2018/08/22/kafka-tutorial-10-ksql.html
 
 ## :a: Streams
 
-- [ ] Plain
-
-```
-ksql> CREATE STREAM SYSLOG WITH (KAFKA_TOPIC='topic-journald',VALUE_FORMAT='json');
-```
-
-- [ ] Filtered
-
 ```
 ksql> CREATE STREAM systemd (
     host string,
@@ -134,7 +126,7 @@ ksql> CREATE STREAM systemd (
     kafka_topic = 'topic-journald',
     value_format = 'json',
     timestamp = 'timestamp',                        -- the column to use as a timestamp
-    timestamp_format = 'yyyy-MM-dd HH:mm:ss.nnnnnnz' -- the format to parse the timestamp
+    timestamp_format = 'yyyy-MM-dd''T''HH:mm:ss.nnnnnn''Z''' -- the format to parse the timestamp
 );
 ```
 
