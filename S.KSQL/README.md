@@ -106,6 +106,14 @@ https://aseigneurin.github.io/2018/08/22/kafka-tutorial-10-ksql.html
 
 ## :a: Streams
 
+- [ ] Plain
+
+```
+ksql> CREATE STREAM SYSLOG WITH (KAFKA_TOPIC='topic-journald',VALUE_FORMAT='json');
+```
+
+- [ ] Filtered
+
 ```
 ksql> CREATE STREAM systemd (
     host string,
