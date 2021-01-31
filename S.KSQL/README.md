@@ -30,7 +30,7 @@ ksql> PRINT 'my-topic' FROM BEGINNING;
 - DELIMITED
     * CSV
     
-```json
+```JSON
 {
   "PRIORITY": "3",
   "SYSLOG_FACILITY": "4",
