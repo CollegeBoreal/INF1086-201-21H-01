@@ -9,6 +9,7 @@ Mongodb est système de gestion de base de données orienté documents, réparti
 docker pull mongo
 ```
 ![image](1.PNG)
+
 2️⃣ execute le contrainer 
 ------------------------
 ```
