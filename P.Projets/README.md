@@ -1,5 +1,6 @@
 # :bookmark:Projet : installer mongodb sur Docker 
 ## :trollface: je vous expose comment installer mongodb sur docker 
+système de gestion de base de données orienté documents, répartissable sur un nombre quelconque d'ordinateurs et ne nécessitant pas de schéma prédéfini des données
 1️⃣  installer mongodb
 ---------------------
 ```
@@ -52,6 +53,6 @@ db.inventory.insertOne (
    } 
 )
 ```
-
+:label: voila les commandes qui permet creer merci 
 :pager:pour  telecharger mongodb cliquer ce lien en dessous 
 https://www.mongodb.com/try/download/compass?tck=docs_compass
