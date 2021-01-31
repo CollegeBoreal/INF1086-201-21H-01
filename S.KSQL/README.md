@@ -223,7 +223,7 @@ https://docs.confluent.io/current/ksql/docs/troubleshoot-ksql.html
 
 [KSQL shows no data for a query against TABLE if the source messages are not keyed.](https://github.com/confluentinc/ksql/issues/1405)
 
-
+https://www.confluent.io/blog/kafka-streams-tables-part-1-event-streaming/
 
 ## Lecture:
 
