@@ -15,6 +15,7 @@ docker pull mongo
 ```
 docker run --name mongodb -p 27017:27017 mongo
 ```
+![image](images/2.PNG)
 pour sortir appuyez la touche CTRL+C
 
 3️⃣ bash au contrainer pour l'utilisateur 
@@ -22,21 +23,29 @@ pour sortir appuyez la touche CTRL+C
 ```
 docker exec -it mongodb bash
 ```
+![image](images/3.PNG)
+
 4️⃣ aller a la gestion de mongo 
 -------------------------------
 ```
 mongo
 ```
+![image](images/5.PNG)
+
 5️⃣ show db pour utiliser db
 ----------------------------
 ```
 show dbs
 ```
+![image](images/6.PNG)
+
 6️⃣ utilisez db pour creer un utilisateur
 -----------------------------------------
 ```
 use admin 
 ```
+![image](images/7.PNG)
+
 7️⃣ creer un utilisateur et un mot de passe
 -------------------------------------------
 ```
@@ -46,6 +55,8 @@ db.createUser({
   roles: [ { role: "root", db: "admin" } ]
 })
 ```
+![image](images/8.PNG)
+
 8️⃣  Insere des donnees 
 -----------------------
 ```
@@ -57,6 +68,8 @@ db.inventory.insertOne (
    } 
 )
 ```
+![image](images/9.PNG)
+
 :label: voila les commandes qui permet creer merci 
 
 :pager:pour  telecharger mongodb cliquer ce lien en dessous 
