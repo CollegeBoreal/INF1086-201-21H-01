@@ -1,7 +1,7 @@
 # :bookmark:Projet : installer mongodb sur Docker 
 ## :trollface: je vous expose comment installer mongodb sur docker 
 
-:système de gestion de base de données orienté documents, répartissable sur un nombre quelconque d'ordinateurs et ne nécessitant pas de schéma prédéfini des données:
+Mongodb est système de gestion de base de données orienté documents, répartissable sur un nombre quelconque d'ordinateurs et ne nécessitant pas de schéma prédéfini des données
 
 1️⃣  installer mongodb
 ---------------------
