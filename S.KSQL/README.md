@@ -1,9 +1,19 @@
 
 # KSQL
 
+## Se connecter au CLI sous docker-compose 
 
+* se connecter au container `ksql-cli`
 
-Révision:
+```
+$ docker-compose exec ksql-cli bash
+```
+
+* Éxécuter le CLI `ksql`
+
+```
+# ksql http://ksql-server:8088
+```
 
 
 ## Topics
@@ -71,12 +81,6 @@ Par Convention, Utiliser `-`dans les noms de Topics
 
 
 ## :a: KSQL
-
-## Commandes :
-
-```
-$ docker exec --interactive --tty ksql-cli ksql http://ksql-server:8088
-```
 
 ## Commandes KSQL
 
