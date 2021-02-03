@@ -73,4 +73,4 @@ db.inventory.insertOne (
 :label: voila les commandes qui permet creer merci 
 
 :link:pour  telecharger mongodb cliquer ce lien en dessous 
-https://www.mongodb.com/try/download/compass?tck=docs_compass :fake_news:
+https://www.mongodb.com/try/download/compass?tck=docs_compass :fake:
