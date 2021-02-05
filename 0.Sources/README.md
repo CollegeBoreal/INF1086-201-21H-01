@@ -1,7 +1,7 @@
 # Source
 
 
-Type de formats:
+:a: Type de formats:
 
 :one: CSV (Comma Separated Values)
 
@@ -80,8 +80,12 @@ services:
     hostname: zookeeper
     container_name: zookeeper
 ```
+ :b: Periodicite
  
 
+Par Heure, jour 
+
+Pas par mois
 
 
 ## References
