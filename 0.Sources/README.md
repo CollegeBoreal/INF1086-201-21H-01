@@ -60,7 +60,7 @@ PÉRIODE DE RÉFÉRENCE,GÉO,DGUID,Langue	Langue parlée à la maison
 | HTML | HyperText Markup Language        | Rare                           |
 | XML  | eXtensible Markup Language       | Ouvert, extensible             |
 | YAML | YAML Ain't Markup Language       | Ouvert, extensible peu verbeux |
-| TOML | Tom's Obvious, Minimal Language. | Ouvert, extensible peu verbeux |
+| TOML | Tom's Obvious, Minimal Language. | Vector                         |
 
 
 ```xml
