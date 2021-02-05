@@ -55,11 +55,11 @@ PÉRIODE DE RÉFÉRENCE,GÉO,DGUID,Langue	Langue parlée à la maison
 
 :three: ML - Markup Language
 
-| Nom  | Literal                    |   Utilisation       |
-|------|----------------------------|---------------------|
-| HTML | HyperText Markup Language  | Rare                |
-| XML  | eXtensible Markup Language | Ouvert, extensible  |
-| YAML | YAML Ain't Markup Language | 
+| Nom  | Literal                    |   Utilisation                  |
+|------|----------------------------|--------------------------------|
+| HTML | HyperText Markup Language  | Rare                           |
+| XML  | eXtensible Markup Language | Ouvert, extensible             |
+| YAML | YAML Ain't Markup Language | Ouvert, extensible peu verbeux |
 
 
 ```xml
