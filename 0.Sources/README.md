@@ -5,6 +5,8 @@ Type de formats:
 
 - CSV (Comma Separated Values)
 
+Séparé par des virgules
+
 ```csv
 PÉRIODE DE RÉFÉRENCE,GÉO,DGUID,Langue	Langue parlée à la maison
 2001,Canada,2016A000011124,Anglais	Total population
@@ -14,6 +16,8 @@ PÉRIODE DE RÉFÉRENCE,GÉO,DGUID,Langue	Langue parlée à la maison
 
 
 - JSON (JavaScript Object Notation)
+
+K/V Pairs (Key:Value example "PRIORITY": "3") séparé par `:`
 
 ```csv
 {
