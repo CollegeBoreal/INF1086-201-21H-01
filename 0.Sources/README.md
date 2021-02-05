@@ -3,7 +3,9 @@
 
 Type de formats:
 
-- CSV (Comma Separated Values)
+:one: CSV (Comma Separated Values)
+
+Première ligne représente les métadonnées
 
 Séparé par des virgules
 
@@ -13,11 +15,13 @@ PÉRIODE DE RÉFÉRENCE,GÉO,DGUID,Langue	Langue parlée à la maison
 2002,Canada,2016A000011124,Anglais	Total population
 ```
 
+:two: JSON (JavaScript Object Notation)
 
+* accolades déterminent l'objet
 
-- JSON (JavaScript Object Notation)
+* K/V Pairs (Key:Value example "PRIORITY": "3") séparé par `:` représente les champs de l'objet
 
-K/V Pairs (Key:Value example "PRIORITY": "3") séparé par `:`
+* Séparé par des virgules
 
 ```csv
 {
@@ -48,6 +52,25 @@ K/V Pairs (Key:Value example "PRIORITY": "3") séparé par `:`
   "timestamp": "2021-01-31T02:47:04.076751Z"
 }
 ```
+
+:three: ML - Markup Language
+
+| Nom  | Commentaires               |   Utilisation   |
+|------|----------------------------|-----------------|
+| HTML | HyperText Markup Language  | Rare            |
+| XML  | eXtensible Markup Language | Ouvert, extensible  |
+
+```xml
+<eleve>
+   <nom>moyou</nom>
+  <prenom>bertrand</prenom>
+</eleve>
+```
+
+
+```
+```
+ 
 
 
 
