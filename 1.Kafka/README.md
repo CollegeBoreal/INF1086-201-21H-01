@@ -1,5 +1,8 @@
 # Kafka
 
+
+# :tada: [Participation](.scripts/Participation.md) 
+
 ## :o: Création de votre répertoire de travail dans `git bash`
 
 ### :one: Dans le répertoire `1.Kafka` Créer un répertoire avec comme nom, votre :id:
@@ -168,6 +171,8 @@ Bonjour la bas
 # :eight_pointed_black_star:  Suivre le cours en ligne
 
 https://www.linkedin.com/learning/learn-apache-kafka-for-beginners
+
+:bulb: Sur `LinkedIn Learning`, connectez vous avec votre courriel du Collège.
 
 :m: Visionnez en particulier:
 
