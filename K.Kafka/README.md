@@ -58,4 +58,4 @@ https://www.linkedin.com/learning/learn-apache-kafka-for-beginners/kafka-theory-
 
 ## Les messages sont appellé `offsets` et contenu dans des fichier logs
 
-![alt tag](./images/consumer-offset.png)
+![alt tag](./images/consumer-offsets.png)
