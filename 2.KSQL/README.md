@@ -10,7 +10,9 @@ https://www.youtube.com/watch?v=ExEWJVjj-RA
 
 :bulb: Devoir 
 
-   * Créer les deux fichiers `.SQL` montrant la création de ces deux scripts
+   * Créer un répertoire avec votre :id:
+
+   * Y mettre deux fichiers `.SQL` montrant la création de ces deux scripts
    
    * montrer des images résultantes des requetes que vous avez lancé avec `KSQL`
 
