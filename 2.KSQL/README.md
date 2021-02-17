@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=ExEWJVjj-RA
 
 :two: Créer votre propre `STREAM` en utilisant le topic `topic_journald`
 
-:three: Après avoir créé votre `STREAM`, créer la `TABLE` qui capture ce `TREAM`
+:three: Après avoir créé votre `STREAM`, créer la `TABLE` qui capture ce `STREAM`
 
 :bulb: Devoir 
 
