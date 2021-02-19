@@ -2,6 +2,6 @@
 
 ![image](images/creer.png)
 
-:two: AFFICHER STREAM
+:two: AFFICHER 
 
 ![image](images/res.png)
