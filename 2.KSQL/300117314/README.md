@@ -1,3 +1,3 @@
-## :o: Executer KSQL image
+## :o: Executer KSQL:
 
-<img src=images/50.PNG  alt="alt text" width="750" height="400">
+<img src=images/50.PNG  alt="alt text" width="750" height="500">
