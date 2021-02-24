@@ -1,5 +1,7 @@
 # KSQL
 
+# :tada: [Participation](.scripts/Participation.md) 
+
 :one: Regarder la vidéo ci-dessous pour vous familiariser avec la création de `STREAM` et de `TABLE` en KSQL
 
 https://www.youtube.com/watch?v=ExEWJVjj-RA
