@@ -14,6 +14,8 @@ jobs:
         run: |
           cd 1.Kafka
           bash .scripts/run.sh
+          cd ../2.KSQL
+          bash .scripts/run.sh
       - name: Commit files
         run: |
           git config user.name github-actions
