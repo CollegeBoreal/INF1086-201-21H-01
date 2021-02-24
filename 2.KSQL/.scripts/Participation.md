@@ -1,4 +1,4 @@
-# Participation au 24-02-2021 21:09
+# Participation au 24-02-2021 21:35
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -25,7 +25,7 @@
 | 6 | [300117178](../300117178/stream.sql) - <image src='https://avatars0.githubusercontent.com/u/54910937?s=460&v=4' width=20 height=20></image> | :x: |
 | 7 | [300117314](../300117314/stream.sql) - <image src='https://avatars0.githubusercontent.com/u/54910700?s=460&v=4' width=20 height=20></image> | :x: |
 | 8 | [300117444](../300117444/stream.sql) - <image src='https://avatars0.githubusercontent.com/u/54910261?s=460&v=4' width=20 height=20></image> | :x: |
-| 9 | [300117782](../300117782/stream.sql) - <image src='https://avatars0.githubusercontent.com/u/56364697?s=460&v=4' width=20 height=20></image> | :x: |
+| 9 | [300117782](../300117782/stream.sql) - <image src='https://avatars0.githubusercontent.com/u/56364697?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 10 | [300117784](../300117784/stream.sql) - <image src='https://avatars0.githubusercontent.com/u/54910102?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 11 | [300117806](../300117806/stream.sql) - <image src='https://avatars0.githubusercontent.com/u/54910103?s=460&v=4' width=20 height=20></image> | :x: |
 | 12 | [300118524](../300118524/stream.sql) - <image src='https://avatars0.githubusercontent.com/u/56364857?s=460&v=4' width=20 height=20></image> | :x: |
