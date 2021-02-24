@@ -12,7 +12,9 @@ https://www.youtube.com/watch?v=ExEWJVjj-RA
 
    * Créer un répertoire avec votre :id:
 
-   * Y mettre deux fichiers `.SQL` montrant la création de ces deux scripts
+   * Y mettre deux fichiers `.SQL` montrant la création de ces deux scripts 
+
+        `stream.sql` et `table.sql`
    
    * montrer des images résultantes des requetes que vous avez lancé avec `KSQL`
 
