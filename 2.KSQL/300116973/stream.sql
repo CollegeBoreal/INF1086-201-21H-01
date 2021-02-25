@@ -1,9 +1,12 @@
 CREATE STREAM nathy
   (viewtime BIGINT,
    userid VARCHAR,
-   pageid VARCHAR)
+   pageid VARCHAR,
+   timestamp VARCHAR)
   WITH (KAFKA_TOPIC='topic-journald',
-        VALUE_FORMAT='DELIMITED',
+        VALUE_FORMAT='avro',
         PARTITIONS=1,
         KEY='pageid',
-        TIMESTAMP='viewtime');
+        timestamp = 'timestamp',                        
+    timestamp_format = 'yyyy-MM-dd''T''HH:mm:ss.nnnnnn''Z''' 
+        );
