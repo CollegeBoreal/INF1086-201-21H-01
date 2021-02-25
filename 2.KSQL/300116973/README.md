@@ -1,3 +1,6 @@
 # :smile:Requette ksql
 
-![image](Capture.JPG)
+``` SELECT * FROM nathy EMIT CHANGES LIMIT 10;
+```
+
+![image](1.JPG)
