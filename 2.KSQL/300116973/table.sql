@@ -7,5 +7,5 @@ CREATE TABLE lago
    contactinfo map<VARCHAR, VARCHAR>)
   WITH (KAFKA_TOPIC='lago',
         PARTITIONS=1,
-        VALUE_FORMAT='JSON',
+        VALUE_FORMAT='avro',
         KEY = 'lagoid');
