@@ -1,11 +1,11 @@
-CREATE TABLE users
+CREATE TABLE lago
   (registertime BIGINT,
    gender VARCHAR,
    regionid VARCHAR,
-   userid VARCHAR,
+   lagoid VARCHAR,
    interests array<VARCHAR>,
    contactinfo map<VARCHAR, VARCHAR>)
-  WITH (KAFKA_TOPIC='users',
-        PARTITIONS=2,
+  WITH (KAFKA_TOPIC='lago',
+        PARTITIONS=1,
         VALUE_FORMAT='JSON',
-        KEY = 'userid');
+        KEY = 'lagoid');
