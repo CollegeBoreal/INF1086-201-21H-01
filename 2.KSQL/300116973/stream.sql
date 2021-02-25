@@ -4,7 +4,7 @@ CREATE STREAM nathy
    pageid VARCHAR,
    timestamp VARCHAR)
   WITH (KAFKA_TOPIC='topic-journald',
-        VALUE_FORMAT='avro',
+        VALUE_FORMAT='json',
         PARTITIONS=1,
         KEY='pageid',
         timestamp = 'timestamp',                        
