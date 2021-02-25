@@ -5,7 +5,7 @@ CREATE TABLE lago
    lagoid VARCHAR,
    interests array<VARCHAR>,
    contactinfo map<VARCHAR, VARCHAR>)
-  WITH (KAFKA_TOPIC='lago',
+  WITH (KAFKA_TOPIC='topic-journald',
         PARTITIONS=1,
-        VALUE_FORMAT='avro',
+        VALUE_FORMAT='json',
         KEY = 'lagoid');
