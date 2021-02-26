@@ -1,4 +1,4 @@
-ksql> CREATE STREAM systemd (
+CREATE STREAM systemd2 (
     host string,
     SYSTEMD_UNIT string,
     message string,
