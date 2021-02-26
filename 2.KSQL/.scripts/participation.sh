@@ -30,8 +30,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | `stream.sql`  | `table.sql` | Actions |"
-echo "|------|----------------------------|---------------|-------------|---------|"
+echo "|:hash:| Boréal :id:                | stream.sql  | table.sql | Actions |"
+echo "|------|----------------------------|-------------|-----------|---------|"
 
 i=0
 
