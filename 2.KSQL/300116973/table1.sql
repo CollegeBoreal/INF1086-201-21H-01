@@ -6,5 +6,5 @@ CREATE TABLE lago1
   WITH (KAFKA_TOPIC='topic-journald',
         PARTITIONS=1,
         VALUE_FORMAT='json',
-        KEY='message'
+        KEY='_TRANSPORT'
   );
