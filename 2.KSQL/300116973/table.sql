@@ -1,11 +1,10 @@
 CREATE TABLE lago
-  (registertime BIGINT,
-   gender VARCHAR,
-   regionid VARCHAR,
-   lagoid VARCHAR,
-   interests array<VARCHAR>,
-   contactinfo map<VARCHAR, VARCHAR>)
+  (SYSLOG_FACILITY VARCHAR,
+   SYSLOG_IDENTIFIER VARCHAR,
+   SYSLOG_PID VARCHAR,
+   SYSLOG_TIMESTAMP VARCHAR)
   WITH (KAFKA_TOPIC='topic-journald',
         PARTITIONS=1,
-        VALUE_FORMAT='json',
-        KEY = 'lagoid');
+        VALUE_FORMAT='json'
+  );
+        
