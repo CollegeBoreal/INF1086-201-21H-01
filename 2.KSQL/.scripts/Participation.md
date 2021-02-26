@@ -1,4 +1,4 @@
-# Participation au 26-02-2021 19:00
+# Participation au 26-02-2021 19:01
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -14,8 +14,10 @@
 
 ## :a: Présence
 
-|:hash:| Boréal :id:                | SQL Schema    | SQL Data | Actions |
-|------|----------------------------|---------------|----------|---------|
+.scripts/participation.sh: line 33: stream.sql: command not found
+.scripts/participation.sh: line 33: table.sql: command not found
+|:hash:| Boréal :id:                |   |  | Actions |
+|------|----------------------------|---------------|-------------|---------|
 | 0 | [300111441](../300111441) - <image src='https://avatars0.githubusercontent.com/u/55207099?s=460&v=4' width=20 height=20></image> | [:x:] | [:x:](../300111441/table.sql) | [:gear: Exécution]() |
 | 1 | [300115065](../300115065) - <image src='https://avatars0.githubusercontent.com/u/54910778?s=460&v=4' width=20 height=20></image> | [:x:] | [:x:](../300115065/table.sql) | [:gear: Exécution]() |
 | 2 | [300115140](../300115140) - <image src='https://avatars0.githubusercontent.com/u/54910329?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300115140/stream.sql) | [:x:](../300115140/table.sql) | [:gear: Exécution]() |
