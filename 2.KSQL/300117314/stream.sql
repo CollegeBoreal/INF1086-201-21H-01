@@ -1,6 +1,6 @@
 CREATE STREAM systemd2 (
     host string,
-    SYSTEMD_UNIT VARCHAR,
+    _SYSTEMD_UNIT VARCHAR,
     message string,
     timestamp VARCHAR
 ) WITH (
