@@ -1,4 +1,4 @@
-CREATE STREAM systemd5 (
+CREATE STREAM systemd (
     host string,
     _SYSTEMD_UNIT VARCHAR,
     message string,
