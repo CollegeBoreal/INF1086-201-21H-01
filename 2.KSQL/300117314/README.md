@@ -1,7 +1,7 @@
 
 ## :o: vérifier le fichier stream.sql:
 
-<img src=images/4.PNG  alt="alt text" width="750" height="500">
+<img src=images/4.PNG  alt="alt text" width="750" height="400">
 
 ## :o: Executer KSQL:
 
