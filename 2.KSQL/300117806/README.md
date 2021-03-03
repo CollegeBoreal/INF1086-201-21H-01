@@ -19,3 +19,11 @@ CREATE STREAM systemd (
 ```
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/ksql1.PNG" width="550">
+
+## Créer une table à partir du Stream
+
+
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/ksql2.PNG" width="550">
+
+
+
