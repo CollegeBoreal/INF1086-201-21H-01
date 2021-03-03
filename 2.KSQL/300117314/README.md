@@ -1,3 +1,8 @@
+
+## :o: vérifier le fichier stream.sql:
+
+<img src=images/4.PNG  alt="alt text" width="750" height="500">
+
 ## :o: Executer KSQL:
 
 <img src=images/50.PNG  alt="alt text" width="750" height="500">
