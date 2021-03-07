@@ -2,4 +2,4 @@
 :one: Docker machine:tu dois acceder a le docker qui est installe dans votre server linux 
 -----------------------------------------------------------------------
 
-![image](1.PNG)
+![image](2.PNG)
