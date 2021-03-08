@@ -3,7 +3,7 @@
 :one: Docker machine:tu dois acceder a le docker qui est installe dans votre server linux 
 -----------------------------------------------------------------------
 
-![images](1.PNG)
+![images](1PNG)
 
 :two: se connecter au container
 --------------------------------
