@@ -7,24 +7,24 @@
 
 :two: se connecter au container
 --------------------------------
-![image](2.PNG)
+![image](images/2.PNG)
 
 :three: Éxécuter le CLI ksql
 -----------------------------
-![image](3.PNG)
+![image](images/3.PNG)
 
 :four: SHOW TOPICS
 ------------------
-![image](4.PNG)
+![image](images/4.PNG)
 
 :five: topic-journald
 ----------------------
-![image](5.PNG)
+![image](images/5.PNG)
 
 :six: creer un STREAM 
 ----------------------
-![image](6.PNG)
+![image](images/6.PNG)
 
 :seven: creer un table 
 ----------------------
-![image](7.PNG)
+![image](images/7.PNG)
