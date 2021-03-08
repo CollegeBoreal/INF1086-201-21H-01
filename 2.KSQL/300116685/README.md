@@ -23,7 +23,7 @@
 
 :six: creer un STREAM 
 ----------------------
-![image](images/66.PNG)
+![image](images/6.PNG)
 
 :seven: creer un table 
 ----------------------
