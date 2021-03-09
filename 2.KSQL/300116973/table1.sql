@@ -1,10 +1,10 @@
 CREATE TABLE lago1
-  (_TRANSPORT VARCHAR,
+  (key VARCHAR,
+    _TRANSPORT BIGINT ,
    timestamp VARCHAR,
    _GID VARCHAR,
    message VARCHAR)
   WITH (KAFKA_TOPIC='topic-journald',
-        PARTITIONS=1,
         VALUE_FORMAT='json',
-        KEY='_TRANSPORT'
+        KEY='key'
   );
