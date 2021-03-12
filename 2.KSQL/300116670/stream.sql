@@ -1,4 +1,4 @@
-CREATE STREAM Aurianeserver_withkey (
+eCREATE STREAM Aurianeserver_withkey (
     host string,
     message string,
     timestamp VARCHAR,
