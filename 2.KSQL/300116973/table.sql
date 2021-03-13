@@ -1,13 +1,6 @@
-CREATE TABLE lago
-  (_SOURCE_REALTIME_TIMESTAMP VARCHAR,
-   _BOOT_ID VARCHAR,
-    _SYSTEMD_UNIT VARCHAR,
-   __MONOTONIC_TIMESTAMP VARCHAR,
-   SYSLOG_TIMESTAMP VARCHAR)
-  WITH (KAFKA_TOPIC='topic-journald',
-        PARTITIONS=1,
-        KEY='_BOOT_ID',
-        VALUE_FORMAT='json'
-        
-  );
-        
+CREATE TABLE lago AS
+    SELECT message string, COUNT(*)
+    FROM NATHY
+    WINDOW TUMBLING (SIZE 30 SECONDS)
+    GROUP BY message
+    EMIT CHANGES;        
