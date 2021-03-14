@@ -1,4 +1,4 @@
-# :smile:Requette ksql du stream NATHY et de la table LAGO :smile:
+# :smile:Requette ksql du stream NATHY et de la table lago :smile:
 
 ``` 
 SELECT * FROM NATHY EMIT CHANGES LIMIT 10;
