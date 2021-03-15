@@ -14,7 +14,7 @@
 
 ### IMPRIMONS LES DÉTAILS DE NOTRE STREAM :page_with_curl:
 
-:heavy_exclamation_mark: REMARQUE : NOTRE STREAM **N’A PAS DE CLÉ** (KEY FIELD)
+:heavy_exclamation_mark: REMARQUE : NOTRE STREAM **N’A PAS DE CLÉ** :key: (KEY FIELD)
 
 ![image](images/DESCRIBE_STREAM.png)
 ```
@@ -27,8 +27,8 @@
 ## :two: CREATION DE LA TABLE 
 
 - QUI CAPTURE LES MESSAGES :incoming_envelope: :
-   - OUVERTURE DE SESSION PAR SSH, DOCKER-MACHINE SSH ET LOCALEMENT
-   - FERMETURE DE SESSION
+   - OUVERTURE DE SESSION PAR SSH, DOCKER-MACHINE SSH ET LOCALEMENT :white_check_mark:
+   - FERMETURE DE SESSION :x:
 
 ![image](images/ZOURENI_TABLE.png)
 ```
@@ -48,5 +48,5 @@
 ```
 
 Références:
-Création table: https://www.youtube.com/watch?v=Y3TbWVoJ4Ek![image](https://user-images.githubusercontent.com/56364857/111229051-9d567680-85bb-11eb-8ff7-320d8b646bf3.png)
+Création table: https://www.youtube.com/watch?v=Y3TbWVoJ4Ek
 
