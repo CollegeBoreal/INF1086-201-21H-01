@@ -6,7 +6,7 @@
 ```
 ```
 
-AFFICHONS NOS STREAMS CRÉÉS
+AFFICHONS NOS STREAMS CRÉÉS :page_facing_up:
 
 ![image](images/STREAMS.png)
 ```
@@ -17,6 +17,7 @@ IMPRIMONS LES DÉTAILS DE NOTRE STREAM :page_with_curl:
 :heavy_exclamation_mark: REMARQUE : NOTRE STREAM **N’A PAS DE CLÉ** (KEY FIELD)
 
 ![image](images/DESCRIBE_STREAM.png)
+`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
 ```
 ```
 
