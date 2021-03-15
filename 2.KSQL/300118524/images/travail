@@ -1,0 +1,21 @@
+CREATE STREAM zoureni_stream (
+    host string,message string,SYSLOG_IDENTIFIER string, _COMM string, UNIT string,SYSLOG_TIMESTAMP VARCHAR
+    ) 
+    
+WITH (
+    kafka_topic = 'topic-journald', value_format = 'json'
+    );
+    
+    
+    
+    
+CREATE TABLE zoureni_table as
+    select message, count(*) as note 
+    FROM
+    zoureni_stream
+    WHERE SYSLOG_IDENTIFIER = 'systemd-logind'
+    OR _COMM = 'sshd'
+    GROUP BY message ; 
+    
+    
+    SELECT * FROM ZOURENI_TABLE EMIT CHANGES;
