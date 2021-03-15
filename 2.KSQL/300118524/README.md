@@ -17,6 +17,9 @@ IMPRIMONS LES DÉTAILS DE NOTRE STREAM :page_with_curl:
 :heavy_exclamation_mark: REMARQUE : NOTRE STREAM **N’A PAS DE CLÉ** (KEY FIELD)
 
 ![image](images/DESCRIBE_STREAM.png)
+```
+```
+
 `~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
 ```
 ```
