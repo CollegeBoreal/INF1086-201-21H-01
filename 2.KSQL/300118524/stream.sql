@@ -5,4 +5,3 @@ CREATE STREAM zoureni_stream (
 WITH (
     kafka_topic = 'topic-journald', value_format = 'json'
     );
-    
