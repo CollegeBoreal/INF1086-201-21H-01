@@ -1,4 +1,5 @@
-CREATE TABLE Abdel
+CREATE TABLE Abdel as
+select host as utilisateur, count(*) from systemd group by host;
   (registertime BIGINT,
    userid VARCHAR,
    gender VARCHAR,
