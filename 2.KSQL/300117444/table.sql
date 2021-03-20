@@ -5,4 +5,4 @@ AS SELECT timestamp,COUNT(*)
 AS RESULTAT
 FROM idirStream WINDOW TUMBLING(SIZE 30 SECONDS)
 GROUP BY timestamp;
-)
+
