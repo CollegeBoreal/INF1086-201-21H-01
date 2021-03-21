@@ -1,8 +1,8 @@
 CREATE TABLE Table1 AS
-SELECT message, COUNT(*)
+SELECT message varchar, COUNT(*)
 FROM Aurianeserver_withkey
 WINDOW TUMBLING (SIZE 30 SECONDS)
 WHERE _SYSTEMD_UNIT = 'ssh.service' 
 AND timestamp BETWEEN '2021-03-11T18:5:02.29' AND '2021-03-12T18:58:02.29'
-GROUP BY message ;
-EMIT CHANGES
+GROUP BY message 
+EMIT CHANGES;
