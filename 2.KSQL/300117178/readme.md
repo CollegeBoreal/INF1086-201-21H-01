@@ -20,5 +20,12 @@ WHERE PRIORITY>=6 ;
 ![](img/ksql3.JPG)
 
 ## :three: creation de notre table a partir de notre 1 stream
+
+```CREATE TABLE message_counts
+AS SELECT MESSAGE,COUNT(*)
+AS Total_messages
+FROM logEvents WINDOW TUMBLING(SIZE 1 MINUTE)
+GROUP BY MESSAGE;
+
 ```
-```
+### affiche et compte les message chaque 1 minute
