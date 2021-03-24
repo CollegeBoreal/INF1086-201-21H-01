@@ -11,3 +11,5 @@ https://landscape.cncf.io/
 :round_pushpin: Donner les commandes sous docker ou docker-compose
 
 :round_pushpin: La présenter à vos camarades
+
+:warning: ne pas utiliser les DB relationelles (MySQL, MariaDB, PostgreSQL)
