@@ -153,23 +153,3 @@ $ kafka-console-consumer --bootstrap-server kafka:9092 --topic bus-sched --from-
 { "ROUTE_ID" :  6 , "STOP_NUM" : 15129 , "ETA" : 1553180400000 }
 { "ROUTE_ID" :  6 , "STOP_NUM" : 238 , "ETA" : 1553209200000 }
 ```
-
-----------
-
-
-https://docs.confluent.io/current/ksql/docs/developer-guide/syntax-reference.html#tables
-
-
-
-## Load files (kafka-console-producer)
-Essayer avec la commande kafka-console-producer et `cat:
-
-```
-$ cat ~/my_file.json | docker exec \
-                   --interactive kafka kafka-console-producer \
-                   --broker-list kafka:9092 --topic my_topic
-```
-
-Références: 
-
-[KafkaCat](CAT.md)
