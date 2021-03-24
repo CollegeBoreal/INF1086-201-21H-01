@@ -29,3 +29,5 @@ GROUP BY MESSAGE;
 
 ```
 ### Affiche et compte les message chaque 1 minute
+![](img/ksql4.JPG)
+
