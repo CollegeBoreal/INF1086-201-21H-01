@@ -8,7 +8,7 @@ SET 'auto.offset.reset' = 'earliest';
 
 
 
-### 3. Accedez a votre bash de Kafaka
+### 3. Accedez a votre bash de Kafka
 
 ```
 $ docker-compose exec kafka bash 
@@ -130,13 +130,13 @@ ksql> PRINT 'bus-events' FROM BEGINNING;
 
 ----------
 
-### 5. Accedez a votre bash de Kafaka
+### 5. Accedez a votre bash de Kafka
 
 ```
 $ docker-compose exec kafka bash 
 ```
 
-### 6. Accedez a votre bash de Kafaka
+### 6. Accedez a votre bash de Kafka
 
 ```
 $ kafka-console-consumer --bootstrap-server kafka:9092 --topic bus-sched --from-beginning
