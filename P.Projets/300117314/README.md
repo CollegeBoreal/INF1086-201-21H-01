@@ -4,10 +4,10 @@
 ```
 docker run -it ubuntu /bin/bash
 ```
-<img src=images/1.PNG  alt="alt text" width="4000" height="250">
+<img src=images/1.PNG  alt="alt text" width="400" height="250">
 
 
-:star:First we check our Docker status using the command:
+:star:Then we check our Docker status using the command:
 ```
 docker ps -l
 ```
@@ -18,6 +18,20 @@ docker ps -l
 docker start [image-name]
 ```
 <img src=images/9.PNG  alt="alt text" width="650" height="250">
+
+
+:star:Let’s first update apt-get with the following command:
+
+
+```
+apt-get update
+```
+<img src=images/3.PNG  alt="alt text" width="650" height="550">
+
+:star:When that’s finished we’ll run the upgrade::
+
+<img src=images/4.PNG  alt="alt text" width="650" height="550">
+
 
 ## :zap: This is our topology :zap:
 :star: we will use one router and one switch with three vlans and each vlan will receive IP address directly from DHCP server configured on my router.
