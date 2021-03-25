@@ -39,7 +39,7 @@ apt-get update
 apt-get install redis-server
 ```
 
-<img src=images/5.PNG  alt="alt text" width="650" height="500">
+<img src=images/5.PNG  alt="alt text" width="750" height="500">
 
 ##
 
