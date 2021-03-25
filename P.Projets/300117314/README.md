@@ -26,7 +26,7 @@ docker start [image-name]
 ```
 apt-get update
 ```
-<img src=images/3.PNG  alt="alt text" width="650" height="550">
+<img src=images/3.PNG  alt="alt text" width="650" height="500">
 
 :star:When that’s finished we’ll run the upgrade::
 
@@ -39,7 +39,7 @@ apt-get update
 apt-get install redis-server
 ```
 
-<img src=images/5.PNG  alt="alt text" width="750" height="600">
+<img src=images/5.PNG  alt="alt text" width="750" height="650">
 
 ##
 
