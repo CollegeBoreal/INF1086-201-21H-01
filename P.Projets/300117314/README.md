@@ -56,7 +56,7 @@ apt-get install redis-server
 redis-server
 ```
 
-<img src=images/7.PNG  alt="alt text" width="650" height="500">
+<img src=images/7.PNG  alt="alt text" width="750" height="500">
 
 
 ## :zap:Run the Redis CLI ( Command Line Interface ) :zap:
