@@ -68,12 +68,12 @@ redis-cli
 127.0.0.1:6379>
 ```
 
-<img src=images/11.PNG  alt="alt text" width="650" height="500">
+<img src=images/11.PNG  alt="alt text" width="350" height="350">
 
 ##
 
 :star:First we’ll do the most basic Redis command just to verify it’s working. If we execute the ping command it should respond with “PONG”. Let’s try it:
 
-<img src=images/12.PNG  alt="alt text" width="4000" height="300">
+<img src=images/12.PNG  alt="alt text" width="350" height="300">
 
 
