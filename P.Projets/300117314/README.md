@@ -4,13 +4,13 @@
 ```
 docker ps -l
 ```
-<img src=images/1.png  alt="alt text" width="650" height="500">
+<img src=images/1.png  alt="alt text" width="4000" height="250">
 
 :star:Now we run the docker using :
 ```
 docker start [image-name]
 ```
-<img src=images/9.PNG  alt="alt text" width="650" height="500">
+<img src=images/9.PNG  alt="alt text" width="650" height="250">
 
 ## :zap: This is our topology :zap:
 :star: we will use one router and one switch with three vlans and each vlan will receive IP address directly from DHCP server configured on my router.
