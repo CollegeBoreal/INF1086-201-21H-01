@@ -33,12 +33,47 @@ apt-get update
 <img src=images/4.PNG  alt="alt text" width="650" height="550">
 
 
-## :zap: This is our topology :zap:
-:star: we will use one router and one switch with three vlans and each vlan will receive IP address directly from DHCP server configured on my router.
-<img src=images/1.PNG  alt="alt text" width="650" height="500">
+## :zap:Install Redis using the apt-get Package Manager :zap:
+
+```
+apt-get install redis-server
+```
+
+<img src=images/5.PNG  alt="alt text" width="650" height="500">
+
+##
+
+:star: Make a copy of the config file just in case
+
+<img src=images/6.PNG  alt="alt text" width="650" height="250">
+
+##
+
+## :zap:Start Redis :zap:
+
+:pushpin: Now we will start Redis! Note: It will take over this terminal but we’ll continue in another terminal(Redis CLI).
+```
+redis-server
+```
+
+<img src=images/7.PNG  alt="alt text" width="650" height="500">
 
 
-#  :pushpin: Configuration of Router:
+## :zap:Run the Redis CLI ( Command Line Interface ) :zap:
+```
+redis-cli
+```
+:star:You should see a prompt like this:
+```
+127.0.0.1:6379>
+```
 
-## :one: Connecrting remotely using SSH: 
-:star: Connecting to our router from distance usign this set of commands. SSH helps us to connect to our router with our username and password: 
+<img src=images/11.PNG  alt="alt text" width="650" height="500">
+
+##
+
+:star:First we’ll do the most basic Redis command just to verify it’s working. If we execute the ping command it should respond with “PONG”. Let’s try it:
+
+<img src=images/12.PNG  alt="alt text" width="4000" height="300">
+
+
