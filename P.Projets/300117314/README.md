@@ -11,7 +11,7 @@ docker run -it ubuntu /bin/bash
 ```
 docker ps -l
 ```
-<img src=images/1.png  alt="alt text" width="4000" height="250">
+<img src=images/1.png  alt="alt text" width="4000" height="150">
 
 :star:Now we run the docker using :
 ```
