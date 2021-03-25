@@ -4,11 +4,11 @@
 ```
 docker ps -l
 ```
-<img src=images/1.PNG  alt="alt text" width="650" height="500">
+<img src=images/1.png  alt="alt text" width="650" height="500">
 
 :star:Now we run the docker using :
 ```
-
+docker start [image-name]
 ```
 <img src=images/9.PNG  alt="alt text" width="650" height="500">
 
