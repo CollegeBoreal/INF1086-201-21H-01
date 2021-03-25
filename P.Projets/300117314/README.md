@@ -45,7 +45,7 @@ apt-get install redis-server
 
 :star: Make a copy of the config file just in case
 
-<img src=images/6.PNG  alt="alt text" width="450" height="250">
+<img src=images/6.PNG  alt="alt text" width="650" height="250">
 
 ##
 
