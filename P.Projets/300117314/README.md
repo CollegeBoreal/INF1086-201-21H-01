@@ -68,7 +68,7 @@ redis-cli
 127.0.0.1:6379>
 ```
 
-<img src=images/11.PNG  alt="alt text" width="350" height="650">
+<img src=images/11.PNG  alt="alt text" width="350" height="350">
 
 ##
 
