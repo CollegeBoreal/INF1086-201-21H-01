@@ -6,12 +6,22 @@ Je  me suis connecté sur mon serveur et j'ai pu créer un stream KSQL comme dem
 
 ![image](Copiee.PNG)
 
-----------------------------
-
-
-![image](copies.PNG)
-
 '--------------------------------
+
+# vérification :loupe:
+-----------------------
+
+CREATE TABLE HASS AS \
+      SELECT message, count(*) \ 
+      FROM systemd \
+      WINDOW TUMBLING (SIZE 30 SECONDS) \
+      WHERE message = 'failed_login' \
+      GROUP BY message \
+      HAVING count(*) > 3;
+      
+      -------------------------------------------------------------
+      
+      ![image](copies.PNG)
 
 Maintenant, lorsque j'utilise mon script python pour consommer le sujet '231_console_failure', j'obtiens un None en permanence lorsqu'il n'y a pas de correspondance.
 
