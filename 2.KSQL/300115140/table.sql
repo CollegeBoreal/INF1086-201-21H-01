@@ -8,3 +8,9 @@ CREATE TABLE zack
 >        PARTITIONS=1,
 >        VALUE_FORMAT='json'
 >  );
+
+
+CREATE TABLE t_pageviews AS \
+SELECT userid, pageid, count(*) as count \
+FROM s_pageviews \
+GROUP BY userid, pageid;
