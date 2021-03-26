@@ -48,7 +48,7 @@ CREATE STREAM systemd (
 
 ## :o: vérifier les données envoyées par vector et sauvegardées dans kafka serveur :
 ```
- SELECT * FROM morti EMIT CHANGES LIMIT 10 ;
+ SELECT * FROM systemd EMIT CHANGES LIMIT 10 ;
 ```
 
 <img src=images/3.PNG  alt="alt text" width="750" height="400">
