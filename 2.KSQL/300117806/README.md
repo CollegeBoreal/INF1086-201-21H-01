@@ -4,14 +4,14 @@
 
 Je  me suis connecté sur mon serveur et j'ai pu créer un stream KSQL comme demandé
 
-![image](Copiee.png)
+![image](Copiee.PNG)
 
 ----------------------------
 
 
-![image](copies.png)
+![image](copies.PNG)
 
-
+'--------------------------------
 
 Maintenant, lorsque j'utilise mon script python pour consommer le sujet '231_console_failure', j'obtiens un None en permanence lorsqu'il n'y a pas de correspondance.
 
