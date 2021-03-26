@@ -6,6 +6,7 @@
 ## :o: Comment exécuter KSQL:
 ```
  winpty docker-compose exec ksql-cli bash
+ ksql http://ksql-server:8080
 ```
 
 <img src=images/50.PNG  alt="alt text" width="750" height="500">
