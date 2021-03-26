@@ -20,11 +20,29 @@ SHOW TOPICS;
 
 ## :o: créer un stream nomé systemd:
 
+```
+CREATE STREAM systemd (
+    host string,
+    _SYSTEMD_UNIT VARCHAR,
+    message string,
+    timestamp VARCHAR
+) WITH (
+    kafka_topic = 'topic-journald',
+    value_format = 'json',
+    timestamp = 'timestamp',                        -- the column to use as a timestamp
+    timestamp_format = 'yyyy-MM-dd''T''HH:mm:ss.nnnnnn''Z''' -- the format to parse the timestamp
+);
+```
+
 
 <img src=images/1.PNG  alt="alt text" width="750" height="400">
 
 
 ## :o: vérifier les champs de notre table:
+
+```
+ DESCRIBE systemd;
+```
 
 <img src=images/2.PNG  alt="alt text" width="750" height="400">
 
