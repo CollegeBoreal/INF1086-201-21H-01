@@ -3,7 +3,10 @@
 
 <img src=images/4.PNG  alt="alt text" width="750" height="400">
 
-## :o: Executer KSQL:
+## :o: Comment exécuter KSQL:
+```
+ winpty docker-compose exec ksql-cli bash
+```
 
 <img src=images/50.PNG  alt="alt text" width="750" height="500">
 
