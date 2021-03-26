@@ -6,6 +6,16 @@ Je  me suis connecté sur mon serveur et j'ai pu créer un stream KSQL comme dem
 
 ![image](Copiee.png)
 
+----------------------------
+
+
+![image](copies.png)
+
+
+
+Maintenant, lorsque j'utilise mon script python pour consommer le sujet '231_console_failure', j'obtiens un None en permanence lorsqu'il n'y a pas de correspondance.
+
+Et quand il y a une correspondance, c'est-à-dire plus de 3 en 30 secondes, il donne cette valeur. Mais disons que s'il y a 10 tentatives en 30 secondes, le consommateur récupère 7 messages où chaque message diffère avec un compte de 4 à 10.
 ![image](copies.png)
 
 ```
