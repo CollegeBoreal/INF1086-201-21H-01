@@ -4,9 +4,9 @@
 
 Je  me suis connecté sur mon serveur et j'ai pu créer un stream KSQL comme demandé
 
-![image](Ckafka.PNG)
+![image](Ckafka.png)
 
-![image](Kafka.PNG)
+![image](Kafka.png)
 
 ```
   
