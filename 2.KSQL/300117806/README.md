@@ -6,6 +6,8 @@ Je  me suis connecté sur mon serveur et j'ai pu créer un stream KSQL comme dem
 
 ![image](Ckafka.PNG)
 
+![image](Kafka.PNG)
+
 ```
   
 CREATE STREAM systemd (
@@ -26,6 +28,8 @@ CREATE STREAM systemd (
 
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/ksql2.PNG" width="550">
+
+https://stackoverflow.com/questions/54533958/ksql-table-group-by-with-only-one-output-within-the-given-time
 
 
 
