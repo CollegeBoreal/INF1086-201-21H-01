@@ -20,3 +20,11 @@ docker run --name mongodb -p 27017:27017 mongo
 
 ```
 ![image](pp2.PNG)
+
+-----
+# :three: Nous allons entrer dans Mongodb client
+
+```
+mongo
+```
+![image](pp3.PNG)
