@@ -19,7 +19,7 @@ votre code est plus court, plus facile à comprendre et plus facile à maintenir
 ```
  docker run --name my-first-redis -d redis
 ```
-[df](img/redis1.JPG)
+![df](img/redis1.JPG)
 
 ### :two:Connect with redis with redis-cli
 ```
