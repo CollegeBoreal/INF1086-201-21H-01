@@ -47,6 +47,11 @@ votre code est plus court, plus facile à comprendre et plus facile à maintenir
 
 ![redis4](img/redis4.JPG)
 
+## bibliographie
+1. [](https://phoenixnap.com/kb/docker-redis)
+2. **redis in action**
+
+
 
 
 
