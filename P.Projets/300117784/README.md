@@ -1,1 +1,7 @@
-:rainbow: # Installation de Mongodb a partir de Docker 
+# :rainbow: Installation de Mongodb a partir de Docker 
+------
+## Dans un système de base de données relationnelles les données sont stockées par ligne dans des tables. Et il est souvent nécessaire de faire des jointures sur plusieurs tables afin de tirer des informations assez pertinentes de la base.
+## Dans MongoDB, les données sont modélisées sous forme de document sous un style JSON.
+## On ne parle plus de tables, ni d'enregistrements mais de collections et de documents. Ce système de gestion de données nous évite ainsi de faire des jointures de tables car toutes les informations propres à un certain donnée sont stockées dans un même document.
+------
+ 
