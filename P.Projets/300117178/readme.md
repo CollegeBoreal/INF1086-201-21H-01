@@ -17,11 +17,11 @@ votre code est plus court, plus facile à comprendre et plus facile à maintenir
 ##  III. Set Redis  With Docker
 ## :one: Start a redis instance
 ```
-sudo docker run --name my-first-redis -d redis
+ docker run --name my-first-redis -d redis
 ```
 ## :two:Connect with redis with redis-cli
 ```
-sudo docker exec -it my-first-redis sh
+ docker exec -it my-first-redis sh
 ```
 
 
