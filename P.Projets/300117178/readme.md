@@ -15,16 +15,23 @@ nous avons:
 votre code est plus court, plus facile à comprendre et plus facile à maintenir, mais il est plus rapide
 (car vous n'avez pas besoin de lire une base de données pour mettre à jour vos données).
 ##  III. Set Redis  With Docker
-## :one: Start a redis instance
+### :one: Start a redis instance
 ```
  docker run --name my-first-redis -d redis
 ```
-## :two:Connect with redis with redis-cli
+### :two:Connect with redis with redis-cli
 ```
  docker exec -it my-first-redis sh
 ```
 
 ## IIII. Test Case
- ::
+### :one: Commands used on STRING values
+|Command        |What is does                                 |
+|--------------|----------------------------------------------|
+|GET           |Affiche la donnée sauvegarder dans la clé donne| 
+|SET           |crée/modifie la valeur enregistrez dans la clé donne |
+|DEL           |supprime la valeur de la donnée enregistrez dans la clé donnée|
+
+
 
 
