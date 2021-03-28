@@ -4,4 +4,9 @@
 ## Dans MongoDB, les données sont modélisées sous forme de document sous un style JSON.
 ## On ne parle plus de tables, ni d'enregistrements mais de collections et de documents. Ce système de gestion de données nous évite ainsi de faire des jointures de tables car toutes les informations propres à un certain donnée sont stockées dans un même document.
 ------
- 
+ # :rainbow:Les Etapes de l'intallation de Mongodb
+# :one: Installation de Mongodb avec Docker 
+```
+docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
+```
+![image](pp1.PNG)
