@@ -32,6 +32,16 @@ votre code est plus court, plus facile à comprendre et plus facile à maintenir
 |SET           |crée/modifie la valeur enregistrez dans la clé donne |
 |DEL           |supprime la valeur de la donnée enregistrez dans la clé donnée|
 
+### :two: Commands used on LISt values
+|Command        |What is does                                 |
+|--------------|----------------------------------------------|
+|RPUSH           |met la valeur à la fin the liste partant de la droite| 
+|LRANGE           |affiche une liste de valeur de la liste |
+|LINDEX           |affiche la valeur d'un objet a la position indiquer|
+|LTOP             |retire et affiche la valeur de la liste partant de la gauche|
+
+
+
 
 
 
