@@ -9,6 +9,14 @@
 ```
 docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
 
-NB mon
+NB mongodb est le nom du container et V est le volume 
 ```
 ![image](pp1.PNG)
+------
+# :two:Nous allons entrer dans le container 
+
+```
+docker run --name mongodb -p 27017:27017 mongo
+
+```
+![image](pp2.PNG)
