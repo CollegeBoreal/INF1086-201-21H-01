@@ -19,12 +19,13 @@ votre code est plus court, plus facile à comprendre et plus facile à maintenir
 ```
  docker run --name my-first-redis -d redis
 ```
-![df](img/redis1.JPG)
+![redis1](img/redis1.JPG)
 
 ### :two:Connect with redis with redis-cli
 ```
  docker exec -it my-first-redis sh
 ```
+![redis2](img/redis2.JPG)
 
 ## IIII. Test Case
 ### :one: Commands used on STRING values
@@ -34,6 +35,8 @@ votre code est plus court, plus facile à comprendre et plus facile à maintenir
 |SET           |crée/modifie la valeur enregistrez dans la clé donne |
 |DEL           |supprime la valeur de la donnée enregistrez dans la clé donnée|
 
+![redis3](img/redis3.JPG)
+
 ### :two: Commands used on LISt values
 |Command        |What is does                                 |
 |--------------|----------------------------------------------|
@@ -41,6 +44,8 @@ votre code est plus court, plus facile à comprendre et plus facile à maintenir
 |LRANGE           |affiche une liste de valeur de la liste |
 |LINDEX           |affiche la valeur d'un objet a la position indiquer|
 |LTOP             |retire et affiche la valeur de la liste partant de la gauche|
+
+![redis4](img/redis4.JPG)
 
 
 
