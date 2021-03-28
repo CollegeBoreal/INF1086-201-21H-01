@@ -28,3 +28,36 @@ docker run --name mongodb -p 27017:27017 mongo
 mongo
 ```
 ![image](pp33.PNG)
+
+------
+# :four:Presentation de quelques commandes 
+## :pushpin: Afficher les Bases de données 
+```
+show dbs
+
+Permet d'afficher les basses de données 
+```
+![image](pp44.PNG)
+
+----
+## :pushpin: Créer les Bases de données
+```
+use nom de la base de donnée
+Permet de creer une base de donnée
+NB :Il faut insérer une collection a l'interieur pour que la base de donnée soit créer
+
+```
+![image](pp55.PNG)
+----
+## :pushpin:Insértion d'une collection  
+```
+db.users.insert({username: "smith"})
+```
+![image](pp66.PNG)
+----
+## :pushpin:Afficher les Users 
+
+```
+db.users.find()
+```
+![image](pp77.PNG)
