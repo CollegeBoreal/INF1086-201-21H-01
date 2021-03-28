@@ -37,7 +37,7 @@ votre code est plus court, plus facile à comprendre et plus facile à maintenir
 
 ![redis3](img/redis3.JPG)
 
-### :two: Commands used on LISt values
+### :two: Commands used on List values
 |Command        |What is does                                 |
 |--------------|----------------------------------------------|
 |RPUSH           |met la valeur à la fin the liste partant de la droite| 
