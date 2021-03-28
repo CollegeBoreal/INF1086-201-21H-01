@@ -7,7 +7,8 @@
  # :rainbow:Les Etapes de l'intallation de Mongodb
 # :one: Installation de Mongodb avec Docker 
 ```
-docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
+1- docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
+2- docker run --name mongodb -p 27017:27017 mongo
 
 NB mongodb est le nom du container et V est le volume 
 ```
@@ -16,8 +17,8 @@ NB mongodb est le nom du container et V est le volume
 # :two:Nous allons entrer dans le container 
 
 ```
-docker run --name mongodb -p 27017:27017 mongo
 
+docker exec -it mongodb bash 
 ```
 ![image](pp2.PNG)
 
@@ -61,3 +62,8 @@ db.users.insert({username: "smith"})
 db.users.find()
 ```
 ![image](pp77.PNG)
+
+# :rainbow: SOURCE 
+```
+https://www.manning.com/books/mongodb-in-action?utm_source=google&utm_medium=search&utm_campaign=dynamicsearch&gclid=Cj0KCQjw0oCDBhCPARIsAII3C_GTlAKkU9nPihdHKazqb1mOHflynx2S42cA4NLQcOPV8aZ_kakxPwEaAtFpEALw_wcB
+```
