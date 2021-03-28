@@ -14,4 +14,14 @@ nous avons:
 ##  II. Why Redis? 
 votre code est plus court, plus facile à comprendre et plus facile à maintenir, mais il est plus rapide
 (car vous n'avez pas besoin de lire une base de données pour mettre à jour vos données).
-##  III. Set Redis With Docker
+##  III. Set Redis  With Docker
+## :one: Start a redis instance
+```
+sudo docker run --name my-first-redis -d redis
+```
+## :two:Connect with redis with redis-cli
+```
+sudo docker exec -it my-first-redis sh
+```
+
+
