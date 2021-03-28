@@ -1,1 +1,1 @@
-## :rocket:  What is Redis  :rocket:
+## :rocket:  What is Redis?  :rocket:
