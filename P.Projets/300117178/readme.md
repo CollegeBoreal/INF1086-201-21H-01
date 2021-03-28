@@ -1,4 +1,4 @@
-##                                           REDIS
+##                                          :pushpin: REDIS
 ----------------------------------------------------
 ##  I. What is Redis? 
 Redis est une base de données très rapide
