@@ -7,8 +7,8 @@
  # :rainbow:Les Etapes de l'intallation de Mongodb
 # :one: Installation de Mongodb avec Docker 
 ```
-1- docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
-2- docker run --name mongodb -p 27017:27017 mongo
+1- $ docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
+2- $ docker run --name mongodb -p 27017:27017 mongo
 
 NB mongodb est le nom du container et V est le volume 
 ```
@@ -18,7 +18,7 @@ NB mongodb est le nom du container et V est le volume
 
 ```
 
-docker exec -it mongodb bash 
+$ docker exec -it mongodb bash 
 ```
 ![image](pp2.PNG)
 
@@ -26,7 +26,7 @@ docker exec -it mongodb bash
 # :three: Nous allons entrer dans Mongodb client
 
 ```
-mongo
+# mongo
 ```
 ![image](pp33.PNG)
 
