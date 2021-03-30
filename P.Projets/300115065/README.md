@@ -4,7 +4,7 @@
 
 ```
 The open source foundation of NoSQL Couchbase data platform is available free of charge for both development and production, and supported by the Couchbase community/entreprise forum.
-Best suited for non-enterprise developers when basic education, availability, performance, tooling, and query is sufficient
+Best suited for developers when basic education, availability, performance, tooling, and query is sufficient
 ```
 
 ## :one: install Couchbase Server using the command line
