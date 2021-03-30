@@ -1,4 +1,4 @@
-# 📌 Install Couchbase server 7.0 community/entreprise on Windows
+# 📌 Install Couchbase server 6.0 community/entreprise on Windows
 
 💡 Couchbase Server community/entreprise
 
@@ -33,35 +33,54 @@ docker run -t --name db -p 8091-8094:8091-8094 -p 11210:11210 couchbase/server-s
 
 ![image](./server.png)
 
-## :two: Create a Cluster
+## Examine the Cluster Dashboard
 
-💡 Provision a Node with the CLI
+![image](./cluster.png)
 
-To provision a node with the CLI, use the cluster-init command, as follows:
+## Examine the Bucket and Its Documents
 
-```
-couchbase-cli cluster-init -c 10.142.181.101 \
---cluster-username Administrator \
---cluster-password password \
---services data,index,query \
---cluster-ramsize 512 \
---cluster-index-ramsize 256
-```
-Node is successfully provisioned
-```
+![image](./bucket.png)
 
-![image](./node.png)
+All documents that are contained within the bucket 'travel-sample':
 
-```
+![image](./json.png)
 
-## :three: Add a Node and Rebalance with the CLI
+##### 💡 example pf json doc: airline_10123
+
+![image](./json_edit.png)
+
+## Run a N1QL Query
+##### :one: run the interactive query shell
 
 ```
-couchbase-cli server-add -c 10.142.181.101:8091 \
---username Administrator \
---password password \
---server-add 10.142.181.102:8091 \
---server-add-username someName \
---server-add-password somePassword \
---services data
+bash -c "clear && docker exec -it db sh"
 ```
+##### :two: navigate to the Couchbase bin directory, and start cbq:
+
+💡 PS: cbq is a comprehensive command line shell for N1QL that enables to query and update data from Couchbase Server.
+
+```
+cd /opt/couchbase/bin
+./cbq -u Administrator -p password -engine=http://127.0.0.1:8091/
+```
+Here’s some example of a N1QL query
+
+```
+SELECT country FROM `travel-sample` WHERE name = "Excel Airways";
+```
+
+![image](./N1QL.png)
+
+```
+cbq> SELECT * FROM `travel-sample` WHERE type="airport" LIMIT 1;
+```
+
+![image](./Quiry1.png)
+
+## Try the Query Workbench
+
+```
+SELECT name,phone FROM `travel-sample` WHERE type="hotel" AND city="Manchester" and directions IS NOT MISSING ORDER BY name LIMIT 10;
+```
+
+![image](./Quiry2.png)
