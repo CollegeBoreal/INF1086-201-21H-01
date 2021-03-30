@@ -12,7 +12,7 @@
 Docker pull Mongo
 ```
 
-![image](Mogo.PNG)
+![image](Mogo.png)
 
 ------
 
