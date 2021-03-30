@@ -14,6 +14,12 @@ Best suited for non-enterprise developers when basic education, availability, pe
 ```
 https://packages.couchbase.com/releases/7.0.0-beta/couchbase-server-community_7.0.0-beta-windows_amd64.msi
 ```
+📌 Using Docker 
+
+```
+docker run -t --name db -p 8091-8094:8091-8094 -p 11210:11210 couchbase/server-sandbox:6.0.0
+```
+
 ### 📍 Install Couchbase Server
 
 ```
