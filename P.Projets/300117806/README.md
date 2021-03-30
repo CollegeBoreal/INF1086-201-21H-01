@@ -35,6 +35,43 @@ docker exec -it mongodb bash
 
 -----------
 
+# :three: Gestionnaires des tâches dans MongoDB
+
+```
+# mongo
+````
+![image](mongou.PNG)
+
+----
+
+# :four: Base de données 
+## :cake: Démonstration 
+```
+show dbd
+```
+![image](mongoou.PNG)
+
+------
+# :five: Création des données:computer: Administrator
+
+```
+use administrator (switched db administrator )
+````
+--------
+
+![image](mongouu.PNG)
+![image](moongo.PNG)
+
+------
+# :six: Mot de passe :door:
+````
+db.createUser({
+  user: "admin", 
+  pwd: "secure", 
+  roles: [ { role: "root", db: "admin" } ]
+})
+```
+![image](mounngou.PNG)
 
 
 
