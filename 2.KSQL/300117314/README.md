@@ -53,3 +53,21 @@ CREATE STREAM systemd (
 
 <img src=images/3.PNG  alt="alt text" width="750" height="400">
 
+## :o: Créer la table morti:
+```
+CREATE TABLE morti AS SELECT MESSAGE, TIMESTAMP, HOST, COUNT(*) AS COUNT FROM systemd GROUP BY MESSAGE, TIMESTAMP, HOST;
+
+```
+<img src=images/5.PNG  alt="alt text" width="750" height="400">
+
+## :o: Extraire les données de la table morti:
+
+```
+SELECT * FROM morti
+>EMIT CHANGES
+>LIMIT 10;
+```
+<img src=images/6.PNG  alt="alt text" width="750" height="400">
+
+
+
