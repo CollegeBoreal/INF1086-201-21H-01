@@ -21,7 +21,8 @@ WHERE PRIORITY>=6 ;
 
 ## :three: creation de notre table a partir de notre 1 stream
 
-```CREATE TABLE message_counts
+```
+CREATE TABLE message_counts
 AS SELECT MESSAGE,COUNT(*)
 AS Total_messages
 FROM logEvents WINDOW TUMBLING(SIZE 1 MINUTE)
