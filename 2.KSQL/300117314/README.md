@@ -58,7 +58,7 @@ CREATE STREAM systemd (
 CREATE TABLE morti AS SELECT MESSAGE, TIMESTAMP, HOST, COUNT(*) AS COUNT FROM systemd GROUP BY MESSAGE, TIMESTAMP, HOST;
 
 ```
-<img src=images/5.PNG  alt="alt text" width="750" height="400">
+<img src=images/5.PNG  alt="alt text" width="850" height="300">
 
 ## :o: Extraire les données de la table morti:
 
