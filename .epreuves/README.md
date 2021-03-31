@@ -3,7 +3,7 @@
 
 | Titre   | Type         | Description                                         | % | Statut           |
 |---------|--------------|-----------------------------------------------------|---|------------------|
-| :one:   | Quiz         | Modélisation                                        | 25|:heavy_checked_mark: Kafka        |
+| :one:   | Quiz         | Modélisation                                        | 25|:heavy_check_mark: Kafka        |
 | :two:   | Laboratoire  | KSQL                                                | 15|:+1: Kafka        |
 | :three: | Laboratoire  | Jeux - KSQL ETL/Import/JSON                         | 12|:+1: Kafka        |
 | :four:  | Laboratoire  | Programmation NoSQL                                 | 23|:+1: Scripting avec API Python |
