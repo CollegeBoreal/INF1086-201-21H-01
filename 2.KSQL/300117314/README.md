@@ -67,7 +67,7 @@ SELECT * FROM morti
 >EMIT CHANGES
 >LIMIT 10;
 ```
-<img src=images/6.PNG  alt="alt text" width="750" height="400">
+<img src=images/6.PNG  alt="alt text" width="950" height="650">
 
 
 
