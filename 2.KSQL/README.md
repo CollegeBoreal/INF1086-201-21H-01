@@ -19,4 +19,6 @@ https://www.youtube.com/watch?v=ExEWJVjj-RA
         `stream.sql` et `table.sql`
    
    * montrer des images résultantes des requetes que vous avez lancé avec `KSQL`
+ 
+   * Afin d'améliorer votre compréhension sur les [partitions](https://docs.ksqldb.io/en/latest/developer-guide/joins/partition-data/) utiliser le modèle [J.Jeux](../J.Jeux)
 
