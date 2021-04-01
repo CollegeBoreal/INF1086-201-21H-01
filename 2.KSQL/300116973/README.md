@@ -9,4 +9,3 @@ SELECT * FROM lago EMIT CHANGES LIMIT 10;
 
 ![image](3.JPG)
 
-![image](4.JPG)
