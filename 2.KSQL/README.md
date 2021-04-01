@@ -22,3 +22,9 @@ https://www.youtube.com/watch?v=ExEWJVjj-RA
  
    * Afin d'améliorer votre compréhension sur les [partitions](https://docs.ksqldb.io/en/latest/developer-guide/joins/partition-data/) utiliser le modèle [J.Jeux](../J.Jeux)
 
+   * Démontrer une compréhension de la manipulation des:
+     
+     - Partition (ROWKEY)
+     - Jointure entre tables
+
+
