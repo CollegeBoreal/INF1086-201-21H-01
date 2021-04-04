@@ -15,6 +15,13 @@ docker start [image-name]
 <img src=images/9.PNG  alt="alt text" width="650" height="250">
 
 
+:star:Using our docker image :
+
+```
+docker run -it ubuntu /bin/bash
+```
+
+
 :star:Let’s first update apt-get with the following command:
 
 
