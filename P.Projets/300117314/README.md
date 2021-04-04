@@ -31,7 +31,10 @@ apt-get update
 ```
 <img src=images/3.PNG  alt="alt text" width="650" height="500">
 
-:star:When that’s finished we’ll run the upgrade::
+:star:When that’s finished we’ll run the upgrade:
+```
+apt-get upgrade
+```
 
 <img src=images/4.PNG  alt="alt text" width="650" height="550">
 
