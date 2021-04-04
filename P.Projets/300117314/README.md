@@ -20,8 +20,9 @@ docker start [image-name]
 ```
 docker run -it ubuntu /bin/bash
 ```
+<img src=images/100.PNG  alt="alt text" width="650" height="250">
 
-
+##
 :star:Let’s first update apt-get with the following command:
 
 
