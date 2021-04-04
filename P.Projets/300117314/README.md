@@ -2,6 +2,9 @@
 # :zap: How to install Redis on our Ubuntu server using Docker:zap: 
 :star:First we check our Docker status using the command:
 ```
+docker ps -l
+```
+```
 docker run -it ubuntu /bin/bash
 ```
 <img src=images/1.PNG  alt="alt text" width="400" height="250">
