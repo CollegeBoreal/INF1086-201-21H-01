@@ -1,5 +1,5 @@
 # KSQL STREAM AND TABLE CREATION
-## Server Linux Ubuntu
+## Objectiv of this exercice:
 
 
 **In this exercice, we are installing KSQL in our Linux server (IP address 10.13.237.14) and we run our DB Kafka in there.**
@@ -31,7 +31,7 @@ In our case, I will create 2 different streams and then for each strems, creat d
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/ksql3.PNG" width="550">
 
 
-The STREAM systemd was created and the TABLE zack was created in relation with that sream.
+The STREAM file _streamsystemd.sql_ was created and the table _tablezack.sql_ was created in relation with that stream (streamsystemd.sql related to tablezack.sql)
 
 ```
 CREATE STREAM systemd (
@@ -64,4 +64,6 @@ CREATE TABLE zack
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/ksql2.PNG" width="550">
 
 
+## Adding a new STREAM and a related TABLE
 
+The stream file _streampage.sql_ related to the table _tableview.sql_
