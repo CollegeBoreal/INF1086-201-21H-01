@@ -67,3 +67,40 @@ CREATE TABLE zack
 ## Adding a new STREAM and a related TABLE
 
 The stream file _streampage.sql_ related to the table _tableview.sql_
+
+```
+CREATE STREAM s_pageviews \
+  (userid VARCHAR, \
+   registertime BIGINT, \
+   pageid VARCHAR) \
+  WITH (KAFKA_TOPIC='pageviews_kafka_topic_json', \
+        VALUE_FORMAT='JSON', \
+        TIMESTAMP='registertime', \
+        KEY = 'userid');
+        
+        
+CREATE STREAM s_users \
+  (userid VARCHAR, \
+   registertime BIGINT, \
+   regionid VARCHAR) \
+  WITH (KAFKA_TOPIC='users_kafka_topic_json', \
+        VALUE_FORMAT='JSON', \
+        TIMESTAMP='registertime', \
+        KEY = 'userid');  
+  ```
+  
+  
+  ```
+  CREATE TABLE zack
+>  (_SOURCE_REALTIME_TIMESTAMP VARCHAR,
+>    _SYSTEMD_UNIT VARCHAR,
+>   __MONOTONIC_TIMESTAMP VARCHAR,
+>   MESSAGE VARCHAR,
+>   SYSLOG_TIMESTAMP VARCHAR)
+>  WITH (KAFKA_TOPIC='topic-journald',
+>        PARTITIONS=1,
+>        VALUE_FORMAT='json'
+>  );
+
+```
+
