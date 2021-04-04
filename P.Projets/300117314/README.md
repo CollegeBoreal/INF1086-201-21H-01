@@ -5,7 +5,7 @@
 docker ps -l
 ```
 
-<img src=images/1.png  alt="alt text" width="800" height="250">
+<img src=images/1.png  alt="alt text" width="800" height="150">
 
 
 :star:Now we run the docker using :
