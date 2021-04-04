@@ -4,17 +4,9 @@
 ```
 docker ps -l
 ```
-```
-docker run -it ubuntu /bin/bash
-```
+
 <img src=images/1.PNG  alt="alt text" width="400" height="250">
 
-
-:star:Then we check our Docker status using the command:
-```
-docker ps -l
-```
-<img src=images/1.png  alt="alt text" width="4000" height="150">
 
 :star:Now we run the docker using :
 ```
