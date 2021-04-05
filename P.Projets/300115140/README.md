@@ -18,5 +18,5 @@ The IP address used to connect from the Desktop Browser will be : http://127.0.0
 
 The default Login would be root and the default database would be system as shown below:
 
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/aran1.PNG" width="450">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/aran1.PNG" width="250">
 
