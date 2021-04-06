@@ -4,9 +4,7 @@
 
 Je  me suis connecté sur mon serveur et j'ai pu créer un stream KSQL comme demandé
 
-![image](Copiee.png)
-
--------------------------------
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/ksql1.PNG" width="550">
 
 # vérification 
 -----------------------
@@ -19,8 +17,8 @@ CREATE TABLE HASS AS \
       GROUP BY message \
       HAVING count(*) > 3;
       
-      -------------------------------------------------------------
-      <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/ksql1.PNG" width="550">
+ 
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/ksql1.PNG" width="550">
 
       
 
