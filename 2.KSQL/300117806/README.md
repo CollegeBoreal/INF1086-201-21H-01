@@ -1,12 +1,12 @@
 # Créer un Stream et une table KSQL   :lion:
 
-## Créer un stream
+## Créer un stream :eagle:
 
 Je  me suis connecté sur mon serveur et j'ai pu créer un stream KSQL comme demandé
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/Copiee.png" width="550">
 
-# vérification 
+# vérification:computer:
 -----------------------
 
 CREATE TABLE HASS AS \
@@ -45,7 +45,7 @@ CREATE STREAM systemd (
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/ksql1.PNG" width="550">
 
-## Créer une table à partir du Stream
+## Créer une table à partir du Stream:rainbow:
 
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/ksql2.PNG" width="550">
