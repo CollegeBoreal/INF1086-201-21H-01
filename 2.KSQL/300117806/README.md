@@ -26,7 +26,7 @@ Maintenant, lorsque j'utilise mon script python pour consommer le sujet '231_con
 
 Et quand il y a une correspondance, c'est-à-dire plus de 3 en 30 secondes, il donne cette valeur. Mais disons que s'il y a 10 tentatives en 30 secondes, le consommateur récupère 7 messages où chaque message diffère avec un compte de 4 à 10.
 
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/ksql1.PNG" width="550">
+<img src=https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/kafka.PNG" width="550">
 
 
 ```
