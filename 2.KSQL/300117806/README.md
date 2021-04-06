@@ -4,7 +4,7 @@
 
 Je  me suis connecté sur mon serveur et j'ai pu créer un stream KSQL comme demandé
 
-![image](Copiee.PNG)
+![image](Copiee.png)
 
 '--------------------------------
 
@@ -21,7 +21,7 @@ CREATE TABLE HASS AS \
       
       -------------------------------------------------------------
       
-      ![image](copies.PNG)
+      ![image](copies.png)
 
 Maintenant, lorsque j'utilise mon script python pour consommer le sujet '231_console_failure', j'obtiens un None en permanence lorsqu'il n'y a pas de correspondance.
 
