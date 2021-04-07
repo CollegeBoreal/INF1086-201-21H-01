@@ -104,7 +104,7 @@ GROUP BY userid, pageid;
 
 As mentionned above, I have created 2 stream called: s_pageviews and s-users plus a table called t_pageviews
 
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/stream2.PNG" width="550">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/stream2.PNG" width="850">
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/stream3.PNG" width="550">
 
