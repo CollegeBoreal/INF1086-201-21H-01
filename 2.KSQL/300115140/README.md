@@ -69,38 +69,55 @@ CREATE TABLE zack
 The stream file _streampage.sql_ related to the table _tableview.sql_
 
 ```
-CREATE STREAM s_pageviews \
-  (userid VARCHAR, \
-   registertime BIGINT, \
-   pageid VARCHAR) \
-  WITH (KAFKA_TOPIC='pageviews_kafka_topic_json', \
-        VALUE_FORMAT='JSON', \
-        TIMESTAMP='registertime', \
-        KEY = 'userid');
+CREATE STREAM S_PAGEVIEWS 
+  (USERID STRING, 
+   REGISTERTIME BIGINT, 
+   PAGEID STRING) 
+   WITH (KAFKA_TOPIC='pageviews_kafka_topic_json',
+         KEY='userid', 
+         PARTITIONS=2, 
+         REPLICAS=1, 
+         TIMESTAMP ='registertime', 
+         VALUE_FORMAT='JSON');
         
-        
-CREATE STREAM s_users \
-  (userid VARCHAR, \
-   registertime BIGINT, \
-   regionid VARCHAR) \
-  WITH (KAFKA_TOPIC='users_kafka_topic_json', \
-        VALUE_FORMAT='JSON', \
-        TIMESTAMP='registertime', \
-        KEY = 'userid');  
+CREATE STREAM S_USERS 
+  (USERID STRING, 
+   REGISTERTIME BIGINT, 
+   REGIONID STRING) 
+  WITH (KAFKA_TOPIC='users_kafka_topic_json',
+        KEY='userid', 
+        PARTITIONS=2, 
+        REPLICAS=1, 
+        VALUE_FORMAT='JSON');
   ```
   
   
   ```
-  CREATE TABLE zack
->  (_SOURCE_REALTIME_TIMESTAMP VARCHAR,
->    _SYSTEMD_UNIT VARCHAR,
->   __MONOTONIC_TIMESTAMP VARCHAR,
->   MESSAGE VARCHAR,
->   SYSLOG_TIMESTAMP VARCHAR)
->  WITH (KAFKA_TOPIC='topic-journald',
->        PARTITIONS=1,
->        VALUE_FORMAT='json'
->  );
+CREATE TABLE t_pageviews AS \
+SELECT userid, pageid, count(*) as count \
+FROM s_pageviews \
+GROUP BY userid, pageid;
 
 ```
+
+## Some example: creating a streamand a table
+
+As mentionned above, I have created 2 stream called: s_pageviews and s-users plus a table called t_pageviews
+
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/stream2.PNG" width="550">
+
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/stream3.PNG" width="550">
+
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/table%202.PNG" width="550">
+
+
+
+In order to call the table, I 
+
+
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/Topics1.PNG" width="550">
+
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/EMIT%201.PNG" width="550">
+
+
 
