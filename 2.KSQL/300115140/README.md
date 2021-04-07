@@ -1,5 +1,5 @@
 # KSQL STREAM AND TABLE CREATION
-## Objectiv of this exercice:
+## Objective of this exercice:
 
 
 **In this exercice, we are installing KSQL in our Linux server (IP address 10.13.237.14) and we run our DB Kafka in there.**
@@ -19,19 +19,16 @@
 
 4- Once into the CLI, we can list the topics created, create streaming and tables
 
-In our case, I will create 2 different streams and then for each strems, creat different tables. It will be easer to run the codes afterwards.
+In my case, I will create 2 different streams and then for each stream, which will have a respective tables It will be easer for you, reader, to run the codes afterwards.
 
 
-
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/ksql4.PNG" width="550">
-
-
+**I'm making sure Vector is up and running:**
 
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/ksql3.PNG" width="550">
 
 
-The STREAM file _streamsystemd.sql_ was created and the table _tablezack.sql_ was created in relation with that stream (streamsystemd.sql related to tablezack.sql)
+1 - The STREAM file _streamsystemd.sql_ was created and the table _tablezack.sql_ was created in relation with that stream (streamsystemd.sql related to tablezack.sql)
 
 ```
 CREATE STREAM systemd (
@@ -47,25 +44,22 @@ CREATE STREAM systemd (
 ```
 
 ```
-CREATE TABLE zack
->  (_SOURCE_REALTIME_TIMESTAMP VARCHAR,
->    _SYSTEMD_UNIT VARCHAR,
->   __MONOTONIC_TIMESTAMP VARCHAR,
->   MESSAGE VARCHAR,
->   SYSLOG_TIMESTAMP VARCHAR)
->  WITH (KAFKA_TOPIC='topic-journald',
->        PARTITIONS=1,
->        VALUE_FORMAT='json'
->  );
+CREATE TABLE ZACKITO
+AS SELECT MESSAGE, 
+          TIMESTAMP, 
+          HOST, 
+COUNT(*) AS COUNT FROM SYSTEMD 
+GROUP BY MESSAGE, TIMESTAMP, HOST;
 ```
 
 
 
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/ksql2.PNG" width="550">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/tablezack.PNG" width="450">
 
 
-## Adding a new STREAM and a related TABLE
+2 - Adding a new STREAM and a related TABLE
 
+Just to have another idea of what could be a stream and table with different varaibles, I added a new example:
 The stream file _streampage.sql_ related to the table _tableview.sql_
 
 ```
@@ -100,9 +94,6 @@ GROUP BY userid, pageid;
 
 ```
 
-## Some example: creating a streamand a table
-
-As mentionned above, I have created 2 stream called: s_pageviews and s-users plus a table called t_pageviews
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/stream2.PNG" width="850">
 
@@ -117,7 +108,7 @@ In order to call the table, I
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/Topics1.PNG" width="550">
 
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/EMIT%201.PNG" width="850">
+
 
 
 
