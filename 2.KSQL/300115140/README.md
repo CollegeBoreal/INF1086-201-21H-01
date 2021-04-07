@@ -54,7 +54,7 @@ GROUP BY MESSAGE, TIMESTAMP, HOST;
 
 
 
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/tablezack.PNG" width="450">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/tablezack.PNG" width="550">
 
 
 2 - Adding a new STREAM and a related TABLE
