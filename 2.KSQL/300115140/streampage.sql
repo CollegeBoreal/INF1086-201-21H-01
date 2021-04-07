@@ -1,21 +1,25 @@
+CREATE STREAM S_PAGEVIEWS 
+  (USERID STRING, 
+   REGISTERTIME BIGINT, 
+   PAGEID STRING) 
+   WITH (KAFKA_TOPIC='pageviews_kafka_topic_json',
+         KEY='userid', 
+         PARTITIONS=2, 
+         REPLICAS=1, 
+         TIMESTAMP ='registertime', 
+         VALUE_FORMAT='JSON');
 
-CREATE STREAM s_pageviews \
-  (userid VARCHAR, \
-   registertime BIGINT, \
-   pageid VARCHAR) \
-  WITH (KAFKA_TOPIC='pageviews_kafka_topic_json', \
-        VALUE_FORMAT='JSON', \
-        TIMESTAMP='registertime', \
-        KEY = 'userid');
         
         
-CREATE STREAM s_users \
-  (userid VARCHAR, \
-   registertime BIGINT, \
-   regionid VARCHAR) \
-  WITH (KAFKA_TOPIC='users_kafka_topic_json', \
-        VALUE_FORMAT='JSON', \
-        TIMESTAMP='registertime', \
-        KEY = 'userid');  
+CREATE STREAM S_USERS 
+  (USERID STRING, 
+   REGISTERTIME BIGINT, 
+   REGIONID STRING) 
+  WITH (KAFKA_TOPIC='users_kafka_topic_json',
+        KEY='userid', 
+        PARTITIONS=2, 
+        REPLICAS=1, 
+        VALUE_FORMAT='JSON');
+ 
         
         
