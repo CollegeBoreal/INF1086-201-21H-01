@@ -117,7 +117,7 @@ In order to call the table, I
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/Topics1.PNG" width="550">
 
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/EMIT%201.PNG" width="550">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300115140/IMAGES/EMIT%201.PNG" width="850">
 
 
 
