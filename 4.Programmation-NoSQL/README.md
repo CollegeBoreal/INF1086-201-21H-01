@@ -1,6 +1,6 @@
 # :seven: Programmation NoSQL avec JSON
 
-## [Participation](.scripts/Participation.md)
+[:tada: Participation](.scripts/Participation.md)
 
 ## :a: :id:
 
