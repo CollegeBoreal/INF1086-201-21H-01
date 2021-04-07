@@ -30,7 +30,7 @@ def lecture(fichier):
   maColl = db.create_collection(nomColl)
 
   # charge le fichier dans la variable json
-  json = charge(fichier)
+  json = charge(fichier) 
     
   # Ajoute le contenu du fichier json dans la collection temporaire maColl
   maColl.add(json).execute()
