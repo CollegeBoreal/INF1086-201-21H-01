@@ -74,3 +74,59 @@ One example of Edges in my case will be:
 ```
 You will notice that _Ecosystems_ is the name of the database when we first uploaded Arango (this can be change for sure). Be sure to use the same database name while using your framework.
 
+
+## C. MOVING FORWARD WITH QUERIES
+
+Retrieving data from the database with AQL will be possible if you use operations like FILTER, SORT and LIMIT )added to the loop body). Most of the other AQL queries will necessite a RETURN operation to function (as shown below). 
+
+
+```
+FOR doc IN USERS
+    FILTERS doc.status == "active"
+    SORT doc.name
+    LIMIT 10
+    
+```
+
+Or if you want to find a name amid a collection:
+
+```
+
+FOR doc IN users
+    FILTER doc._key == "Jack"
+    RETURN doc
+    
+```
+
+To modify an existing users in any collections, you can go directly under collections, select your user and change the information you need as shown below:
+
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/BRICE1.PNG" width="550">
+
+
+However, ArangoDB is used when dealing with huge data. So to mfind and modify quickly any information, use the following query:
+
+```
+UPDATE "BRICE R." WITH {
+    status: "active",
+    location:"Toronto"
+} IN users
+
+```
+
+
+## D. GRAPHS
+
+Graph databases store objects (vertices or nodes) where arbitrary data can be stored (properties) and relations between the objects (edges). Edges typically have a direction going from one object to another or multiple objects. Vertices and edges form a network of data points which is called a “graph”.
+ 
+ <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/graph2.PNG" width="550">
+ 
+ 
+ Graph Options Menu:
+
+* Startnode (string - valid node id or space seperated list of id’s): Heart of your graph. Rendering and traversing will start from here. Empty value means: a random starting point will be used.
+* Layout: Different graph layouting algoritms. No overlap (optimal: big graph), force layout (optimal: medium graph), fruchtermann (optimal: little to medium graph).
+* Renderer: Canvas mode allows editing. WebGL currently offers only display mode (a lot faster with much nodes/edges).
+* Search depth (number): Search depth which is starting from your start node.
+* Limit (number): Limit nodes count. If empty or zero, no limit is set.
+
+
