@@ -53,8 +53,8 @@ So the goal here is to create different dummy date that I will put inside a "col
 "ID":"s3ga45bf8b229kio"}}
 
 ```
-:--------------------------------------------------------------------------------------------------------------------------: |:-----------------------------------------------
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/Proj1.PNG" width="250"> | <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/Proj2.PNG" width="250">
+
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/Proj1.PNG" width="350"/> | <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/Proj2.PNG" width="350"/>
 
 
 
