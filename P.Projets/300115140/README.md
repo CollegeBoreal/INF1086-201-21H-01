@@ -75,7 +75,7 @@ One example of Edges in my case will be:
 You will notice that _Ecosystems_ is the name of the database when we first uploaded Arango (this can be change for sure). Be sure to use the same database name while using your framework.
 
 
-## C. MOVING FORWARD WITH QUERIES
+## C. Moving forward with Queries
 
 Retrieving data from the database with AQL will be possible if you use operations like FILTER, SORT and LIMIT )added to the loop body). Most of the other AQL queries will necessite a RETURN operation to function (as shown below). 
 
@@ -114,7 +114,7 @@ UPDATE "BRICE R." WITH {
 ```
 
 
-## D. GRAPHS
+## D. Graphs
 
 Graph databases store objects (vertices or nodes) where arbitrary data can be stored (properties) and relations between the objects (edges). Edges typically have a direction going from one object to another or multiple objects. Vertices and edges form a network of data points which is called a “graph”.
  
