@@ -120,4 +120,5 @@ Merci tout en esperans que ce documentaire vous sera utilise. Enjoy it. 🙂
 References:
 
 http://b3d.bdpedia.fr/cassandra_tp.html
+
 https://stackoverflow.com/questions/54949716/docker-compose-up-with-cassandra-container-does-not-return
