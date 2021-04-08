@@ -3,7 +3,7 @@ version: '3'
 services:
   cassandra:
     image: "cassandra:3.11.4"
-    container_name: cassandra
+    container_name: leguan-cassandra
     ports:
       - "9042:9042"
     volumes:
