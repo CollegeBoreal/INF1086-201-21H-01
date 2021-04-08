@@ -1,6 +1,6 @@
 # Installer Apache CASSANDRA avec Docker-compose.
 
-![image](images/01.PNG)
+![image](images/01.png)
 
 🛩️ Apache Cassandra est une base de donnee NoSQL qui permet le stockage et le traitement de tres grand volumes des donnees. Il est open source et est utilise par plusieurs entreprise.
 
