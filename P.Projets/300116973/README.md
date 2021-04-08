@@ -113,10 +113,11 @@ Nous pouvons meme decrire la table que vous venons de creer voir l'image ci-dess
 
 ☑️ Apache Cassandra est une tres bonne base de donnee dans l'optique ou il permet aussi de telecharger les tables creer en CSV et de l'utiliser. 
 Nous arrivons donc au terme de notre illustration. Nous vous avons explique en generale comment on peut installer Apache cassandra en utilisant un fichier `docker-compose.yml`
-Et nous avons illustrer cela en creer un Workspace et deux tables.
+Et nous avons illustre cela en creant un Workspace et deux tables.
 
 Merci tout en esperans que ce documentaire vous sera utilise. Enjoy it. 🙂
 
 References:
+
 http://b3d.bdpedia.fr/cassandra_tp.html
 https://stackoverflow.com/questions/54949716/docker-compose-up-with-cassandra-container-does-not-return
