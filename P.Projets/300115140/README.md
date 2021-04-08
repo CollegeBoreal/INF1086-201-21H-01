@@ -61,5 +61,16 @@ If you are already familiar with the graph database concept, then you know that 
 The most used example in Arango to understand the process is the exmple of the airports, the airports are the Vertex(document files) and the flights are the Edges.
 In my project, Vertex are the users of the Web App we're building and the edges are the transactions done between users.
 
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/graph1.PNG" width="250">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/graph1.PNG" width="350">
+
+
+One example of Edges in my case will be:
+```
+{:_from":"Ecosystems/FN",
+"_id":"edges1/534109",
+"_key":"534109",
+"_rev":"_b0pvlEm--A",
+"_to":"Ecosystems/WF"}
+```
+You will notice that _Ecosystems_ is the name of the database when we first uploaded Arango (this can be change for sure). Be sure to use the same database name while using your framework.
 
