@@ -4,6 +4,8 @@
 
 **In this exercice, we are installing KSQL in our Linux server (IP address 10.13.237.14) and we run our DB Kafka in there.**
 
+Please note that there are 2 different streams (_streampageviews.sql_ and _streamsystemd.sql_). I have created a table called _tablepageview.sql_ that refers to the stream _streampageviews.sql_ and a table called _tablezackito_ that refers to the stream _streamsystemd_
+
 
 ## Connecting to Kafka CLI
 
