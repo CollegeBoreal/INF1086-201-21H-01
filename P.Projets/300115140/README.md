@@ -28,8 +28,8 @@ Most of the collections will be in JSON Format. I installed dummy data regarding
 ## Using AWS to install remote server
 
 Having a remote server and using it will ease the work if multiple developpers will use the Databse. I will be synchronizing my work on the local machine (Desktop Browser) to the AWS server.
-
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/aran4.jpg" width="450">
+My provided IP will be 10.0.0.19
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/aran4.jpg" width="550">
 
 
 
