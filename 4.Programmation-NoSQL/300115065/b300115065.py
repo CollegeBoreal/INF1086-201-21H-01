@@ -83,6 +83,8 @@ def former_des_donnees(docs):
 
 # Ajout manuel
   maColl.add({"Population": 11937000,"LifeExpectancy": 46.70000076293945}).execute()
+  maColl.add({"Population": 81340000,"LifeExpectancy": 69.47269439697275}).execute()
+  maColl.add({"Population": 6097000,"LifeExpectancy": 50.20000076293945}).execute()
   
 # Manipuler la collection et la rajouter à la nouvelle
   for doc in docs.fetch_all():
@@ -103,7 +105,7 @@ def main():
   docs = lecture('b300115065.json')
   chefs = former_des_chefs(docs)
   donnees = former_des_donnees(docs)
-  print(len(chefs.fetch_all()))
+  print(len(docs.fetch_all()))
   # Ne pas oublier de remercier le gestionnaire de BD
   session.close
 
