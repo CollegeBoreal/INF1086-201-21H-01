@@ -87,7 +87,7 @@ def former_des_donnees(docs):
 # Manipuler la collection et la rajouter à la nouvelle
   for doc in docs.fetch_all():
     for country in doc.countries:
-      # Insert des documents JSON de type geography
+      # Insert des documents JSON de type demographics
       maColl.add(country['demographics']).execute()
   # Trouver tous les documents JSON et les mettre en mémoire
   docs = maColl.find().execute()
