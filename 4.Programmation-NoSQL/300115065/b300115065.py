@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 
-@author: CollegeBoreal
+@author: 300115065
 """
 
 import json
@@ -11,7 +11,7 @@ def charge(fichier):
       return json.load(f)
 
 def main():
-  #print(charge('b000000000.json'))
+  print(charge('b000000000.json'))
 
 if __name__== "__main__":
     main()
