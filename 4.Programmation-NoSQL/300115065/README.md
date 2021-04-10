@@ -2,7 +2,7 @@
 
 Salut, 
 
-Dans ce tutoriel, Nous allons créer un programme utilisant les API MySQL X Dev en Python 🐍
+Dans ce tutoriel, Je vais créer un programme utilisant les API MySQL X Dev en Python 🐍
 Après avoir installé Python, GIt et docker desktop, suivez les étapes suivantes : 
 
 ## :a:  Installer MySQL Server 📍
@@ -83,6 +83,9 @@ Requires: protobuf
  
  ## :d: Ammelioration ✨
  
- ##### 💡 Ajouter un document manuellement à l'aide de la fonction 'maColl.add'
+ ##### 💡 Ajouter une autre collection manuellement nommée 'Donnees_demographiques'
+ 
+ ![image](./test.png)
+
  
 
