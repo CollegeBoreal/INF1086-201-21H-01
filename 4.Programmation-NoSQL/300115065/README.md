@@ -41,7 +41,7 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 >>                 --execute "GRANT ALL ON *.* TO 'root'@'172.17.0.1';"
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ```
-## :b: X DevAPI en Python 🐍
+## :ab: X DevAPI en Python 🐍
 
 #### :one: Installer MySQL Connector Python avec pip
 
@@ -73,7 +73,7 @@ Location: c:\tools\anaconda3\lib\site-packages
 Requires: protobuf
 
 ```
-## :c: Modifier le programme Python "b300115065.py"
+## 🔤: Modifier le programme Python "b300115065.py"
 
  Modifier le programme Python en ajoutant les fonction suivantes:
  
@@ -81,11 +81,11 @@ Requires: protobuf
 ###### 📍 Déclaration de la fonction 'lecture'
 ###### 📍 créeation d'une fonction 'former_des_chefs()'
  
- ## :d: Ammelioration ✨
+ ## 🔡: Ammelioration ✨
  
  ##### 💡 Ajouter une autre collection manuellement nommée 'Donnees_demographiques'
  
  ![image](./test.png)
 
  
-
+🐍
