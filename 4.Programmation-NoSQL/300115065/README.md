@@ -7,6 +7,7 @@ Après avoir installé Python, GIt et docker desktop, suivez les étapes suivant
 
 ## :a:  Installer MySQL Server 📍
 #### :one:  Créeation du conteneur some-mysqlds
+
 ```
 (base) PS C:\Users\akram fadde> docker container run `
          --name some-mysqlds `
@@ -24,6 +25,7 @@ e50b9a561ed0e7809ec928d333ecd7e11220f4b00de417ae6cc1bfd3de219ddb
 >>                         --user root --password=password `
 >>                         --execute "CREATE DATABASE world_x;"
 mysql: [Warning] Using a password on the command line interface can be insecure.
+
 ```
 
 #### :three: Création de l'utilisateur root sous le sous-réseau déterminé par le pont Bridge du conteneur Docker 'root'@'172.17.0.1'
@@ -33,6 +35,7 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 >>                 mysql --user root --password=password `
 >>                 --execute "CREATE USER 'root'@'172.17.0.1' IDENTIFIED BY 'password';"
 mysql: [Warning] Using a password on the command line interface can be insecure.
+
 ```
 
 #### :four: Donner tous les droits d'accès à n'importe quelle base de données:
@@ -42,6 +45,7 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 >>                 mysql --user root --password=password `
 >>                 --execute "GRANT ALL ON *.* TO 'root'@'172.17.0.1';"
 mysql: [Warning] Using a password on the command line interface can be insecure.
+
 ```
 
 ## :ab: X DevAPI en Python 🐍
@@ -59,6 +63,7 @@ Collecting protobuf>=3.0.0
 Requirement already satisfied: six>=1.9 in c:\tools\anaconda3\lib\site-packages (from protobuf>=3.0.0->mysql-connector-python) (1.15.0)
 Installing collected packages: protobuf, mysql-connector-python
 Successfully installed mysql-connector-python-8.0.23 protobuf-3.15.8
+
 ```
 
 #### :two: Vérifier l'installaiton du connecteur MySQL
