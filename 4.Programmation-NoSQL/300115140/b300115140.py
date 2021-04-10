@@ -13,8 +13,8 @@ def charge(fichier):
 def main():
   #print(charge('b000000000.json'))
   
-if __name__== "__main__":
-    main()
+  if __name__== "__main__":
+      main()
     
     
     
