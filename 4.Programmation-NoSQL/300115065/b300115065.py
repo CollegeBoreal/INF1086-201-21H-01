@@ -19,7 +19,9 @@ session = mysqlx.get_session({
     "password": "password"
 })
 
+
 db = session.get_schema("world_x")
+
 
 def lecture(fichier):
 
@@ -45,6 +47,7 @@ def lecture(fichier):
   return docs
 
 
+
 def former_des_chefs(docs):
 
   # Crée une nouvelle collection 'chefs_de_gouvernement'
@@ -66,6 +69,16 @@ def former_des_chefs(docs):
   return docs
 
 
+
+  # Ajout manuel
+  maColl.add({"HeadOfState": "Marc Ravalomanana","GovernmentForm": "Republic"}).execute()
+
+
+# Détruit la collection
+  #db.drop_collection(nomColl)
+
+   
+   
 def main():
   docs = lecture('b300115065.json')
   chefs = former_des_chefs(docs)
