@@ -77,11 +77,11 @@ Requires: protobuf
 
  Modifier le programme Python en ajoutant les fonction suivantes:
  
- 📍 Utilisation de variable 'session' et 'db'
- 📍 Déclaration de la fonction 'lecture'
- 📍 créeation d'une fonction 'former_des_chefs()'
+###### 📍 Utilisation de variable 'session' et 'db'
+###### 📍 Déclaration de la fonction 'lecture'
+###### 📍 créeation d'une fonction 'former_des_chefs()'
  
- ## :d: Ammelioration
+ ## :d: Ammelioration ✨
  
  ##### 💡 Ajouter un document manuellement à l'aide de la fonction 'maColl.add'
  
