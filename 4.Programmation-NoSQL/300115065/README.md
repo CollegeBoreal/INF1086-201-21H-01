@@ -25,6 +25,7 @@ e50b9a561ed0e7809ec928d333ecd7e11220f4b00de417ae6cc1bfd3de219ddb
 >>                         --execute "CREATE DATABASE world_x;"
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ```
+
 #### :three: Création de l'utilisateur root sous le sous-réseau déterminé par le pont Bridge du conteneur Docker 'root'@'172.17.0.1'
 
 ```
@@ -33,6 +34,7 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 >>                 --execute "CREATE USER 'root'@'172.17.0.1' IDENTIFIED BY 'password';"
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ```
+
 #### :four: Donner tous les droits d'accès à n'importe quelle base de données:
 
 ```
@@ -41,6 +43,7 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 >>                 --execute "GRANT ALL ON *.* TO 'root'@'172.17.0.1';"
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ```
+
 ## :ab: X DevAPI en Python 🐍
 
 #### :one: Installer MySQL Connector Python avec pip
@@ -73,7 +76,8 @@ Location: c:\tools\anaconda3\lib\site-packages
 Requires: protobuf
 
 ```
-## 🔤: Modifier le programme Python "b300115065.py"
+
+## 🔤 Modifier le programme Python "b300115065.py"
 
  Modifier le programme Python en ajoutant les fonction suivantes:
  
@@ -81,7 +85,7 @@ Requires: protobuf
 ###### 📍 Déclaration de la fonction 'lecture'
 ###### 📍 créeation d'une fonction 'former_des_chefs()'
  
- ## 🔡: Ammelioration ✨
+ ## 🔡 Ammelioration ✨
  
  ##### 💡 Ajouter une autre collection manuellement nommée 'Donnees_demographiques'
  
