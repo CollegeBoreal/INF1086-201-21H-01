@@ -54,6 +54,11 @@ def former_des_chefs(docs):
   nomColl = 'chefs_de_gouvernement'
   maColl = db.create_collection(nomColl)
 
+
+  # Ajout manuel
+  maColl.add({"HeadOfState": "Marc Ravalomanana","GovernmentForm": "Republic"}).execute()
+
+
   # Manipuler la collection et la rajouter à la nouvelle
   for doc in docs.fetch_all():
     for country in doc.countries:
@@ -64,30 +69,44 @@ def former_des_chefs(docs):
   docs = maColl.find().execute()
 
   # Détruit la collection
-  db.drop_collection(nomColl)
+  #db.drop_collection(nomColl)
 
   return docs
 
 
 
-  # Ajout manuel
-  maColl.add({"HeadOfState": "Marc Ravalomanana","GovernmentForm": "Republic"}).execute()
+def former_des_donnees(docs):
 
+  # Crée une nouvelle collection 'Donnees_demographiques'
+  nomColl = 'Donnees_demographiques'
+  maColl = db.create_collection(nomColl)
 
-# Détruit la collection
+# Ajout manuel
+  maColl.add({"Population": 11937000,"LifeExpectancy": 46.70000076293945}).execute()
+  
+# Manipuler la collection et la rajouter à la nouvelle
+  for doc in docs.fetch_all():
+    for country in doc.countries:
+      # Insert des documents JSON de type geography
+      maColl.add(country['demographics']).execute()
+  # Trouver tous les documents JSON et les mettre en mémoire
+  docs = maColl.find().execute()
+
+  # Détruit la collection
   #db.drop_collection(nomColl)
+ 
+  return docs
 
    
    
 def main():
   docs = lecture('b300115065.json')
   chefs = former_des_chefs(docs)
+  donnees = former_des_donnees(docs)
   print(len(chefs.fetch_all()))
   # Ne pas oublier de remercier le gestionnaire de BD
   session.close
 
-# Ne pas oublier de remercier le gestionnaire de BD
-  session.close
 
 if __name__== "__main__":
     main()
