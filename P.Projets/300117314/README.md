@@ -2,16 +2,11 @@
 # :zap: How to install Redis on our Ubuntu server using Docker:zap: 
 :star:First we check our Docker status using the command:
 ```
-docker run -it ubuntu /bin/bash
-```
-<img src=images/1.PNG  alt="alt text" width="400" height="250">
-
-
-:star:Then we check our Docker status using the command:
-```
 docker ps -l
 ```
-<img src=images/1.png  alt="alt text" width="4000" height="150">
+
+<img src=images/1.png  alt="alt text" width="800" height="150">
+
 
 :star:Now we run the docker using :
 ```
@@ -20,6 +15,14 @@ docker start [image-name]
 <img src=images/9.PNG  alt="alt text" width="650" height="250">
 
 
+:star:Using our docker image :
+
+```
+docker run -it ubuntu /bin/bash
+```
+<img src=images/100.PNG  alt="alt text" width="650" height="250">
+
+##
 :star:Let’s first update apt-get with the following command:
 
 
@@ -28,7 +31,10 @@ apt-get update
 ```
 <img src=images/3.PNG  alt="alt text" width="650" height="500">
 
-:star:When that’s finished we’ll run the upgrade::
+:star:When that’s finished we’ll run the upgrade:
+```
+apt-get upgrade
+```
 
 <img src=images/4.PNG  alt="alt text" width="650" height="550">
 
@@ -76,4 +82,9 @@ redis-cli
 
 <img src=images/12.PNG  alt="alt text" width="350" height="300">
 
+:star:to check the port:
+```
+CONFIG GET port
 
+```
+<img src=images/101.PNG  alt="alt text" width="750" height="300">
