@@ -16,6 +16,12 @@
 
 > lors de la première exécution le `username` et `mot de passe` par défaut est `neo4j `
 
+```
+```
+![image](images/connect.png)
+```
+```
+
 ## Exemple de graph database de neo4j et quelque requête
 
 ### création d'une database movie
