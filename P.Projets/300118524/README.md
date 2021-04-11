@@ -1,16 +1,16 @@
-# NEO4J NOSQL GRAPH DATABASE ```
+# NEO4J NOSQL GRAPH DATABASE :part_alternation_mark:
 ```
 ```
 
-### Exécuter le fichier `docker-compose.yaml`
+### :arrow_forward: Exécuter le fichier `docker-compose.yaml`
 
 `docker-compose up --detach`
 
-### exécuter le container neo4j
+### :arrow_forward: exécuter le container neo4j
 
 `docker exec -it neo4j bash`
 
-### Éxécuter le CLI `cypher-shell` faisant partie du container `neo4j`
+### :arrow_forward: Éxécuter le CLI `cypher-shell` faisant partie du container `neo4j`
 
 `cypher-shell -u neo4j -p <password>`
 
@@ -46,7 +46,7 @@
 ```
    - ![image](images/text_ui.png)
 
-### quelque requête de notre base de donnée `Movie` 
+### Quelque requête de notre base de donnée `Movie` :microscope:
 
 - [x] Trouvez l'acteur nommé "Tom Hanks"
 
