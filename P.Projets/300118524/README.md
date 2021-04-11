@@ -46,6 +46,9 @@
 ```
 ```
    - ![image](images/text_ui.png)
+```
+```
+-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-
 
 ### Quelque requête de notre base de donnée `Movie` :microscope:
 
