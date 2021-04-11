@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 8.0.23, 
+-- MySQL dump 10.13  Distrib 8.0.23, for Linux (x86_64)
 --
 -- Host: localhost    Database: world_x
 -- ------------------------------------------------------
@@ -37,7 +37,7 @@ CREATE TABLE `chefs_de_gouvernement` (
 
 LOCK TABLES `chefs_de_gouvernement` WRITE;
 /*!40000 ALTER TABLE `chefs_de_gouvernement` DISABLE KEYS */;
-INSERT INTO `chefs_de_gouvernement` (`doc`) VALUES ('{\"_id\": \"00006067c205000000000000000f\", \"HeadOfState\": \"Marc Ravalomanana\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"00006067c2050000000000000010\", \"HeadOfState\": \"Thabo Mbeki\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"00006067c2050000000000000011\", \"HeadOfState\": \"Jean-Bertrand Aristide\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"00006067c2050000000000000012\", \"HeadOfState\": \"Elisabeth II\", \"GovernmentForm\": \"Constitutional Monarchy\"}'),('{\"_id\": \"00006067c2050000000000000013\", \"HeadOfState\": \"Mohammed VI\", \"GovernmentForm\": \"Constitutional Monarchy\"}'),('{\"_id\": \"00006067c2050000000000000014\", \"HeadOfState\": \"Akihito\", \"GovernmentForm\": \"Constitutional Monarchy\"}'),('{\"_id\": \"00006067c2050000000000000015\", \"HeadOfState\": \"Sellapan Rama Nathan\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"00006067c2050000000000000016\", \"HeadOfState\": \"Blaise Compaoré\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"00006067c2050000000000000017\", \"HeadOfState\": \"Joseph Kabila Kabange\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"00006067c2050000000000000018\", \"HeadOfState\": \"Mathieu Kérékou\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"00006067c2050000000000000019\", \"HeadOfState\": \"Abdoulaye Wade\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"00006067c205000000000000001a\", \"HeadOfState\": \"Pierre Buyoya\", \"GovernmentForm\": \"Republic\"}');
+INSERT INTO `chefs_de_gouvernement` (`doc`) VALUES ('{\"_id\": \"0000606e08c1000000000000000e\", \"HeadOfState\": \"Marc Ravalomanana\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"0000606e08c1000000000000000f\", \"HeadOfState\": \"Thabo Mbeki\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"0000606e08c10000000000000010\", \"HeadOfState\": \"Jean-Bertrand Aristide\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"0000606e08c10000000000000011\", \"HeadOfState\": \"Elisabeth II\", \"GovernmentForm\": \"Constitutional Monarchy\"}'),('{\"_id\": \"0000606e08c10000000000000012\", \"HeadOfState\": \"Mohammed VI\", \"GovernmentForm\": \"Constitutional Monarchy\"}'),('{\"_id\": \"0000606e08c10000000000000013\", \"HeadOfState\": \"Akihito\", \"GovernmentForm\": \"Constitutional Monarchy\"}'),('{\"_id\": \"0000606e08c10000000000000014\", \"HeadOfState\": \"Sellapan Rama Nathan\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"0000606e08c10000000000000015\", \"HeadOfState\": \"Blaise CompaorÃ©\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"0000606e08c10000000000000016\", \"HeadOfState\": \"Joseph Kabila Kabange\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"0000606e08c10000000000000017\", \"HeadOfState\": \"Mathieu KÃ©rÃ©kou\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"0000606e08c10000000000000018\", \"HeadOfState\": \"Abdoulaye Wade\", \"GovernmentForm\": \"Republic\"}'),('{\"_id\": \"0000606e08c10000000000000019\", \"HeadOfState\": \"Pierre Buyoya\", \"GovernmentForm\": \"Republic\"}');
 /*!40000 ALTER TABLE `chefs_de_gouvernement` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-04-07  4:33:47 
+-- Dump completed on 2021-04-10  3:20:13
