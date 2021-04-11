@@ -52,7 +52,7 @@
  
 > ![image](images/table_ui.png)
 
-[ ] Trouver 10 personnes
+- [ ] Trouver 10 personnes
  
 - MATCH (people:Person) RETURN people.name LIMIT 10;
  
