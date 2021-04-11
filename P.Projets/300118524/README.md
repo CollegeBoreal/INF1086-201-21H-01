@@ -18,7 +18,7 @@
 
 ## Exemple de graph database de neo4j et quelque requête
 
-### création d'une graphe movie
+### création d'une database movie
 
 - copier le contenu du fichier movie.graphql dans le CLI cypher-shell
 
