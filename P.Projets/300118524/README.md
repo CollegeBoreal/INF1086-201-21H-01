@@ -42,38 +42,38 @@
 
 ### quelque requête de notre base de donnée `Movie` 
 
-[] Trouvez l'acteur nommé "Tom Hanks"
+- [x] Trouvez l'acteur nommé "Tom Hanks"
 
 - `MATCH (tom {name: "Tom Hanks"}) RETURN tom;`
 
-[] Trouvez le film avec le titre "Cloud Atlas"
+- [x] Trouvez le film avec le titre "Cloud Atlas"
 
 - MATCH (cloudAtlas {title: "Cloud Atlas"}) RETURN cloudAtlas;
  
-> ![image](images/table_ui.png)
+   > ![image](images/table_ui.png)
 
 - [x] Trouver 10 personnes
  
 - MATCH (people:Person) RETURN people.name LIMIT 10;
  
-> ![image](images/table_ui.png)
+   > ![image](images/table_ui.png)
 
-[] Trouvez des films sortis dans les années 1990
+- [x] Trouvez des films sortis dans les années 1990
 
 - MATCH (nineties:Movie) WHERE nineties.released >= 1990 AND nineties.released < 2000 RETURN nineties.title;
  
-> ![image](images/table_ui.png)
+   > ![image](images/table_ui.png)
 
-[] Liste tous les films de Tom Hanks 
+- [x] Liste tous les films de Tom Hanks 
  
 - MATCH (tom:Person {name: "Tom Hanks"})-[:ACTED_IN]->(tomHanksMovies) RETURN tom,tomHanksMovies;
  
-> ![image](images/table_ui.png)
+   > ![image](images/table_ui.png)
 
-[] Qui a réalisé "Cloud Atlas"?
+- [x] Qui a réalisé "Cloud Atlas"?
 
 - MATCH (cloudAtlas {title: "Cloud Atlas"})<-[:DIRECTED]-(directors) RETURN directors.name;
 
-> ![image](images/table_ui.png) 
+   > ![image](images/table_ui.png) 
 
 
