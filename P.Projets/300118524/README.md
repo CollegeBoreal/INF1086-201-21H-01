@@ -50,7 +50,7 @@
 ```
 -~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-
 
-### Quelque requête de notre base de donnée `Movie` :microscope:
+### Quelque requête :microscope: de notre base de donnée `Movie` :movie_camera:
 
 - [x] Trouvez l'acteur nommé "Tom Hanks"
 
