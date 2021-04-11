@@ -18,15 +18,16 @@
 
 ```
 ```
+:arrow_forward:
 ![image](images/connect.png)
 ```
 ```
 
-## Exemple de graph database de neo4j et quelque requête
+## Exemple de :part_alternation_mark: graph database de neo4j et quelque requête
 
-### création d'une database movie
+### création d'une database movie :movie_camera:
 
-- copier le contenu du fichier movie.graphql dans le CLI cypher-shell
+- copier le contenu du fichier movie.graphql dans le CLI cypher-shell :diamonds:
 
 - vous pouvez vérifier votre graphe dans le `CLI cypher-shell` en exécutant
 
