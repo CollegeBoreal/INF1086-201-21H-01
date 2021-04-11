@@ -74,6 +74,6 @@
 
    - MATCH (cloudAtlas {title: "Cloud Atlas"})<-[:DIRECTED]-(directors) RETURN directors.name;
 
-> ![image](images/table_ui.png)
+> ![image](images/table_ui.png) 
 
 
