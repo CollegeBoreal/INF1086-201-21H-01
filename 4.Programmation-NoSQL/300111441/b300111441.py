@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 
-@author: djibo648
+@author: sekou16
 """
 
 import json
@@ -40,15 +40,13 @@ def lecture(fichier):
 
   # Retourne un dictionnaire Python du fichier json converti
   return docs
-  
 def former_des_chefs(docs):
 
   # Crée une nouvelle collection 'chefs_de_gouvernement'
   nomColl = 'chefs_de_gouvernement'
   maColl = db.create_collection(nomColl)
-    # Ajout manuel
+  # Ajout manuel
   maColl.add({"HeadOfState": "Marc Ravalomanana","GovernmentForm": "Republic"}).execute()
-
   # Manipuler la collection et la rajouter à la nouvelle
   for doc in docs.fetch_all():
     for country in doc.countries:
@@ -57,11 +55,11 @@ def former_des_chefs(docs):
 
   # Trouver tous les documents JSON et les mettre en mémoire
   docs = maColl.find().execute()
+
   # Détruit la collection
   # db.drop_collection(nomColl)
 
   return docs
-
 def main():
   docs = lecture('b000000000.json')
   chefs = former_des_chefs(docs)
