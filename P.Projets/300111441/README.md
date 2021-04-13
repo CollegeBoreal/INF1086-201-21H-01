@@ -51,6 +51,6 @@ db.inventory.insertMany([
 ]);
 
 ```
-
+![image](mango0.jpg)
 
 
