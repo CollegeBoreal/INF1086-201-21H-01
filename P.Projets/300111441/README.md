@@ -7,3 +7,10 @@
 docker pull mongo
 
 ```
+![image](pp1.PNG)
+
+```
+docker run --name mongodb -p 27017:27017 mongo
+
+```
+![image](pp1.PNG)
