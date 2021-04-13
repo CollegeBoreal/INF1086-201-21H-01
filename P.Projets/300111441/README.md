@@ -57,5 +57,5 @@ db.inventory.insertMany([
 ## L'opération renvoie un document qui contient l'indicateur d'accusé de réception et un tableau qui contient le _idde chaque document inséré avec succès
 ```
 
-![image](mango00.jpg)
+![image](mango01.jpg)
 
