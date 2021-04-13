@@ -58,6 +58,6 @@ db.inventory.insertMany([
 
 ```
 
-![image](mango01.jpg)
+![image](mango1.jpg)
 
 ```
