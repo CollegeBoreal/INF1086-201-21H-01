@@ -1,4 +1,6 @@
 # 🐝: MongoDB 
+
+![image](manga.png)
 ------
 ## MongoDB est une base de données de documents conçue pour faciliter le développement et la mise à l'échelle. Elle propose à la fois une version communautaire et une version Entreprise de la base de données.
 ------
@@ -73,13 +75,14 @@ db.inventory.find({}).pretty()
 
 ![image](mango5.jpg)
 ```
+
 ## :pushpin:  Pour renvoyer les documents où le statuschamp est égal "D"
 ```
 db.inventory.find( { status: "D" } );
 
 ![image](mango6.jpg)
-```
 
+```
 ## :pushpin:  Pour renvoyer le document où le qtychamp est égal 0:
 ```
 db.inventory.find( { qty: 0 } );
@@ -135,4 +138,11 @@ db.inventory.find( { tags: [ "red", "blank" ] } )
 db.inventory.find( {}, { _id: 0, item: 1, status: 1 } );
 ```
 ![image](mango14.jpg)
+
+
+## :pushpin: References:
 ```
+https://www.mongodb.com/basics/examples
+https://phumipatc.medium.com/how-to-install-mongodb-to-docker-f17cec2b1f8f
+```
+![image](manga.png)
