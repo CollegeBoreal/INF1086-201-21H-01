@@ -92,4 +92,18 @@ db.inventory.find( { qty: 0 } );
 db.inventory.find( { qty: 0, status: "D" } );
 ```
 ![image](mango8.jpg)
+
+
+## :pushpin:  Pour  rrenvoyer le document où le uomchamp, imbriqué dans le document de taille, est égal à "in"
+```
+db.inventory.find( { "size.uom": "in" } )
+```
+![image](mango9.jpg)
+
+
+## :pushpin:  Pour  renvoyer le document où le sizechamp est égal au document { h: 14, w: 21, uom: "cm" }
+```
+db.inventory.find( { size: { h: 14, w: 21, uom: "cm" } } )
+```
+![image](mango10.jpg)
 ```
