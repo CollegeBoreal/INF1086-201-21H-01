@@ -34,10 +34,11 @@ show dbs
 ![image](mongo5.jpg)
 
 ```
-use admin
+use luxuryy
 
 ```
-![image](mongo6.jpg)
+![image](mango1
+.jpg)
 
 ----
 ## :pushpin: :two: Test insert data (example data add data to inventory collection )
@@ -65,4 +66,4 @@ db.inventory.insertMany([
 ```
 db.inventory.find({})
 ```
-![image](mango1.jpg)
+![image](mango4.jpg)
