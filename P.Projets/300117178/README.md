@@ -35,12 +35,13 @@ votre code est plus court, plus facile à comprendre et plus facile à maintenir
 |SET           |crée/modifie la valeur enregistrez dans la clé donne |
 |DEL           |supprime la valeur de la donnée enregistrez dans la clé donnée|
 
-### set the value
+### Set the value
 command
 ```
  set user boris
 ```
 
+### Get the value
 
 
 ![redis3](img/redis3.JPG)
