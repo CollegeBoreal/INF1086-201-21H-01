@@ -68,12 +68,23 @@ db.inventory.find({})
 ![image](mango4.jpg)
 
 ## :pushpin:  Pour mettre en forme les résultats, ajoutez le .pretty()à l' fin d'opération.
+```
+db.inventory.find({}).pretty()
 
 ![image](mango5.jpg)
+````
 
 ## :pushpin:  Pour renvoyer les documents où le statuschamp est égal "D"
 ```
 db.inventory.find( { status: "D" } );
+
 ![image](mango6.jpg)
+```
+
+## :pushpin:  Pour renvoyer les documents où le statuschamp est égal "D"
+```
+pour renvoyer le document où le qtychamp est égal 0:
+
+![image](mango7.jpg)
 
 ```
