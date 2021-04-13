@@ -81,10 +81,10 @@ db.inventory.find( { status: "D" } );
 ![image](mango6.jpg)
 ```
 
-## :pushpin:  Pour renvoyer les documents où le statuschamp est égal "D"
-```
-pour renvoyer le document où le qtychamp est égal 0:
+## :pushpin:  Pour renvoyer le document où le qtychamp est égal 0:
+
+db.inventory.find( { qty: 0 } );
 
 ![image](mango7.jpg)
 
-```
+
