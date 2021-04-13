@@ -35,10 +35,11 @@ votre code est plus court, plus facile à comprendre et plus facile à maintenir
 |SET           |crée/modifie la valeur enregistrez dans la clé donne |
 |DEL           |supprime la valeur de la donnée enregistrez dans la clé donnée|
 
-#### set the value
-🔔:set user boris
-🔔:set user bertrand
-🔔:set user franck
+### set the value
+command
+```
+ set user boris
+```
 
 
 
