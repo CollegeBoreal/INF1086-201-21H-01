@@ -35,6 +35,13 @@ votre code est plus court, plus facile à comprendre et plus facile à maintenir
 |SET           |crée/modifie la valeur enregistrez dans la clé donne |
 |DEL           |supprime la valeur de la donnée enregistrez dans la clé donnée|
 
+#### set the value
+🔔:set user boris
+🔔:set user bertrand
+🔔:set user franck
+
+
+
 ![redis3](img/redis3.JPG)
 
 ### :two: Commands used on List values
