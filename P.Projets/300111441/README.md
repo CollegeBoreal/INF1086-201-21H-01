@@ -13,31 +13,31 @@ docker pull mongo
 docker run --name mongodb -p 27017:27017 mongo
 
 ```
-![image](pp1.PNG)
+![image](mongo2.jpg)
 
 ```
 docker exec -it mongodb bash
 
 ```
-![image](pp1.PNG)
+![image](mongo3.jpg)
 
 ```
 mongo
 
 ```
-![image](pp1.PNG)
+![image](mongo4.jpg)
 
 ```
 show dbs
 
 ```
-![image](pp1.PNG)
+![image](mongo5.jpg)
 
 ```
 use admin
 
 ```
-![image](pp1.PNG)
+![image](mongo6.jpg)
 
 ```
 db.createUser({
