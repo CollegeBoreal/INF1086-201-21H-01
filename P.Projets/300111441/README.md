@@ -68,5 +68,6 @@ db.inventory.find({})
 ![image](mango4.jpg)
 
 ## :pushpin:  Pour mettre en forme les résultats, ajoutez le .pretty()à l' fin d'opération.
-```
+
 ![image](mango5.jpg)
+```
