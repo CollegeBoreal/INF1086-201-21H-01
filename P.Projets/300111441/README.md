@@ -7,7 +7,7 @@
 docker pull mongo
 
 ```
-![image](pp1.PNG)
+![image](mongo1.jpg)
 
 ```
 docker run --name mongodb -p 27017:27017 mongo
