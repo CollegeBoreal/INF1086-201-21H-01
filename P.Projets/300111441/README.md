@@ -37,8 +37,7 @@ show dbs
 use luxuryy
 
 ```
-![image](mango1
-.jpg)
+![image](mango1.jpg)
 
 ----
 ## :pushpin: :two: Test insert data (example data add data to inventory collection )
