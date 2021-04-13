@@ -72,5 +72,8 @@ db.inventory.find({})
 ![image](mango5.jpg)
 
 ## :pushpin:  Pour renvoyer les documents où le statuschamp est égal "D"
-
+```
+db.inventory.find( { status: "D" } );
 ![image](mango6.jpg)
+
+```
