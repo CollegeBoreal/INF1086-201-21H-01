@@ -106,4 +106,33 @@ db.inventory.find( { "size.uom": "in" } )
 db.inventory.find( { size: { h: 14, w: 21, uom: "cm" } } )
 ```
 ![image](mango10.jpg)
+
+
+## :pushpin:  Pour renvoyer les documents dans lesquels le tagstableau contient "red"comme l'un de ses éléments
+```
+db.inventory.find( { tags: "red" } )
+```
+![image](mango11.jpg)
+
+
+
+## :pushpin:  Pourenvoyer les documents où le tagschamp correspond exactement au tableau spécifié, y compris l'ordre
+```
+db.inventory.find( { tags: [ "red", "blank" ] } )
+```
+![image](mango12.jpg)
+
+
+## :pushpin:  Pour retourner le _id, itemet les status champs de tous les documents de la inventorycollec
+```
+db.inventory.find( { tags: [ "red", "blank" ] } )
+```
+![image](mango13.jpg)
+
+
+## :pushpin:  Il n'est pas nécessaire de spécifier le _idchamp pour renvoyer le champ. Il retourne par défaut. Pour exclure le champ, définissez-le sur 0dans le document de projection. Par exemple, pour ne renvoyer que itemles status champs et les champs des documents correspondants:
+```
+db.inventory.find( {}, { _id: 0, item: 1, status: 1 } );
+```
+![image](mango14.jpg)
 ```
