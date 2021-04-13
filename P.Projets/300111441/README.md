@@ -14,3 +14,36 @@ docker run --name mongodb -p 27017:27017 mongo
 
 ```
 ![image](pp1.PNG)
+
+```
+docker exec -it mongodb bash
+
+```
+![image](pp1.PNG)
+
+```
+mongo
+
+```
+![image](pp1.PNG)
+
+```
+show dbs
+
+```
+![image](pp1.PNG)
+
+```
+use admin
+
+```
+![image](pp1.PNG)
+
+```
+db.createUser({
+  user: "admin", 
+  pwd: "secure", 
+  roles: [ { role: "root", db: "admin" } ]
+})
+
+```
