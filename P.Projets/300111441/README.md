@@ -61,3 +61,8 @@ db.inventory.insertMany([
 ![image](mango01.jpg)
 
 
+## :pushpin:  Pour renvoyer tous les documents de la inventory collection.
+```
+db.inventory.find({})
+```
+![image](mango1.jpg)
