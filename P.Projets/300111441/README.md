@@ -70,4 +70,7 @@ db.inventory.find({})
 ## :pushpin:  Pour mettre en forme les résultats, ajoutez le .pretty()à l' fin d'opération.
 
 ![image](mango5.jpg)
-```
+
+## :pushpin:  Pour renvoyer les documents où le statuschamp est égal "D"
+
+![image](mango6.jpg)
