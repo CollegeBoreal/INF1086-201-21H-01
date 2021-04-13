@@ -47,3 +47,5 @@ db.createUser({
 })
 
 ```
+
+![image](mongo7.jpg)
