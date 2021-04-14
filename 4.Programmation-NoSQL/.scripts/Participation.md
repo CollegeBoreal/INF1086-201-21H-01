@@ -1,4 +1,4 @@
-# Participation au 14-04-2021 22:25
+# Participation au 14-04-2021 22:27
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -14,8 +14,8 @@
 
 ## :a: Présence
 
-|:hash:| Boréal :id:                | Yaml               |
-|------|----------------------------|--------------------|
+|:hash:| Boréal :id:                | Python             | URL |
+|------|----------------------------|--------------------|-----|
 | 0 | 300111441 - <image src='https://avatars0.githubusercontent.com/u/55207099?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark: 300111441](../300111441/b300111441.py) | [:heavy_check_mark: 300111441](../300111441/b300111441.sql) | [:heavy_check_mark: 300111441](https://github.com/Sekou16/lab-algorithme-du-bfs-en-python) |
 | 1 | 300115065 - <image src='https://avatars0.githubusercontent.com/u/54910778?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark: 300115065](../300115065/b300115065.py) | [:heavy_check_mark: 300115065](../300115065/b300115065.sql) | [:heavy_check_mark: 300115065](https://github.com/fadde68/lab-algorithme-du-bfs-en-python) |
 | 2 | 300115140 - <image src='https://avatars0.githubusercontent.com/u/54910329?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark: 300115140](../300115140/b300115140.py) | [:heavy_check_mark: 300115140](../300115140/b300115140.sql) | [:heavy_check_mark: 300115140](https://github.com/ZackTO/lab-algorithme-du-bfs-en-python) |
