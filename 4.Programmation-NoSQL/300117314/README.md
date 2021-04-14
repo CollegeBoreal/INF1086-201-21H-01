@@ -79,7 +79,7 @@ CREATE USER IF NOT EXISTS 'root'@'10.13.237.18' IDENTIFIED BY 'password';
 
 ```
 ##
-<img src=images/4.PNG  alt="alt text" width="800" height="150">
+<img src=images/4.PNG  alt="alt text" width="800" height="650">
 
 
 ##
