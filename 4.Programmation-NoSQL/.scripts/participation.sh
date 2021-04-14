@@ -43,14 +43,14 @@ for id in "${ETUDIANTS[@]}"
 do
    VALUE="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> |"
   
-   PYTHON_FILE=${id}/b${ID}.py
+   PYTHON_FILE=${id}/b${id}.py
    if [ -f "$PYTHON_FILE" ]; then
        VALUE="${VALUE} [${OK} ${id}](../${PYTHON_FILE}) |"
    else
        VALUE="${VALUE} ${KO} |"
    fi
 
-   SQL_FILE=${id}/b${ID}.sql
+   SQL_FILE=${id}/b${id}.sql
    if [ -f "$SQL_FILE" ]; then
        VALUE="${VALUE} [${OK} ${id}](../${SQL_FILE}) |"
    else
