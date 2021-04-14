@@ -15,7 +15,7 @@ def charge(fichier):
 import mysqlx
 
 session = mysqlx.get_session({
-    "host": "localhost",
+    "host": "10.13.237.18",
     "port": 33060,
     "user": "root",
     "password": "password"
@@ -32,7 +32,7 @@ def lecture(fichier):
   maColl = db.create_collection(nomColl)
 
   # charge le fichier dans la variable json
-  json = charge(fichier) 
+  json = charge(fichier)
     
   # Ajoute le contenu du fichier json dans la collection temporaire maColl
   maColl.add(json).execute()
@@ -51,8 +51,11 @@ def former_des_chefs(docs):
   # Crée une nouvelle collection 'chefs_de_gouvernement'
   nomColl = 'chefs_de_gouvernement'
   maColl = db.create_collection(nomColl)
-    # Ajout manuel
+
+  # Ajout manuel
   maColl.add({"HeadOfState": "Marc Ravalomanana","GovernmentForm": "Republic"}).execute()
+
+
 
   # Manipuler la collection et la rajouter à la nouvelle
   for doc in docs.fetch_all():
@@ -68,16 +71,13 @@ def former_des_chefs(docs):
 
   return docs
 
-
-
-
 def main():
   docs = lecture('b000000000.json')
   chefs = former_des_chefs(docs)
   print(len(chefs.fetch_all()))
-    # Ne pas oublier de remercier le gestionnaire de BD
+  # Ne pas oublier de remercier le gestionnaire de BD
   session.close
+
 
 if __name__== "__main__":
     main()
-
