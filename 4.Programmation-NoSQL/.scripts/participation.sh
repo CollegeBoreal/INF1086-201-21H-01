@@ -31,8 +31,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Python             | SQL | URL |"
-echo "|------|----------------------------|--------------------|-----|-----|"
+echo "|:hash:| Boréal :id:                | :link: URL | :snake: Python | SQL | JSON |"
+echo "|------|----------------------------|------------|----------------|-----|-----|"
 
 OK=":heavy_check_mark:"
 KO=":x:"
@@ -43,6 +43,15 @@ for id in "${ETUDIANTS[@]}"
 do
    VALUE="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> |"
   
+   URL="https://github.com/${GITHUBS[$i]}/lab-programmation-mysqlsh-en-python"
+   curl -s ${URL} | grep "404 &ldquo;This is not the web page you are looking for&rdquo;" 2> /dev/null 1> /dev/null
+   RESULT=$?
+   if [ $RESULT==0 ]; then
+       VALUE="${VALUE} [${OK} ${id}](${URL}) |"
+   else
+       VALUE="${VALUE} ${KO} |"
+   fi
+
    PYTHON_FILE=${id}/b${id}.py
    if [ -f "$PYTHON_FILE" ]; then
        VALUE="${VALUE} [${OK} ${id}](../${PYTHON_FILE}) |"
@@ -57,11 +66,9 @@ do
        VALUE="${VALUE} ${KO} |"
    fi
 
-   URL="https://github.com/${GITHUBS[$i]}/lab-programmation-mysqlsh-en-python"
-   curl -s ${URL} | grep "404 &ldquo;This is not the web page you are looking for&rdquo;" 2> /dev/null 1> /dev/null
-   RESULT=$?
-   if [ $RESULT==0 ]; then
-       VALUE="${VALUE} [${OK} ${id}](${URL}) |"
+   JSON_FILE=${id}/b${id}.json
+   if [ -f "$JSON_FILE" ]; then
+       VALUE="${VALUE} [${OK} ${id}](../${JSON_FILE}) |"
    else
        VALUE="${VALUE} ${KO} |"
    fi
