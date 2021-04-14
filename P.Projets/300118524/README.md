@@ -46,7 +46,7 @@
 
 `CALL dbms.security.deleteUser('username')`
 
--[x] example 
+- [x] example 
 
 `CALL dbms.security.deleteUser('jane')`
 ```
