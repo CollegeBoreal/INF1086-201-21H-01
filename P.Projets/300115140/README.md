@@ -130,3 +130,12 @@ Graph databases store objects (vertices or nodes) where arbitrary data can be st
 * Limit (number): Limit nodes count. If empty or zero, no limit is set.
 
 
+## E. Conclusion
+
+By choosing ArangoDB, we could use a single database for all features: chats, relationships, document sharing, various types of entities (companies, persons, universities, employees, venture funds, etc.).
+
+It can store all connections between nodes and construct graphs with updates if you add a new connection.
+
+The database allows implementing relations in two ways: by making links to primary keys or via connections and graphs. As we discovered, it’s better to use connections when you have dynamic attributes. And primary keys are better for situations when you have a clear understanding of relations between different entities.
+
+What’s more, ArangoDB has an excellent web-interface that allows writing queries and instant viewing of the resulting graphs.
