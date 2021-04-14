@@ -49,7 +49,7 @@ password
 ```
 ##
 
-<img src=images/4.PNG  alt="alt text" width="800" height="350">
+<img src=images/4.PNG  alt="alt text" width="950" height="250">
 
 ##
 
