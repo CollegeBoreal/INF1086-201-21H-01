@@ -51,9 +51,14 @@ or thorugh gitbash:
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/bash1.PNG" width="550">
 
+**D. Adding my own collection**
 
+I decided to add my own collection in this exercice (adding to the file b300115140.sql)
+I will have a register of International Students at Boreal, going through their first year in an I.T.program. I created a table and insert different information (15 information as name, id, city or date).
 
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/regist.PNG" width="550">
 
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/insert.PNG" width="550">
 
 
 
