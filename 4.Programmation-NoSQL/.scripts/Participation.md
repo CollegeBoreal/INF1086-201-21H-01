@@ -1,4 +1,4 @@
-# Participation au 14-04-2021 22:37
+# Participation au 14-04-2021 22:42
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -14,7 +14,7 @@
 
 ## :a: Présence
 
-|:hash:| Boréal :id:                | :link: URL | :snake: Python | SQL | JSON |
+|:hash:| Boréal :id:                | :octocat: URL | :snake: Python | :oil_drum: SQL | :newspaper: JSON |
 |------|----------------------------|------------|----------------|-----|-----|
 | 0 | 300111441 - <image src='https://avatars0.githubusercontent.com/u/55207099?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark: 300111441](https://github.com/Sekou16/lab-programmation-mysqlsh-en-python) | [:heavy_check_mark: 300111441](../300111441/b300111441.py) | [:heavy_check_mark: 300111441](../300111441/b300111441.sql) | [:heavy_check_mark: 300111441](../300111441/b300111441.json) |
 | 1 | 300115065 - <image src='https://avatars0.githubusercontent.com/u/54910778?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark: 300115065](https://github.com/fadde68/lab-programmation-mysqlsh-en-python) | [:heavy_check_mark: 300115065](../300115065/b300115065.py) | [:heavy_check_mark: 300115065](../300115065/b300115065.sql) | [:heavy_check_mark: 300115065](../300115065/b300115065.json) |
