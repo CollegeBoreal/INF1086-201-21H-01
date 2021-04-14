@@ -31,7 +31,7 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | :link: URL | :snake: Python | SQL | JSON |"
+echo "|:hash:| Boréal :id:                | :octocat: URL | :snake: Python | :oil_drum: SQL | :newspaper: JSON |"
 echo "|------|----------------------------|------------|----------------|-----|-----|"
 
 OK=":heavy_check_mark:"
