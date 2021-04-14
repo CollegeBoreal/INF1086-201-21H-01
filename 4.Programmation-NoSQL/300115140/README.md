@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Programmation MySQLsh en Python
 
 Salut, 
@@ -13,13 +13,13 @@ Doing a lab with X Dev API takes some time and  went to different processes to g
 Before starting the hard work, be sure to downlaod first the following:
 
 - Python (or install the latest version) - PS> choco install anaconda3
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/anaco.PNG" width="350">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/anaco.PNG" width="550">
 
 - Git (check your version on git --version)
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/git.PNG" width="350">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/git.PNG" width="550">
 
 - Docker Desktop (install with Powershel - PS> choco install docker-desktop -y)
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/dd.PNG" width="350">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/dd.PNG" width="550">
 
 **B. Running the Python code and changing the variables:**
 
@@ -37,18 +37,19 @@ session = mysqlx.get_session({
 
 When we execute the program with the diffrent functions, we can see something like this:
 
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/visual1.PNG" width="350">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/visual1.PNG" width="550">
 
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/visual2.PNG" width="350">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/visual2.PNG" width="550">
 
 **C. Running the code**
 
 When we run the programm through Powershell:
 
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/PS1.PNG" width="350">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/PS1.PNG" width="550">
 
-...or thorugh gitbash:
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/bash1.PNG" width="350">
+or thorugh gitbash:
+
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/4.Programmation-NoSQL/300115140/IMAGES/bash1.PNG" width="550">
 
 
 
