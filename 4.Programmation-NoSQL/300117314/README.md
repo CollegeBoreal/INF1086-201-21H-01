@@ -40,10 +40,14 @@ utilisant la commande ``` docket container ls ``` comme dans la photo suivante:
 <img src=images/3.PNG  alt="alt text" width="800" height="550">
 
 ##
-En suite, en utilisant la commande ```  winpty docker container exec --interactive --tty some-mysqlds bash ``` connectez-vous 
-à votre container.
+En suite, en utilisant la commande
+```
+winpty docker container exec --interactive --tty some-mysqlds bash 
+``` 
+connectez-vous à votre container.
 ##
 En utilisant le nom d'utilisateur et le mot de passe connectez-vous à votre SQL:
+
 ```  mysql --user root -p
 password
 ```
