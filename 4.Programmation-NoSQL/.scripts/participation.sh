@@ -57,7 +57,7 @@ do
        VALUE="${VALUE} ${KO} |"
    fi
 
-   URL="https://github.com/${GITHUBS[$i]}/lab-algorithme-du-bfs-en-python"
+   URL="https://github.com/${GITHUBS[$i]}/lab-programmation-mysqlsh-en-python"
    curl -s ${URL} | grep "404 &ldquo;This is not the web page you are looking for&rdquo;" 2> /dev/null 1> /dev/null
    RESULT=$?
    if [ $RESULT==0 ]; then
