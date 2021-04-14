@@ -24,11 +24,11 @@
 ```
 
 
-### - [x] Lister les utilisateurs
+- [x] Lister les utilisateurs
 
 `CALL dbms.security.listUsers()`
 
-### Création d'un utilisateur
+- [x]  Création d'un utilisateur
 
 `CALL dbms.security.createUser(username, password, requirePasswordChange)`
 
@@ -42,11 +42,11 @@
 ```
 ```
 
-### Suppression d'un utilisateur
+- [x] Suppression d'un utilisateur
 
 `CALL dbms.security.deleteUser('username')`
 
-- [x] example 
+- example 
 
 `CALL dbms.security.deleteUser('jane')`
 ```
