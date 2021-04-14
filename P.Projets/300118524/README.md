@@ -18,7 +18,7 @@
 
 ```
 ```
-:arrow_forward:
+:arrow_forward: :computer:
 ![image](images/connect.png)
 ```
 ```
@@ -37,7 +37,7 @@
 `CALL dbms.security.createUser('zoureni', '1234', true)`
 ```
 ```
-:arrow_forward:
+:arrow_forward: :computer:
 ![image](images/createuser.png)
 ```
 ```
@@ -51,7 +51,7 @@
 `CALL dbms.security.deleteUser('jane')`
 ```
 ```
-:arrow_forward:
+:arrow_forward: :computer:
 ![image](images/deleteuser.png)
 ```
 ```
