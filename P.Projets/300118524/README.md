@@ -23,6 +23,39 @@
 ```
 ```
 
+
+### Lister les utilisateurs
+
+`CALL dbms.security.listUsers()`
+
+### Création d'un utilisateur
+
+`CALL dbms.security.createUser(username, password, requirePasswordChange)`
+
+[x] example 
+
+`CALL dbms.security.createUser('zoureni', '1234', true)`
+```
+```
+:arrow_forward:
+![image](images/createuser.png)
+```
+```
+
+### Suppression d'un utilisateur
+
+`CALL dbms.security.deleteUser('username')`
+
+[x] example 
+
+`CALL dbms.security.deleteUser('jane')`
+```
+```
+:arrow_forward:
+![image](images/deleteuser.png)
+```
+```
+
 ## Exemple de :part_alternation_mark: graph database de neo4j et quelque requête
 
 ### création d'une database movie :movie_camera:
