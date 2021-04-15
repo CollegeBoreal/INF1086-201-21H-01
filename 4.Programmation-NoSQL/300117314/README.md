@@ -102,12 +102,6 @@ netstat -ln
 
 ##
 
-##
-
-<img src=images/5.PNG  alt="alt text" width="800" height="150">
-
-##
-
 On efface les dockers qu'on les utilise pas et sont meurts:
 
 ```
@@ -120,7 +114,7 @@ Et on s'assure qu;on les a bien supprimer:
 docker container ls --all
 ```
 ##
-<img src=images/6.PNG  alt="alt text" width="800" height="150">
+<img src=images/6.PNG  alt="alt text" width="800" height="350">
 
 ##
 
