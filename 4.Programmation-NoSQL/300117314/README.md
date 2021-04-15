@@ -125,7 +125,7 @@ D'autre fois vérification des portes:
 ##
 vérification de notre conteneur ```some-mysqlds``` et son réseau:
 
-<img src=images/8.PNG  alt="alt text" width="800" height="550">
+<img src=images/8.PNG  alt="alt text" width="950" height="550">
 
 ##
 
