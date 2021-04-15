@@ -73,7 +73,7 @@ docker container exec --interactive some-mysqlds `
                 mysql --user root --password=password `
                 --execute "GRANT ALL ON *.* TO 'root'@'%';"
 ```
-
+<img src=images/12.PNG  alt="alt text" width="800" height="550">
 ```
 CREATE DATABASE world_x;
 
