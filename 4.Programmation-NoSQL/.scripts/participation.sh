@@ -31,8 +31,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | :snake: Python | :oil_drum: SQL | :newspaper: JSON |:octocat: URL |"
-echo "|------|----------------------------|----------------|----------------|-----|-----|"
+echo "|:hash:| Boréal :id:                | :newspaper: README | :snake: Python | :oil_drum: SQL | :octocat: URL |"
+echo "|------|----------------------------|--------------------|----------------|------|"
 
 OK=":white_check_mark:"
 KO=":x:"
@@ -43,6 +43,13 @@ for id in "${ETUDIANTS[@]}"
 do
    VALUE="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> |"
   
+   README_FILE=${id}/README.md
+   if [ -f "$README_FILE" ]; then
+       VALUE="${VALUE} [${OK}](../${README_FILE}) |"
+   else
+       VALUE="${VALUE} ${KO} |"
+   fi
+
    PYTHON_FILE=${id}/b${id}.py
    if [ -f "$PYTHON_FILE" ]; then
        VALUE="${VALUE} [${OK}](../${PYTHON_FILE}) |"
@@ -53,13 +60,6 @@ do
    SQL_FILE=${id}/b${id}.sql
    if [ -f "$SQL_FILE" ]; then
        VALUE="${VALUE} [${OK}](../${SQL_FILE}) |"
-   else
-       VALUE="${VALUE} ${KO} |"
-   fi
-
-   JSON_FILE=${id}/b${id}.json
-   if [ -f "$JSON_FILE" ]; then
-       VALUE="${VALUE} [${OK}](../${JSON_FILE}) |"
    else
        VALUE="${VALUE} ${KO} |"
    fi
