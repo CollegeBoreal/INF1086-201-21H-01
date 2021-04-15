@@ -32,7 +32,7 @@ echo ""
 echo "## :a: Présence"
 echo ""
 echo "|:hash:| Boréal :id:                | :newspaper: README | :snake: Python | :oil_drum: SQL | :octocat: URL |"
-echo "|------|----------------------------|--------------------|----------------|------|"
+echo "|------|----------------------------|--------------------|----------------|------|-|"
 
 OK=":white_check_mark:"
 KO=":x:"
