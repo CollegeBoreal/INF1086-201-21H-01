@@ -67,13 +67,6 @@ Miaitenant, c'est le moment de créer notre utilisateur et son mot de passe:
 ```
 CREATE USER 'root'@'%' IDENTIFIED BY 'password';
 ```
-
-
-<img src=images/4.PNG  alt="alt text" width="950" height="250">
-
-
-##
-
 Et lui donner son autorisation:
 ```
 docker container exec --interactive some-mysqlds `
@@ -81,26 +74,34 @@ docker container exec --interactive some-mysqlds `
                 --execute "GRANT ALL ON *.* TO 'root'@'%';"
 ```
 
-##
-:star: Comme dans ce cas, on travailledirectement sur notre conteneur:
-
 ```
 CREATE DATABASE world_x;
 
 CREATE USER IF NOT EXISTS 'root'@'10.13.237.18' IDENTIFIED BY 'password';
 
 ```
-##
-<img src=images/5.PNG  alt="alt text" width="850" height="550">
+
+<img src=images/4.PNG  alt="alt text" width="950" height="250">
 
 
 ##
+
+
+##
+:star: Comme dans ce cas, on travaille directement sur notre docker engine,
 Dans notre serveur, on vérifie la situation des portes, sur quelles portes est en train d'écouter en faisant:
 
 ```
 netstat -ln
 
 ```
+
+##
+<img src=images/5.PNG  alt="alt text" width="850" height="550">
+
+
+##
+
 ##
 
 <img src=images/5.PNG  alt="alt text" width="800" height="150">
