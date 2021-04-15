@@ -37,8 +37,6 @@ Créer le conteneur some-mysqlds eu éxecutant:
 :star: D'abord il faut s'assurer que votre container, dans ce cas ``` some-mysqlds ``` existe déjà en 
 utilisant la commande ``` docket container ls ``` comme dans la photo suivante:
 
-<img src=images/3.PNG  alt="alt text" width="800" height="550">
-
 ##
 En suite, en utilisant la commande
 ```
@@ -51,6 +49,10 @@ En utilisant le nom d'utilisateur et le mot de passe connectez-vous à votre SQL
 ```  mysql --user root -p
 password
 ```
+
+<img src=images/3.PNG  alt="alt text" width="800" height="550">
+
+
 ##
 
 <img src=images/4.PNG  alt="alt text" width="950" height="250">
