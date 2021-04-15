@@ -125,10 +125,15 @@ D'autre fois vérification des portes:
 ##
 vérification de notre conteneur ```some-mysqlds``` et son réseau:
 
-<img src=images/8.PNG  alt="alt text" width="1050" height="550">
+<img src=images/8.PNG  alt="alt text" width="1050" height="500">
 
 ##
 
+Maintemant notre infrastructure est prete pour executer et les python script.
+
+par exemple pour imprimer le fichier jason:
+
+<img src=images/8.PNG  alt="alt text" width="1050" height="400">
 
 
 
