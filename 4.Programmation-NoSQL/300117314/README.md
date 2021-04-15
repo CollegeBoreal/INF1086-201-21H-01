@@ -138,6 +138,9 @@ par exemple pour imprimer le fichier .jason:
 
 :star: Qand vous avez éxecuter votre script et créé votre base de données, vous devez pouvoir la connecter utilisant MySQLWorkBench:
 
+En utilisant. ```root``` comme utilisateur, ```password``` comme mot de passe, votre adresse IP et ```world_x ``` comme le nome de 
+base de données:
+
 <img src=images/14.PNG  alt="alt text" width="1050" height="650">
 
 ##
