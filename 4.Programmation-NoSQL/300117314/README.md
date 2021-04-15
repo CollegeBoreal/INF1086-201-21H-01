@@ -134,12 +134,15 @@ par exemple pour imprimer le fichier .jason:
 
 <img src=images/9.PNG  alt="alt text" width="1050" height="350">
 
+##
 
+:star: Qand vous avez éxecuter votre script et créé votre base de données, vous devez pouvoir la connecter utilisant MySQLWorkBench:
 
+<img src=images/14.PNG  alt="alt text" width="1050" height="650">
 
+##
 
-
-
+<img src=images/15.PNG  alt="alt text" width="1050" height="650">
 
 
 
