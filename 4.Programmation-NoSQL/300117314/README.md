@@ -74,7 +74,7 @@ docker container exec --interactive some-mysqlds `
                 --execute "GRANT ALL ON *.* TO 'root'@'%';"
 ```
 
-<img src=images/12.PNG  alt="alt text" width="800" height="350"
+<img src=images/12.PNG  alt="alt text" width="800" height="350">
 
 ```
 CREATE DATABASE world_x;
