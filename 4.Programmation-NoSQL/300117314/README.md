@@ -35,7 +35,11 @@ Créer le conteneur some-mysqlds eu éxecutant:
 ##
 
 :star: D'abord il faut s'assurer que votre container, dans ce cas ``` some-mysqlds ``` existe déjà en 
-utilisant la commande ``` docket container ls ``` comme dans la photo suivante:
+utilisant la commande 
+``` 
+docket container ls 
+``` 
+comme dans la photo suivante:
 
 ##
 En suite, en utilisant la commande
@@ -44,9 +48,11 @@ winpty docker container exec --interactive --tty some-mysqlds bash
 ``` 
 connectez-vous à votre container.
 ##
+
 En utilisant le nom d'utilisateur et le mot de passe connectez-vous à votre SQL:
 
-```  mysql --user root -p
+```
+mysql --user root -p
 password
 ```
 
@@ -54,9 +60,12 @@ password
 
 
 ##
+
+Miaitenant, c'est le moment de créer notre utilisateur et son mot de passe:
 ##
+
 ```
-             --execute "CREATE USER 'root'@'%' IDENTIFIED BY 'password';"
+CREATE USER 'root'@'%' IDENTIFIED BY 'password';
 ```
 
 
