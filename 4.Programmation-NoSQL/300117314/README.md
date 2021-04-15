@@ -120,12 +120,12 @@ docker container ls --all
 
 D'autre fois vérification des portes:
 
-<img src=images/7.PNG  alt="alt text" width="800" height="250">
+<img src=images/7.PNG  alt="alt text" width="800" height="350">
 
 ##
 vérification de notre conteneur ```some-mysqlds``` et son réseau:
 
-<img src=images/8.PNG  alt="alt text" width="800" height="350">
+<img src=images/8.PNG  alt="alt text" width="800" height="550">
 
 ##
 
