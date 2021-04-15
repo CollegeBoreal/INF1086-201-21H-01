@@ -131,9 +131,9 @@ vérification de notre conteneur ```some-mysqlds``` et son réseau:
 
 Maintemant notre infrastructure est prete pour executer et les python script.
 
-par exemple pour imprimer le fichier jason:
+par exemple pour imprimer le fichier .jason:
 
-<img src=images/8.PNG  alt="alt text" width="1050" height="400">
+<img src=images/9.PNG  alt="alt text" width="1050" height="400">
 
 
 
