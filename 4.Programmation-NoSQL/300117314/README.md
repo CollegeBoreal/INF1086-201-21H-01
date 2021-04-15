@@ -114,18 +114,18 @@ Et on s'assure qu;on les a bien supprimer:
 docker container ls --all
 ```
 ##
-<img src=images/6.PNG  alt="alt text" width="800" height="350">
+<img src=images/6.PNG  alt="alt text" width="800" height="250">
 
 ##
 
 D'autre fois vérification des portes:
 
-<img src=images/7.PNG  alt="alt text" width="800" height="150">
+<img src=images/7.PNG  alt="alt text" width="800" height="250">
 
 ##
 vérification de notre conteneur ```some-mysqlds``` et son réseau:
 
-<img src=images/8.PNG  alt="alt text" width="800" height="150">
+<img src=images/8.PNG  alt="alt text" width="800" height="350">
 
 ##
 
