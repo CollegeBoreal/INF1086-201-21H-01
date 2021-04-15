@@ -54,18 +54,15 @@ password
 
 
 ##
+##
+```
+             --execute "CREATE USER 'root'@'%' IDENTIFIED BY 'password';"
+```
+
 
 <img src=images/4.PNG  alt="alt text" width="950" height="250">
 
-##
 
-:star: C'est le moment de créer notre base de données, utilisateur:
-
-```
- docker container exec --interactive some-mysqlds `
-                mysql --user root --password=password `
-                --execute "CREATE USER 'root'@'%' IDENTIFIED BY 'password';"
-```
 ##
 
 Et lui donner son autorisation:
