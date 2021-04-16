@@ -82,14 +82,14 @@ db.inventory.find( { status: "D" } );
 ```
 ![image](mango6.jpg)
 
-```
+
 ## :pushpin:  Pour renvoyer le document où le qtychamp est égal 0:
 ```
 db.inventory.find( { qty: 0 } );
 ```
 ![image](mango7.jpg)
 
-```
+
 ## :pushpin:  Pour renvoyer le document où le qtychamp est égal 0et le statuschamp est égal "D"
 ```
 db.inventory.find( { qty: 0, status: "D" } );
@@ -118,7 +118,7 @@ db.inventory.find( { tags: "red" } )
 ![image](mango11.jpg)
 
 
-
+`
 ## :pushpin:  Pourenvoyer les documents où le tagschamp correspond exactement au tableau spécifié, y compris l'ordre
 ```
 db.inventory.find( { tags: [ "red", "blank" ] } )
