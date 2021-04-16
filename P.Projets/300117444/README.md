@@ -53,6 +53,8 @@ docker container ls
 
 ![image](https://user-images.githubusercontent.com/54910261/114987973-cb053880-9e63-11eb-9991-c7304ab1bc23.png)
 
+ # Excecuter votre container cassandra avec la commande Ssuivante :
+
  ```
  winpty docker exec -it leguan_cassandra bash
   
