@@ -77,6 +77,23 @@ redis-cli
 <img src=images/11.PNG  alt="alt text" width="450" height="250">
 
 ##
+:star:If you receive error like this:
+
+<img src=images/15.PNG  alt="alt text" width="450" height="250">
+
+
+##
+
+Execute following commonds:
+
+```
+redis-server --daemonize yes
+ps -aux | grep redis
+redis-cli
+```
+<img src=images/1100.PNG  alt="alt text" width="450" height="250">
+
+##
 
 :star:First we’ll do the most basic Redis command just to verify it’s working. If we execute the ping command it should respond with “PONG”. Let’s try it:
 
