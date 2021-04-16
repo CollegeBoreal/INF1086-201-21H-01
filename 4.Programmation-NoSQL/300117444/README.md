@@ -10,7 +10,7 @@ Après avoir installé Python, GIt et docker desktop, suivez les étapes suivant
 #### :one:  Créeation du conteneur some-mysqlds
 
 ```
-(base) PS C:\Users\akram fadde> docker container run `
+(base) PS C:\Users\idir> docker container run `
          --name some-mysqlds `
          --env MYSQL_ROOT_PASSWORD=password `
          --publish 3306:3306 `
@@ -22,7 +22,7 @@ e50b9a561ed0e7809ec928d333ecd7e11220f4b00de417ae6cc1bfd3de219ddb
 
 #### :two: Créeation de la base de données world_x
 ```
-(base) PS C:\Users\akram fadde> docker container exec --interactive some-mysqlds mysql `
+(base) PS C:\Users\idir> docker container exec --interactive some-mysqlds mysql `
 >>                         --user root --password=password `
 >>                         --execute "CREATE DATABASE world_x;"
 mysql: [Warning] Using a password on the command line interface can be insecure.
@@ -32,7 +32,7 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 #### :three: Création de l'utilisateur root sous le sous-réseau déterminé par le pont Bridge du conteneur Docker 'root'@'172.17.0.1'
 
 ```
-(base) PS C:\Users\akram fadde> docker container exec --interactive some-mysqlds `
+(base) PS C:\Users\idir> docker container exec --interactive some-mysqlds `
 >>                 mysql --user root --password=password `
 >>                 --execute "CREATE USER 'root'@'172.17.0.1' IDENTIFIED BY 'password';"
 mysql: [Warning] Using a password on the command line interface can be insecure.
@@ -42,7 +42,7 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 #### :four: Donner tous les droits d'accès à n'importe quelle base de données:
 
 ```
-(base) PS C:\Users\akram fadde> docker container exec --interactive some-mysqlds `
+(base) PS C:\Users\idir> docker container exec --interactive some-mysqlds `
 >>                 mysql --user root --password=password `
 >>                 --execute "GRANT ALL ON *.* TO 'root'@'172.17.0.1';"
 mysql: [Warning] Using a password on the command line interface can be insecure.
@@ -54,7 +54,7 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 #### :one: Installer MySQL Connector Python avec pip
 
 ```
-(base) PS C:\Users\akram fadde> pip install mysql-connector-python
+(base) PS C:\Users\idir> pip install mysql-connector-python
 Collecting mysql-connector-python
   Downloading mysql_connector_python-8.0.23-cp38-cp38-win_amd64.whl (854 kB)
      |████████████████████████████████| 854 kB 6.4 MB/s
@@ -70,7 +70,7 @@ Successfully installed mysql-connector-python-8.0.23 protobuf-3.15.8
 #### :two: Vérifier l'installaiton du connecteur MySQL
 
 ```
-(base) PS C:\Users\akram fadde> pip show mysql-connector-python
+(base) PS C:\Users\idir> pip show mysql-connector-python
 Name: mysql-connector-python
 Version: 8.0.23
 Summary: MySQL driver written in Python
@@ -83,7 +83,7 @@ Requires: protobuf
 
 ```
 
-## 🔤 Modifier le programme Python "b300115065.py"
+## 🔤 Modifier le programme Python "b300117444.py"
 
  Modifier le programme Python en ajoutant les fonction suivantes:
  
