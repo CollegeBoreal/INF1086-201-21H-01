@@ -1,6 +1,6 @@
 # Créer un Stream et une table KSQL   :lion:
 
-## Créer un stream :eagle:
+:one: # creation stream 
 
 Je  me suis connecté sur mon serveur et j'ai pu créer un stream KSQL comme demandé
 
@@ -32,17 +32,20 @@ Et quand il y a une correspondance, c'est-à-dire plus de 3 en 30 secondes, il d
 <img src=https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/kafka.PNG width="550">
 
 
-```
 
 ## Créer une table à partir du Stream:rainbow:
 
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/ksql2.PNG" width="550">
 
-https://stackoverflow.com/questions/54533958/ksql-table-group-by-with-only-one-output-within-the-given-time
 
-# vérification:computer:
+
+
+# Creation de table 
+
+# vérification:computer:window:
 -----------------------
+```
 
 CREATE TABLE HASS AS \
       SELECT message, count(*) \ 
@@ -52,8 +55,15 @@ CREATE TABLE HASS AS \
       GROUP BY message \
       HAVING count(*) > 3;
       
+```
+
+      
  
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/copies.png" width="550">
+
+
+
+https://stackoverflow.com/questions/54533958/ksql-table-group-by-with-only-one-output-within-the-given-time
 
       
 
