@@ -1,6 +1,6 @@
 
 
-CREATE TABLE HASS AS 
+CREATE TABLE HASS AS \
       SELECT message, count(*) \
       FROM systemd \
       WINDOW TUMBLING (SIZE 30 SECONDS) \
