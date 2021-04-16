@@ -57,7 +57,7 @@ Et quand il y a une correspondance, c'est-à-dire plus de 3 en 30 secondes, il d
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/copies.png" width="550">
 
 
-
+REFERENCES:computer:
 https://stackoverflow.com/questions/54533958/ksql-table-group-by-with-only-one-output-within-the-given-time
 
       
