@@ -79,7 +79,7 @@ redis-cli
 ##
 :star:If you receive error like this:
 
-<img src=images/15.PNG  alt="alt text" width="450" height="250">
+<img src=images/15.PNG  alt="alt text" width="550" height="250">
 
 
 ##
@@ -91,7 +91,7 @@ redis-server --daemonize yes
 ps -aux | grep redis
 redis-cli
 ```
-<img src=images/1100.PNG  alt="alt text" width="450" height="250">
+<img src=images/1100.PNG  alt="alt text" width="550" height="250">
 
 ##
 
