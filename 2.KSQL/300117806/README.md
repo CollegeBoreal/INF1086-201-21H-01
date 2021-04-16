@@ -27,7 +27,7 @@ CREATE STREAM systemd (
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/ksql1.PNG" width="550">
 
 
-## Créer une table à partir du Stream:rainbow: 3️⃣
+## Création du table sans Stream:rainbow: 3️⃣
 
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/2.KSQL/300117806/IMAGES/ksql2.PNG" width="550">
