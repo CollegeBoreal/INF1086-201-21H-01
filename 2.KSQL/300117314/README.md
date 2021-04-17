@@ -55,7 +55,9 @@ CREATE STREAM systemd (
 
 ## :o: Créer la table morti:
 ```
-CREATE TABLE morti AS SELECT MESSAGE, TIMESTAMP, HOST, COUNT(*) AS COUNT FROM systemd GROUP BY MESSAGE, TIMESTAMP, HOST;
+CREATE TABLE morti \
+AS SELECT MESSAGE, TIMESTAMP, HOST, COUNT(*) \
+AS COUNT FROM systemd GROUP BY MESSAGE, TIMESTAMP, HOST;
 
 ```
 <img src=images/5.PNG  alt="alt text" width="950" height="250">
