@@ -54,10 +54,11 @@ CREATE STREAM systemd (
 <img src=images/3.PNG  alt="alt text" width="750" height="400">
 
 ## :o: Créer la table morti:
-```
-CREATE TABLE morti \
-AS SELECT MESSAGE, TIMESTAMP, HOST, COUNT(*) \
-AS COUNT FROM systemd GROUP BY MESSAGE, TIMESTAMP, HOST;
+```Mysql
+CREATE TABLE morti 
+AS SELECT MESSAGE, TIMESTAMP, HOST,
+COUNT(*) AS COUNT FROM systemd 
+GROUP BY MESSAGE, TIMESTAMP, HOST;
 
 ```
 <img src=images/5.PNG  alt="alt text" width="950" height="250">
