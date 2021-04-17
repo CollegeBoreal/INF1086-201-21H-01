@@ -12,7 +12,7 @@
 <img src=images/50.PNG  alt="alt text" width="750" height="500">
 
 ## :o: Montrer des topics:
-```
+```mysql
 SHOW TOPICS;
 ```
 
@@ -20,7 +20,7 @@ SHOW TOPICS;
 
 ## :o: créer un stream nomé systemd:
 
-```
+```mysql
 CREATE STREAM systemd (
     host string,
     _SYSTEMD_UNIT VARCHAR,
@@ -40,14 +40,14 @@ CREATE STREAM systemd (
 
 ## :o: vérifier les champs de notre table:
 
-```
+```mysql
  DESCRIBE systemd;
 ```
 
 <img src=images/2.PNG  alt="alt text" width="750" height="400">
 
 ## :o: vérifier les données envoyées par vector et sauvegardées dans kafka serveur :
-```
+```mysql
  SELECT * FROM systemd EMIT CHANGES LIMIT 10 ;
 ```
 
@@ -65,7 +65,7 @@ GROUP BY MESSAGE, TIMESTAMP, HOST;
 
 ## :o: Extraire les données de la table morti:
 
-```
+```mysql
 SELECT * FROM morti
 >EMIT CHANGES
 >LIMIT 10;
