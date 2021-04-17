@@ -5,6 +5,7 @@ CREATE STREAM pageviews (
   ) WITH (
     KAFKA_TOPIC = 'keyless-pageviews-topic',
     PARTITIONS=2,
-    REPLICAS=1
+    REPLICAS=1,
     VALUE_FORMAT = 'JSON'
   );
+
