@@ -1,9 +1,2 @@
-CREATE TABLE users (
-     id BIGINT PRIMARY KEY,
-     usertimestamp BIGINT,
-     gender VARCHAR,
-     region_id VARCHAR
-   ) WITH (
-     KAFKA_TOPIC = 'my-users-topic', 
-     VALUE_FORMAT = 'JSON'
-   );
+CREATE TABLE morti2 AS SELECT user_id, viewtime, HOST, COUNT(*) AS COUNT FROM systemd GROUP BY user_id, viewtime, HOST;
+
