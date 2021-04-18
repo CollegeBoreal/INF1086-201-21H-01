@@ -72,5 +72,7 @@ LIMIT 10;
 ```
 <img src=images/6.PNG  alt="alt text" width="950" height="650">
 
+##resource:
 
+https://docs.ksqldb.io/en/latest/developer-guide/ksqldb-reference/create-stream/ 
 
