@@ -97,7 +97,7 @@ redis-server --daemonize yes
 ps -aux | grep redis
 redis-cli
 ```
-<img src=images/1100.PNG  alt="alt text" width="550" height="250">
+<img src=images/1100.PNG  alt="alt text" width="850" height="250">
 
 ##
 
