@@ -54,6 +54,9 @@ apt-get install redis-server
 `
  cp /etc/redis/redis.conf etc/redis/redis.conf.default
 `
+
+##
+
 <img src=images/6.PNG  alt="alt text" width="750" height="150">
 
 ##
