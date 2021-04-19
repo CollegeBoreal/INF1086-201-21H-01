@@ -139,7 +139,7 @@ set username "morti747" EX 10
 
 ```
 ##
-<img src=images/57.PNG  alt="alt text" width="750" height="300">
+<img src=images/57.PNG  alt="alt text" width="850" height="250">
 
 :star: we can verify if our username is still valid or not:
 here we can see that after 10 seconds, it has been deleted from our redis-server.
