@@ -129,3 +129,21 @@ get user
 ```
 ##
 <img src=images/56.PNG  alt="alt text" width="450" height="300">
+
+##
+
+:star:How to create a usernsme and setting a expiry periode of time based on seconde:
+
+```
+set username "morti747" EX 10
+
+```
+##
+<img src=images/57.PNG  alt="alt text" width="450" height="300">
+
+:star: we can verify if our username is still valid or not:
+here we can see that after 10 seconds, it has been deleted from our redis-server.
+nil means it doesn't exist. 
+
+##
+<img src8=images/58.PNG  alt="alt text" width="450" height="300">
