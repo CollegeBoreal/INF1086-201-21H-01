@@ -51,6 +51,9 @@ apt-get install redis-server
 
 :star: Make a copy of the config file just in case
 
+`
+ cp /etc/redis/redis.conf etc/redis/redis.conf.default
+`
 <img src=images/6.PNG  alt="alt text" width="750" height="150">
 
 ##
