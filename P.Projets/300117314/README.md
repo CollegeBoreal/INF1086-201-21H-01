@@ -146,4 +146,4 @@ here we can see that after 10 seconds, it has been deleted from our redis-server
 nil means it doesn't exist. 
 
 ##
-<img src8=images/58.PNG  alt="alt text" width="450" height="300">
+<img src=images/58.PNG  alt="alt text" width="850" height="250">
