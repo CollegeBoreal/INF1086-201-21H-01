@@ -105,9 +105,18 @@ redis-cli
 
 <img src=images/12.PNG  alt="alt text" width="350" height="300">
 
-:star:to check the port:
+:star: How to check the port:
 ```
 CONFIG GET port
 
 ```
 <img src=images/101.PNG  alt="alt text" width="750" height="300">
+
+:star:How to create the key value:
+
+```
+set user "morti"
+
+```
+##
+<img src=images/55.PNG  alt="alt text" width="450" height="300">
