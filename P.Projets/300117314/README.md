@@ -120,3 +120,12 @@ set user "morti"
 ```
 ##
 <img src=images/55.PNG  alt="alt text" width="450" height="300">
+
+:star:How to check the key value:
+
+```
+get user 
+
+```
+##
+<img src=images/56.PNG  alt="alt text" width="450" height="300">
