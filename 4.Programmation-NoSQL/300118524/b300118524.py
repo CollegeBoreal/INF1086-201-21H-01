@@ -66,6 +66,27 @@ def former_des_chefs(docs):
 
   return docs
 
+def population(docs):
+
+  # Crée une nouvelle collection 'chefs_de_gouvernement'
+  nomColl = 'population'
+  maColl = db.create_collection(nomColl)
+
+  # Manipuler la collection et la rajouter à la nouvelle
+  for doc in docs.fetch_all():
+    for country in doc.countries:
+      # Insert des documents JSON de type government
+      maColl.add(country['demographics']).execute()
+
+  # Trouver tous les documents JSON et les mettre en mémoire
+  docs = maColl.find().execute()
+
+  # Détruit la collection
+  #db.drop_collection(nomColl)
+
+  return docs
+
+
 def main():
   docs = lecture('b300118524.json')
   chefs = former_des_chefs(docs)
