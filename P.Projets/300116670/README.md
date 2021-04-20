@@ -85,7 +85,10 @@ Pour créer notre base de données :
 
      CREATE KEYSPACE IF NOT EXISTS resto_TO WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor': 1};
      
-Nous veons de créer la base de données resto_TO pour laquelle le facteur de réplication est mis à 1, ce qui suffit dans un cadre centralisé.
+     ![image](https://user-images.githubusercontent.com/55238107/115356698-ea64d400-a189-11eb-887e-d594f33cf3e1.png)
+
+     
+Nous venons de créer la base de données resto_TO pour laquelle le facteur de réplication est mis à 1, ce qui suffit dans un cadre centralisé.
 
 
  Vous pouvez maintenant sélectionner la base de données pour vos prochaines requêtes.
@@ -112,13 +115,19 @@ ous pouvons maintenant créer les tables (Column Family pour Cassandra) Restaura
        ) ;
 
       CREATE INDEX fk_Inspection_Restaurant ON Inspection ( Grade ) ;
-      
+
+![image](https://user-images.githubusercontent.com/55238107/115356830-08cacf80-a18a-11eb-92e6-6577eb3ef736.png)
+
 Nous pouvons remarquer que chaque inspection est liée à un restaurant via l’identifiant de ce dernier.
 
 Pour vérifier si les tables ont bien été créées (sous cqlsh). Entrez les commandes suivantes:
 
        DESC Restaurant;
+![image](https://user-images.githubusercontent.com/55238107/115357125-4cbdd480-a18a-11eb-8a0a-22c9650e33c2.png)
+
        DESC Inspection;
+![image](https://user-images.githubusercontent.com/55238107/115357216-69f2a300-a18a-11eb-9836-fcfcd52561bf.png)
+
 
 
 
