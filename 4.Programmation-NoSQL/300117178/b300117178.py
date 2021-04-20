@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 
-@author: boris
+@author: CollegeBoreal
 """
 
-import json
+import json 
 import mysqlx
 session = mysqlx.get_session({
     "host": "localhost",
@@ -12,33 +12,10 @@ session = mysqlx.get_session({
     "user": "root",
     "password": "password"
 })
-db = session.get_schema("world_x")
 
 def charge(fichier):
    with open(fichier) as f:
       return json.load(f)
-def lecture(fichier):
-
-  # Le nom de la collection temporaire
-  nomColl = "temp"
-
-  # Crée la collection temporaire maColl
-  maColl = db.create_collection(nomColl)
-
-  # charge le fichier dans la variable json
-  json = charge(fichier)
-    
-  # Ajoute le contenu du fichier json dans la collection temporaire maColl
-  maColl.add(json).execute()
-
-  # Lis toute les documents convertis de la collection et les stocker dans la variable docs
-  docs = maColl.find().execute()
-
-  # Détruit la collection temporaire
-  db.drop_collection(nomColl)
-
-  # Retourne un dictionnaire Python du fichier json converti
-  return docs
 
 def main():
   docs = lecture('b000000000.json')
@@ -46,26 +23,49 @@ def main():
   print(len(chefs.fetch_all()))
   session.close
   
-def former_des_chefs(docs):
+db = session.get_schema("world_x") 
+def lecture(fichier):
 
-  # Crée une nouvelle collection 'chefs_de_gouvernement'
-  nomColl = 'chefs_de_gouvernement'
+    # Le nom de la collection temporaire
+  nomColl = "temp"
+
+    # Crée la collection temporaire maColl
   maColl = db.create_collection(nomColl)
-  maColl.add({"HeadOfState": "Marc Ravalomanana","GovernmentForm": "Republic"}).execute()
 
-  # Manipuler la collection et la rajouter à la nouvelle
-  for doc in docs.fetch_all():
-    for country in doc.countries:
-      # Insert des documents JSON de type government
-      maColl.add(country['government']).execute()
+    # charge le fichier dans la variable json
+  json = charge(fichier)
+      
+    # Ajoute le contenu du fichier json dans la collection temporaire maColl
+  maColl.add(json).execute()
 
-  # Trouver tous les documents JSON et les mettre en mémoire
+    # Lis toute les documents convertis de la collection et les stocker dans la variable docs
   docs = maColl.find().execute()
 
-  # Détruit la collection
+    # Détruit la collection temporaire
+  db.drop_collection(nomColl)
+
+    # Retourne un dictionnaire Python du fichier json converti
+  return docs
+def former_des_chefs(docs):
+
+    # Crée une nouvelle collection 'chefs_de_gouvernement'
+  nomColl = 'chefs_de_gouvernement'
+  maColl = db.create_collection(nomColl)
+  maColl.add({"HeadOfState": "Marc Ravalomanana","GovernmentForm":"Republic"}).execute()
+
+    # Manipuler la collection et la rajouter à la nouvelle
+  for doc in docs.fetch_all():
+    for country in doc.countries:
+        # Insert des documents JSON de type government
+       maColl.add(country['government']).execute()
+
+    # Trouver tous les documents JSON et les mettre en mémoire
+  docs = maColl.find().execute()
+
+    # Détruit la collection
   #db.drop_collection(nomColl)
 
   return docs
-
 if __name__== "__main__":
     main()
+
