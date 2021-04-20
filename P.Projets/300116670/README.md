@@ -5,21 +5,25 @@
 
 # Qu'est ce que Cassandra?
 
-Apache Cassandra est une base de donnee NoSQL qui permet le stockage et le traitement de tres grand volumes des donnees. Il est open source et est utilise par plusieurs entreprise comme: Activision , Apple , BazaarVoice , Best Buy , CERN, Constant Contact , Comcast , eBay , Fidelity, Github, Hulu , ING , Instagram , Intuit , Macy's, Macquarie Bank , Microsoft, McDonalds, Netflix , New York Times , Outbrain, Pearson Education, Sky , Spotify , Uber , Walmartet des milliers d'autres entreprises disposant de grands ensembles de données actifs. En fait, Cassandra est utilisée par 40% des Fortune 100.
+Apache Cassandra est une base de donnee de type NoSQL open-source utilisée pour le stockage et le traitement de tres grand volumes des donnees.  Elle est utilisée par de nombreuses entreprises comme: Activision , Apple , BazaarVoice , Best Buy , CERN, Constant Contact , Comcast , eBay , Fidelity, Github, Hulu , ING , Instagram , Intuit , Macy's, Macquarie Bank , Microsoft, McDonalds, Netflix , New York Times , Outbrain, Pearson Education, Sky , Spotify , Uber , Walmartet des milliers d'autres entreprises disposant de grands ensembles de données actifs. En fait, Cassandra est utilisée par 40% des Fortune 100.
 
-*TOLÉRANCE DE PANNE*
+**TOLÉRANCE DE PANNE**
+
 Les données sont automatiquement répliquées sur plusieurs nœuds pour la tolérance aux pannes. La réplication sur plusieurs centres de données est prise en charge. Les nœuds défaillants peuvent être remplacés sans temps d'arrêt.
 
-*PERFORMANT*
+**PERFORMANT**
+
 Cassandra surpasse constamment les alternatives NoSQL populaires dans les benchmarks et les applications réelles, principalement en raison de choix architecturaux fondamentaux .
 
-*DÉCENTRALISÉ*
+**DÉCENTRALISÉ**
+
 Il n'y a pas de points de défaillance uniques. Il n'y a aucun goulot d'étranglement du réseau. Chaque nœud du cluster est identique.
 
-*DURABLE*
+**DURABLE**
 Cassandra convient aux applications qui ne peuvent pas se permettre de perdre des données , même lorsqu'un centre de données entier tombe en panne.
 
-*ÉLASTIQUE*
+**ÉLASTIQUE**
+
 Le débit de lecture et d'écriture augmente de manière linéaire à mesure que de nouvelles machines sont ajoutées, sans temps d'arrêt ni interruption des applications.
 
 # :one: CREATION DU FICHIER DOCKER-COMPOSE.YML 
@@ -49,14 +53,72 @@ _ Mettez-y le contenu suivant:
            timeout: 5s
            retries: 50
            
-  # :two: DEMARRER LE CONTAINEUR
+# :two: DEMARRER LE CONTAINEUR
   
   Utiliser la commande suivante:
   
         docker-compose up --detach
            
   Cette dernière démarre les conteneurs en arrière-plan et les laisse en cours d'exécution.
+  
+  ![image](https://user-images.githubusercontent.com/55238107/115352855-d1f2ba80-a185-11eb-952d-5d2c39d37a7e.png)
 
+  
+![image](https://user-images.githubusercontent.com/55238107/115351435-40367d80-a184-11eb-8f4b-0f359285fa28.png)
+
+# 3️⃣ ENTRER DANS LE CONTAINEUR ET OUVRIR LE CLI DE NOTRE BASE DE DONNÉES CASSANDRA
+
+Entrons dans notre container:
+
+![image](https://user-images.githubusercontent.com/55238107/115352183-103baa00-a185-11eb-9740-1d2a7e60af76.png)
+
+
+Ouvrir le cli cassandra: cqlsh
+
+![image](https://user-images.githubusercontent.com/55238107/115352564-7c1e1280-a185-11eb-8629-a33622c5b22b.png)
+
+
+# 4️⃣ CRÉATION DE LA BASE DE DONNÉES
+
+
+Pour créer notre base de données :
+
+     CREATE KEYSPACE IF NOT EXISTS resto_TO WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor': 1};
+     
+Nous veons de créer la base de données resto_TO pour laquelle le facteur de réplication est mis à 1, ce qui suffit dans un cadre centralisé.
+
+
+ Vous pouvez maintenant sélectionner la base de données pour vos prochaines requêtes.
+
+      USE resto_TO;
+      
+# 5️⃣ CRÉATION DE TABLE
+
+ous pouvons maintenant créer les tables (Column Family pour Cassandra) Restaurant et Inspection à partir du schéma suivant :
+
+        CREATE TABLE Restaurant (
+        id INT, Name VARCHAR, borough VARCHAR, BuildingNum VARCHAR, Street VARCHAR,
+        ZipCode INT, Phone text, CuisineType VARCHAR,
+        PRIMARY KEY ( id )
+      ) ;
+
+      CREATE INDEX fk_Restaurant_cuisine ON Restaurant ( CuisineType ) ;
+
+
+        CREATE TABLE Inspection (
+        idRestaurant INT, InspectionDate date, ViolationCode VARCHAR,
+        ViolationDescription VARCHAR, CriticalFlag VARCHAR, Score INT, GRADE VARCHAR,
+        PRIMARY KEY ( idRestaurant, InspectionDate )
+       ) ;
+
+      CREATE INDEX fk_Inspection_Restaurant ON Inspection ( Grade ) ;
+      
+Nous pouvons remarquer que chaque inspection est liée à un restaurant via l’identifiant de ce dernier.
+
+Pour vérifier si les tables ont bien été créées (sous cqlsh). Entrez les commandes suivantes:
+
+       DESC Restaurant;
+       DESC Inspection;
 
 
 
