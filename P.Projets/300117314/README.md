@@ -164,3 +164,21 @@ so :
 
 ##
 <img src=images/59.PNG  alt="alt text" width="850" height="350">
+
+
+:star:How to delete a key:
+
+```
+del user
+
+```
+:star: let's check
+```
+ exists user
+```
+##
+<img src=images/60.PNG  alt="alt text" width="850" height="350">
+
+
+
+
