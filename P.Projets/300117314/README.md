@@ -139,7 +139,7 @@ set username "morti747" EX 10
 
 ```
 ##
-<img src=images/57.PNG  alt="alt text" width="850" height="250">
+<img src=images/57.PNG  alt="alt text" width="850" height="200">
 
 :star: we can verify if our username is still valid or not:
 here we can see that after 10 seconds, it has been deleted from our redis-server.
@@ -147,3 +147,20 @@ nil means it doesn't exist.
 
 ##
 <img src=images/58.PNG  alt="alt text" width="850" height="250">
+
+##
+
+:star: Command ` exist ` is used to verify if a key exist our not. In this case we know that the key user exists, 
+but username has been expired after 10 seconds
+so :
+
+```
+ exists user
+```
+```
+ exists username
+
+```
+
+##
+<img src=images/59.PNG  alt="alt text" width="850" height="250">
