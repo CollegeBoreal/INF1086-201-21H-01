@@ -38,7 +38,7 @@ votre code est plus court, plus facile à comprendre et plus facile à maintenir
 ### Set the value
 command
 ```
- set user boris
+ set user "boris"
 ```
 
 ### Get the value
