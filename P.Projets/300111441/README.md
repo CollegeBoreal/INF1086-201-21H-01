@@ -38,7 +38,7 @@ show dbs
 ```
 ![image](mongo5.jpg)
 
-## :apple: Pour les bases de donnees
+## :apple: Pour creer les bases de donnees
 ```
 use luxuryy
 
@@ -46,7 +46,7 @@ use luxuryy
 ![image](mango1.jpg)
 
 ----
-## :pushpin: :two: Test insert data (example data add data to inventory collection )
+## :pushpin: :two: Pour l'insertion d'une collection 
 ```
 db.inventory.insertMany([
    { item: "journal", qty: 25, status: "A", size: { h: 14, w: 21, uom: "cm" }, tags: [ "blank", "red" ] },
