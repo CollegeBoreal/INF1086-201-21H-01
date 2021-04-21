@@ -5,7 +5,7 @@
 
 # Qu'est ce que Cassandra?
 
-Apache Cassandra est une base de donnee de type NoSQL open-source utilisée pour le stockage et le traitement de tres grand volumes des donnees.  Elle est utilisée par de nombreuses entreprises comme: Activision , Apple , BazaarVoice , Best Buy , CERN, Constant Contact , Comcast , eBay , Fidelity, Github, Hulu , ING , Instagram , Intuit , Macy's, Macquarie Bank , Microsoft, McDonalds, Netflix , New York Times , Outbrain, Pearson Education, Sky , Spotify , Uber , Walmartet des milliers d'autres entreprises disposant de grands ensembles de données actifs. En fait, Cassandra est utilisée par 40% des Fortune 100.
+Apache Cassandra est une base de donnee de type NoSQL open-source utilisée pour gérer et stocker des grands volumes de donnees.  Elle est utilisée par de nombreuses entreprises comme: Activision , Apple , BazaarVoice , Best Buy , CERN, Constant Contact , Comcast , eBay , Fidelity, Github, Hulu , ING , Instagram , Intuit , Macy's, Macquarie Bank , Microsoft, McDonalds, Netflix , New York Times , Outbrain, Pearson Education, Sky , Spotify , Uber , Walmartet des milliers d'autres entreprises disposant de grands ensembles de données actifs. En fait, Cassandra est utilisée par 40% des Fortune 100.
 
 **TOLÉRANCE DE PANNE**
 
@@ -129,6 +129,11 @@ Pour vérifier si les tables ont bien été créées (sous cqlsh). Entrez les co
 ![image](https://user-images.githubusercontent.com/55238107/115357216-69f2a300-a18a-11eb-9836-fcfcd52561bf.png)
 
 
+# 6️⃣ REQUETE
+
+Afficher les noms des restaurants de cuisine Française (French).
+
+     SELECT Name FROM Restaurant WHERE cuisineType = 'French' 
 
 
 
