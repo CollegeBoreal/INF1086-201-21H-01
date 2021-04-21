@@ -61,7 +61,7 @@ _ Mettez-y le contenu suivant:
            
   Cette dernière démarre les conteneurs en arrière-plan et les laisse en cours d'exécution.
   
-  ![image](https://user-images.githubusercontent.com/55238107/115352855-d1f2ba80-a185-11eb-952d-5d2c39d37a7e.png)
+![image](https://user-images.githubusercontent.com/55238107/115352855-d1f2ba80-a185-11eb-952d-5d2c39d37a7e.png)
 
   
 ![image](https://user-images.githubusercontent.com/55238107/115351435-40367d80-a184-11eb-8f4b-0f359285fa28.png)
@@ -85,7 +85,7 @@ Pour créer notre base de données :
 
      CREATE KEYSPACE IF NOT EXISTS resto_TO WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor': 1};
      
-     ![image](https://user-images.githubusercontent.com/55238107/115356698-ea64d400-a189-11eb-887e-d594f33cf3e1.png)
+![image](https://user-images.githubusercontent.com/55238107/115356698-ea64d400-a189-11eb-887e-d594f33cf3e1.png)
 
      
 Nous venons de créer la base de données resto_TO pour laquelle le facteur de réplication est mis à 1, ce qui suffit dans un cadre centralisé.
