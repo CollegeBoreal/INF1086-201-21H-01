@@ -17,24 +17,28 @@ docker run --name mongodb -p 27017:27017 mongo
 ```
 ![image](mongo2.jpg)
 
+## :snake: Pour entrer dans le container 
 ```
 docker exec -it mongodb bash
 
 ```
 ![image](mongo3.jpg)
 
+## :apple: Pour entrer dans MongoDB
 ```
 mongo
 
 ```
 ![image](mongo4.jpg)
 
+## :computer: Pour afficher les bases de donnees 
 ```
 show dbs
 
 ```
 ![image](mongo5.jpg)
 
+## :apple: Pour les bases de donnees
 ```
 use luxuryy
 
