@@ -11,7 +11,7 @@
 ```
 Docker pull Mongo
 ```
-https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300117806/mogo.png
+https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300117806/mongos.PNG
 
 ------
 
