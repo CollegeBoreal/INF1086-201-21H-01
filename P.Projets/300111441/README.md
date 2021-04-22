@@ -10,7 +10,7 @@ docker pull mongo
 
 ```
 ![image](mongo1.jpg)
-
+## L'execution de l'image
 ```
 docker run --name mongodb -p 27017:27017 mongo
 
