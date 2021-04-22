@@ -28,26 +28,33 @@ e50b9a561ed0e7809ec928d333ecd7e11220f4b00de417ae6cc1bfd3de219ddb
 mysql: [Warning] Using a password on the command line interface can be insecure.
 
 ```
+![image](https://user-images.githubusercontent.com/54910261/115751730-72ec9b80-a367-11eb-95a5-5329bfa83406.png)
+
+
 
 #### :three: Création de l'utilisateur root sous le sous-réseau déterminé par le pont Bridge du conteneur Docker 'root'@'172.17.0.1'
 
 ```
 (base) PS C:\Users\idir> docker container exec --interactive some-mysqlds `
 >>                 mysql --user root --password=password `
->>                 --execute "CREATE USER 'root'@'172.17.0.1' IDENTIFIED BY 'password';"
+>>                 --execute "CREATE USER 'root'@'%' IDENTIFIED BY 'password';"
 mysql: [Warning] Using a password on the command line interface can be insecure.
 
 ```
+
+
 
 #### :four: Donner tous les droits d'accès à n'importe quelle base de données:
 
 ```
 (base) PS C:\Users\idir> docker container exec --interactive some-mysqlds `
 >>                 mysql --user root --password=password `
->>                 --execute "GRANT ALL ON *.* TO 'root'@'172.17.0.1';"
+>>                 --execute "GRANT ALL ON *.* TO 'root'@'%';"
 mysql: [Warning] Using a password on the command line interface can be insecure.
 
 ```
+![image](https://user-images.githubusercontent.com/54910261/115752129-cf4fbb00-a367-11eb-80cb-46b4719224b3.png)
+
 
 ## :ab: X DevAPI en Python 🐍
 
@@ -82,6 +89,12 @@ Location: c:\tools\anaconda3\lib\site-packages
 Requires: protobuf
 
 ```
+
+#### :two: Vérifier l'existance du connecteur MySQL
+
+
+![5 PROGRAMMATION PREUVE](https://user-images.githubusercontent.com/54910261/115752525-2eadcb00-a368-11eb-9d8a-cb24c20908be.png)
+
 
 ## 🔤 Modifier le programme Python "b300117444.py"
 
