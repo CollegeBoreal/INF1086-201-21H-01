@@ -104,11 +104,21 @@ Requires: protobuf
 ###### 📍 Déclaration de la fonction 'lecture'
 ###### 📍 créeation d'une fonction 'former_des_chefs()'
  
- ## 🔡 Ammelioration ✨
+
+![331](https://user-images.githubusercontent.com/54910261/115753031-b4317b00-a368-11eb-8864-7044476e62e4.png)
+
+ ## 🔡 VERIFICATION DE CONNEXION AVEC WORKBENCH ✨
  
- ##### 💡 Ajouter une autre collection manuellement nommée 'Donnees_demographiques'
+ :star: Création de connection:
  
- ![image](./test.png)
+![4 PROGRAMAMTION](https://user-images.githubusercontent.com/54910261/115753004-aaa81300-a368-11eb-8834-b88779d9ab35.png)
+
+##
+
+ ## :star: Accèss à la base de données :
+
+
+![4 2 PROGRAMMATION PYTHON 2](https://user-images.githubusercontent.com/54910261/115753149-ddeaa200-a368-11eb-811e-e8031cc95014.png)
 
  
 🐍
