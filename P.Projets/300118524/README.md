@@ -80,7 +80,7 @@ exemple:
 `CREATE (Z_O:personne {nom:'Zoureni Ouro', sexe:'Masculin'});`
 
 ### CRÉATION DE RELATION
-```
+```graphql
 MATCH (a:label-a),(b:label-b)
 WHERE a.key = "value" AND b.key = "value"
 CREATE (a)-[r:nom du lien]->(b)
