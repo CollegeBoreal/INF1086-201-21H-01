@@ -1,0 +1,17 @@
+afficher notre graph
+MATCH (n) RETURN n 
+
+# trouver zoureni
+MATCH (Z_O {nom: "Zoureni Ouro"}) RETURN Z_O;
+
+# trouver Brice
+MATCH (B_R {nom: "Brice Robert"}) RETURN B_R;
+
+trouver tous les employés
+MATCH (programme{nom:"genie informatique"})<-[:EMPLOYE]-(employe) RETURN employe.nom;
+
+# touver les etiquettes personne limité à 4
+MATCH (personne:personne) RETURN personne.nom LIMIT 4;
+
+# touver les etiquettes personne limité à 10
+MATCH (personne:personne) RETURN personne.nom LIMIT 10;
