@@ -87,10 +87,10 @@ Then I will pick up the database I create on ArangoDB, called BOREAL as show bel
 - I am using Postman to establish the connection. Postamn is a collaboration platform for API development.
 
 
-- I have created 2 collections (similar to tables in SQL), one for teachers and one for students.
+- I have created 3 collections (similar to tables in SQL), one for teachers and one for students and the edge making the relations between the 2 groups.
 
 
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/collec.PNG" width="650">
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/coll.PNG" width="650">
 
 
 
@@ -98,14 +98,14 @@ Then I will pick up the database I create on ArangoDB, called BOREAL as show bel
 
 Retrieving data from the database with AQL will be possible if you use operations like FILTER, SORT and LIMIT )added to the loop body). Most of the other AQL queries will necessite a RETURN operation to function (as shown below). 
 
-
+In AQL, a query represents the end result to be achieved, but not the process through which the end result is to be achieved. This feature is commonly known as a declarative property of the language. Moreover, AQL can query as well modify the data, and thus complex queries can be created by combining both the processes.
 
 To modify an existing users in any collections, you can go directly under collections, select your user and change the information you need as shown below:
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/BRICE1.PNG" width="550">
 
 
-In order to make a query, it is possible to use the interface as ahown in the examples below:
+In order to make a query, it is possible to use the interface as shown in the examples below:
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/query1.PNG" width="550">
 
@@ -117,7 +117,7 @@ In order to make a query, it is possible to use the interface as ahown in the ex
 
 Graph databases store objects (vertices or nodes) where arbitrary data can be stored (properties) and relations between the objects (edges). Edges typically have a direction going from one object to another or multiple objects. Vertices and edges form a network of data points which is called a “graph”.
  
- <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/graph2.PNG" width="550">
+ <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/graph.PNG">
  
  
  Graph Options Menu:
