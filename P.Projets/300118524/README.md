@@ -8,6 +8,7 @@ NEO4J est composé de 2 éléments: noeud et relation
 ### COMPARAISON DE SGBDR (système de gestion de base de données relationnelle) ET BASE DE DONNÉE EN GRAPH
 
 |-|SGBDR            |BD GRAPHE            |
+|-|-----------------|---------------------|
 |1|tables           |Graphe               |
 |2|enregistrement   |noeud                |
 |3|colonne et donnée|propriétés et valeurs|
