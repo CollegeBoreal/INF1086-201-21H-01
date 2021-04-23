@@ -1,4 +1,4 @@
-CREATE STREAM systemd (
+CREATE STREAM Erna (
     host string,
     message string,
     timestamp VARCHAR
