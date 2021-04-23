@@ -168,4 +168,10 @@ CREATE (Z_O)-[r:INSCRIT]->(TGI);
 - MATCH (tom:Person {name:"Tom Hanks"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(coActors) RETURN coActors.name;
 
    > ![image](images/r8.png) 
+   > 
+Références
+
+https://www.quackit.com/neo4j/tutorial/
+
+https://www.tutorialspoint.com/neo4j/neo4j_cql_introduction.htm
 
