@@ -1,0 +1,12 @@
+# Total average of Transaction per month
+"""
+FOR t IN Transactions
+FILTER t.timestamp != NULL && t.amount != NULL
+    COLLECT
+      month = DATE_MONTH(t.timestamp)
+    AGGREGATE
+      count = COUNT(1),
+      avg = AVG(t.amount)
+      SORT month 
+RETURN {month,avg,count}
+"""
