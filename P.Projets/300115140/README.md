@@ -2,7 +2,8 @@
 
 
 ArangoDB is a multi-model, open-source database with flexible data models for documents, graphs and key-values.
-_The context: I will create a Database with users willing to send money over the country and overseas. The users will have a specific ID and the table will containt name, address, country, currency, amout of money sending, dtae of transacation, transaction ID. There will be a sender user and a receiver user for each transaction_
+_The context: I will create a Database with users willing to send money over the country and overseas for students who buy educational content from teachers (tutors, online courses...)
+The users will have a specific ID and the table will containt name, address, country, currency, amout of money sending, dtae of transacation, transaction ID. There will be a sender user and a receiver user for each transaction_
 
 
 ## ARANGODB
@@ -86,8 +87,10 @@ Then I will pick up the database I create on ArangoDB, called BOREAL as show bel
 - I am using Postman to establish the connection. Postamn is a collaboration platform for API development.
 
 
+- I have created 2 collections (similar to tables in SQL), one for teachers and one for students.
 
 
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/collec.PNG" width="650">
 
 
 
@@ -119,15 +122,12 @@ To modify an existing users in any collections, you can go directly under collec
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/BRICE1.PNG" width="550">
 
 
-However, ArangoDB is used when dealing with huge data. So to mfind and modify quickly any information, use the following query:
+In order to make a query, it is possible to use the interface as ahown in the examples below:
 
-```
-UPDATE "BRICE R." WITH {
-    status: "active",
-    location:"Toronto"
-} IN users
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/query1.PNG" width="550">
 
-```
+<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/query1a.PNG" width="550">
+
 
 
 ## D. Graphs
