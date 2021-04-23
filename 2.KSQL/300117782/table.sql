@@ -1,6 +1,6 @@
 
-CREATE TABLE It support AS
-SELECT message string, COUNT(*)
+CREATE TABLE Devobs AS
+SELECT message varchar, COUNT(*)
 FROM Bright
 WINDOW TUMBLING (SIZE 50 SECONDS)
 GROUP BY message
