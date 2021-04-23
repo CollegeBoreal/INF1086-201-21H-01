@@ -99,23 +99,6 @@ Then I will pick up the database I create on ArangoDB, called BOREAL as show bel
 Retrieving data from the database with AQL will be possible if you use operations like FILTER, SORT and LIMIT )added to the loop body). Most of the other AQL queries will necessite a RETURN operation to function (as shown below). 
 
 
-```
-FOR doc IN USERS
-    FILTERS doc.status == "active"
-    SORT doc.name
-    LIMIT 10
-    
-```
-
-Or if you want to find a name amid a collection:
-
-```
-
-FOR doc IN users
-    FILTER doc._key == "Jack"
-    RETURN doc
-    
-```
 
 To modify an existing users in any collections, you can go directly under collections, select your user and change the information you need as shown below:
 
