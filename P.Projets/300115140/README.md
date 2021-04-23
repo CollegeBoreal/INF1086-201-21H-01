@@ -83,59 +83,12 @@ Then I will pick up the database I create on ArangoDB, called BOREAL as show bel
 
 <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/boreal.PNG" width="650">
 
-- I am using Postamn to establish the connection. Postamn is a collaboration platform for API development.
+- I am using Postman to establish the connection. Postamn is a collaboration platform for API development.
 
 
 
 
-## Using AWS to install remote server
 
-Having a remote server and using it will ease the work if multiple developpers will use the Databse. I will be synchronizing my work on the local machine (Desktop Browser) to the AWS server.
-My provided IP will be 10.0.0.19
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/aran4.jpg" width="550">
-
-## B. Installing data on ArangoDB
-
-I am creating dummy data with JSON format (the one used on Arango). Fo exemple, 2 names, John Smith and Jack Johnson. I"ll have an ID for them, a reverse ID(in case of the transaction will be reversed, an transaction ID. All those information will be implemented into a framework (DjangoDB in that case).
-So the goal here is to create different dummy date that I will put inside a "collection: - those collection, written in JSON format, will be imported into Arango. In the below example, our collections is named "project"
-
-```
-{"_id":"project/779554",
-"_key":"779554",
-"_rev":"_b0psWdC--A",
-"first name":"John",
-"last name":"Smith",
-"ID":"d2ca45bf8b748c4f"}
-
-
-{"_id":"project/779554",
-"_key":"779539",
-"_rev":"_b0psWdC---",
-"first name":"Jack",
-"last name":"Johnson",
-"ID":"s3ga45bf8b229kio"}}
-
-```
-
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/Proj1.PNG" width="350"/> | <img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/Proj2.PNG" width="350"/>
-
-If you are already familiar with the graph database concept, then you know that a graph consists of vertices (or nodes) connected via edges. Graph databases usually store edges connected to vertices directly at the vertex object.
-
-The most used example in Arango to understand the process is the exmple of the airports, the airports are the Vertex(document files) and the flights are the Edges.
-In my project, Vertex are the users of the Web App we're building and the edges are the transactions done between users.
-
-<img src="https://github.com/CollegeBoreal/INF1086-201-21H-01/blob/main/P.Projets/300115140/IMAGES/graph1.PNG" width="550">
-
-
-One example of Edges in my case will be:
-```
-{:_from":"Ecosystems/FN",
-"_id":"edges1/534109",
-"_key":"534109",
-"_rev":"_b0pvlEm--A",
-"_to":"Ecosystems/WF"}
-```
-You will notice that _Ecosystems_ is the name of the database when we first uploaded Arango (this can be change for sure). Be sure to use the same database name while using your framework.
 
 
 ## C. Moving forward with Queries
