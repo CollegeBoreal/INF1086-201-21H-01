@@ -23,91 +23,64 @@ CREATE (Reseau:cours {nom:'Reseau'});
 
 # Relation
 
-```
+
 MATCH (B_R:personne),(TGI:programme)
 WHERE B_R.nom = "Brice Robert" AND TGI.nom = "genie informatique"
 CREATE (B_R)-[r:EMPLOYE]->(TGI);
-```
-```
+
 MATCH (B_R:personne),(TGI:programme)
 WHERE B_R.nom = "Richard Engoulou" AND TGI.nom = "genie informatique"
 CREATE (B_R)-[r:EMPLOYE]->(TGI);
-```
 
-```
 MATCH (M_A:personne),(TGI:programme)
 WHERE M_A.nom = "Marie Auriane" AND TGI.nom = "genie informatique"
 CREATE (M_A)-[r:INSCRIT]->(TGI);
-```
 
-```
 MATCH (S_F:personne),(TGI:programme)
 WHERE S_F.nom = "Sekou Fofana" AND TGI.nom = "genie informatique"
 CREATE (S_F)-[r:INSCRIT]->(TGI);
-```
 
-```
 MATCH (Z_O:personne),(TGI:programme)
 WHERE Z_O.nom = "Zoureni Ouro" AND TGI.nom = "genie informatique"
 CREATE (Z_O)-[r:INSCRIT]->(TGI);
-```
 
-```
 MATCH (B_R:personne),(Linux:cours)
 WHERE B_R.nom = "Brice Robert" AND Linux.nom = "INF1087 Linux"
 CREATE (B_R)-[r:ENSEIGNE]->(Linux);
-```
 
-```
 MATCH (B_R:personne),(Powershell:cours)
 WHERE B_R.nom = "Brice Robert" AND Powershell.nom = "INF1089 Powershell"
 CREATE (B_R)-[r:ENSEIGNE]->(Powershell);
-```
 
-```
 MATCH (B_R:personne),(BD:cours)
 WHERE B_R.nom = "Brice Robert" AND BD.nom = "INF1086 Base_de_donnee"
 CREATE (B_R)-[r:ENSEIGNE]->(BD);
-```
 
-```
 MATCH (R_E:personne),(Reseau:cours)
 WHERE R_E.nom = "Richard Engoulou" AND Reseau.nom = "Reseau"
 CREATE (R_E)-[r:ENSEIGNE]->(Reseau);
-```
 
-```
 MATCH (Z_O:personne),(Reseau:cours)
 WHERE Z_O.nom = "Zoureni Ouro" AND Reseau.nom = "Reseau"
 CREATE (Z_O)-[r:ENREGISTRER_AU_COURS_DE]->(Reseau);
-```
 
-```
 MATCH (S_F:personne),(Reseau:cours)
 WHERE S_F.nom = "Sekou Fofana" AND Reseau.nom = "Reseau"
 CREATE (S_F)-[r:ENREGISTRER_AU_COURS_DE]->(Reseau);
-```
 
-```
 MATCH (M_A:personne),(Reseau:cours)
 WHERE M_A.nom = "Marie Auriane" AND Reseau.nom = "Reseau"
 CREATE (M_A)-[r:ENREGISTRER_AU_COURS_DE]->(Reseau);
-```
 
-```
 MATCH (Z_O:personne),(BD:cours)
 WHERE Z_O.nom = "Zoureni Ouro" AND BD.nom = "INF1086 Base_de_donnee"
 CREATE (Z_O)-[r:ENREGISTRER_AU_COURS_DE]->(BD);
-```
 
-```
 MATCH (S_F:personne),(BD:cours)
 WHERE S_F.nom = "Sekou Fofana" AND BD.nom = "INF1086 Base_de_donnee"
 CREATE (S_F)-[r:ENREGISTRER_AU_COURS_DE]->(BD);
-```
 
-```
 MATCH (M_A:personne),(BD:cours)
 WHERE M_A.nom = "Marie Auriane" AND BD.nom = "INF1086 Base_de_donnee"
 CREATE (M_A)-[r:ENREGISTRER_AU_COURS_DE]->(BD);
-```
+
