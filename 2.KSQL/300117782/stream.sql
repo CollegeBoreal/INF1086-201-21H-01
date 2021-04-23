@@ -1,4 +1,4 @@
-CREATE STREAM Erna (
+CREATE STREAM Bright (
     host string,
     message string,
     timestamp VARCHAR
