@@ -171,6 +171,8 @@ CREATE (Z_O)-[r:INSCRIT]->(TGI);
    > 
 Références
 
+https://neo4j.com/docs/operations-manual/current/deprecated-security-procedures/community-edition/
+
 https://www.quackit.com/neo4j/tutorial/
 
 https://www.tutorialspoint.com/neo4j/neo4j_cql_introduction.htm
