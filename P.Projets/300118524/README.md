@@ -69,7 +69,18 @@ NEO4J est composé de 2 éléments: noeud et relation
 ![image](images/deleteuser.png)
 ```
 ```
+### CRÉATION DE NOEUD AVEC PROPRIÉTÉ
 
+CREATE (node:label { key1: value, key2: value, . . . . . . . . .  }) 
+
+exemple: CREATE (TGI:programme {nom:'genie informatique', lieu:'Toronto', diplome:'DEC', duree:'2 annees'});
+
+### CRÉATION DE RELATION
+```
+MATCH (a:label-a),(b:label-b)
+WHERE a.key = "value" AND b.key = "value"
+CREATE (a)-[r:nom du lien]->(b)
+```
 ## Exemple de :part_alternation_mark: graph database de neo4j et quelque requête
 
 ### création d'une database movie :movie_camera:
